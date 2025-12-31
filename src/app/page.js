@@ -21,7 +21,7 @@ const ItConsultingPageLight = () => {
       <Home5AboutSection />
       <Home5ProcessSection />
       <Home5TestimonialSection />
-      <Home5BlogSection />
+      {/* <Home5BlogSection /> */}
       <Home5Footer />
     </ThemeAndLayoutWrapper>
   );
