@@ -1,95 +1,8 @@
 "use client";
-import Link from "next/link";
+
 import React from "react";
-import dynamic from "next/dynamic";
 
-const ReactApexChart = dynamic(() => import("react-apexcharts"), {
-  ssr: false,
-});
-
-const Home5ProcessSection = () => {
-  const [state, setState] = React.useState({
-    series: [
-      {
-        name: "Retention Rate",
-        color: "#028D61",
-        data: [44, 55, 57, 56, 61, 58, 63, 60, 66],
-      },
-      {
-        name: "Setisfaction Rate",
-        data: [76, 85, 101, 98, 87, 105, 91, 114, 94],
-      },
-    ],
-    options: {
-      chart: {
-        type: "bar",
-        height: 350,
-        toolbar: {
-          show: false,
-        },
-      },
-      plotOptions: {
-        bar: {
-          horizontal: false,
-          columnWidth: "55%",
-          borderRadius: 5,
-          borderRadiusApplication: "end",
-        },
-      },
-      dataLabels: {
-        enabled: false,
-      },
-      stroke: {
-        show: true,
-        width: 2,
-        colors: ["transparent"],
-      },
-      xaxis: {
-        categories: [
-          "Feb",
-          "Mar",
-          "Apr",
-          "May",
-          "Jun",
-          "Jul",
-          "Aug",
-          "Sep",
-          "Oct",
-        ],
-        labels: {
-          style: {
-            colors: "#FFFFFF", // <-- white category label text
-            fontSize: "14px",
-          },
-        },
-      },
-      yaxis: {
-        labels: {
-          style: {
-            colors: "#FFFFFF", // <-- white y-axis text
-            fontSize: "14px",
-          },
-        },
-      },
-      fill: {
-        opacity: 1,
-      },
-      tooltip: {
-        theme: "dark", // use 'light' or 'dark' based on background
-        y: {
-          formatter: function (val) {
-            return val;
-          },
-        },
-      },
-      legend: {
-        position: "top",
-        labels: {
-          colors: "#FFFFFF", // <-- legend label text color
-        },
-      },
-    },
-  });
+const Home5ProcessSection = ({ openModal }) => {
 
   return (
     <>
@@ -102,13 +15,17 @@ const Home5ProcessSection = () => {
           >
             <div className="col-lg-5 col-md-7">
               <div className="section-title four">
-                <h2>How to Solve the Problems.</h2>
+                <h2>Our Process</h2>
               </div>
             </div>
             <div className="col-lg-3 col-md-4 d-flex justify-content-lg-end">
               <div className="result-area">
-                <span>100%</span>
-                <p>Client Satisfaction of Our First Priority.</p>
+                <span>Clear</span>
+                <p>
+                  Transparent & Collaborative
+                  <br />
+                  Every Step of the Way
+                </p>
                 <svg
                   width={200}
                   height={6}
@@ -120,6 +37,7 @@ const Home5ProcessSection = () => {
               </div>
             </div>
           </div>
+
           <div
             className="process-wrapper mb-50 wow animate fadeInUp"
             data-wow-delay="200ms"
@@ -132,10 +50,10 @@ const Home5ProcessSection = () => {
                     <span>Step</span>
                     <strong>01</strong>
                   </div>
-                  <h5>Strategic Planning &amp; Solution.</h5>
+                  <h5>Discovery & Goal Setting</h5>
                   <p>
-                    Included <strong>meetings</strong> and{" "}
-                    <strong>questionnaires</strong> to gather key information.
+                    We discuss your business, challenges, and objectives to
+                    understand exactly what you need.
                   </p>
                 </div>
               </div>
@@ -145,10 +63,10 @@ const Home5ProcessSection = () => {
                     <span>Step</span>
                     <strong>02</strong>
                   </div>
-                  <h5>Monitoring &amp; Optimization</h5>
+                  <h5>Research & Planning</h5>
                   <p>
-                    Included <strong>meetings</strong> and{" "}
-                    <strong>questionnaires</strong> to gather key information.
+                    Our team designs a tailored solution using the right tools
+                    and approach for your goals.
                   </p>
                 </div>
               </div>
@@ -158,10 +76,10 @@ const Home5ProcessSection = () => {
                     <span>Step</span>
                     <strong>03</strong>
                   </div>
-                  <h5>Training &amp; Knowledge Transfer</h5>
+                  <h5>Presentation & Alignment</h5>
                   <p>
-                    A comprehensive report is delivered, outlining the results,{" "}
-                    <strong>ROI.</strong>
+                    We share the proposed solution, designs, timeline, and
+                    pricing for your feedback.
                   </p>
                 </div>
               </div>
@@ -171,14 +89,16 @@ const Home5ProcessSection = () => {
                     <span>Step</span>
                     <strong>04</strong>
                   </div>
-                  <h5>Final Documentation</h5>
+                  <h5>Development & Delivery</h5>
                   <p>
-                    Included <strong>meetings</strong> and{" "}
-                    <strong>questionnaires</strong> to gather key information.
+                    We build, test, and refine your solution with regular
+                    updates and full handover support.
                   </p>
                 </div>
               </div>
             </div>
+
+            {/* Connection line and icon kept unchanged */}
             <div className="process-connection-wrap">
               <svg
                 width={366}
@@ -209,44 +129,30 @@ const Home5ProcessSection = () => {
               <path d="M5 2.5L0 0.113249V5.88675L5 3.5V2.5ZM1315 3.5L1320 5.88675V0.113249L1315 2.5V3.5ZM4.5 3.5H1315.5V2.5H4.5V3.5Z" />
             </svg>
           </div>
+
           <div className="contact-area">
-            <p>To More Furthure Information Get to Click on the Button</p>
-            <Link href="/contact">
-              Contact Us
+            <p>Ready to start building your tailored solution?</p>
+            <button className="cta-secondary" onClick={openModal}>
+              Get Free Needs Audit
               <svg
                 width={10}
+                className="cta-sec-icon"
                 height={10}
                 viewBox="0 0 10 10"
                 xmlns="http://www.w3.org/2000/svg"
               >
+                                
                 <path
                   d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9"
                   strokeWidth="1.5"
                   strokeLinecap="round"
                 />
+                              
               </svg>
-            </Link>
+            </button>
           </div>
         </div>
       </div>
-      {/* <div className="home5-graph-section mb-130">
-                <div className="row g-0">
-                    <div className="col-xl-6 col-lg-5 d-lg-block d-none">
-                        <div className="graph-section-img">
-                            <img src="/assets/img/home5/graph-section-img.jpg" alt="" />
-                        </div>
-                    </div>
-                    <div className="col-xl-6 col-lg-7">
-                        <div className="grap-wrapper">
-                            <h4>Client Satisfaction Rate</h4>
-                            <div className="graph-chart">
-                                <h6>Consulting Rate (in percentage)</h6>
-                                <ReactApexChart options={state.options} series={state.series} type="bar" height={350} />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
     </>
   );
 };
