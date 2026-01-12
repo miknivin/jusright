@@ -35708,7 +35708,7 @@ header.style-7 .primary-btn3.four svg {
   left: unset;
   bottom: 0;
   right: 0;
-  background-color: #5956e9;
+  background-color: var(--secondary-color);
 }
 @media (max-width: 576px) {
   .service-page-banner-section

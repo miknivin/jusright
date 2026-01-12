@@ -16,7 +16,6 @@ const ServiceDetailsPage = ({ openModal, params }) => {
   console.log(params);
 
   const { slug } = useParams();
-  console.log(slug, "slug");
 
   // Find current service by slug (from path like "#custom-erp" → "custom-erp")
   const currentService = services.find((service) => service.id === params?.id);
@@ -382,7 +381,7 @@ const ServiceDetailsPage = ({ openModal, params }) => {
             <span className="line-break" />
             <span className="line-break" />
             {/* Image Group 2 */}
-            <div className="img-grp">
+            {/* <div className="img-grp">
               <div className="row g-4">
                 {currentService.imageGroup2?.map((img, i) => (
                   <div key={i} className={img.className}>
@@ -405,7 +404,7 @@ const ServiceDetailsPage = ({ openModal, params }) => {
                   </>
                 )}
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Pagination */}
