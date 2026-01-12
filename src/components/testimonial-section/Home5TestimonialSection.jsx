@@ -58,7 +58,7 @@ const Home5TestimonialSection = () => {
                     <div className="col-xl-3 col-lg-4 col-md-5">
                       <div className="testimonial-img">
                         <img
-                          src="/assets/img/testimonial/hiranmayan.jpg"
+                          src="/assets/img/home4/testimonial-img1.webp"
                           alt="Hiranmayan"
                         />
                       </div>
@@ -103,8 +103,8 @@ const Home5TestimonialSection = () => {
                     <div className="col-xl-3 col-lg-4 col-md-5">
                       <div className="testimonial-img">
                         <img
-                          src="/assets/img/testimonial/subilal.jpg"
-                          alt="Subilal K"
+                          src="/assets/img/home4/testimonial-img2.webp"
+                          alt="Sahir"
                         />
                       </div>
                     </div>
@@ -118,9 +118,9 @@ const Home5TestimonialSection = () => {
                             efficiently. Professional and effective work.
                           </p>
                           <div className="author-area">
-                            <h5>Subilal K</h5>
+                            <h5>Sahir Ali</h5>
                             <span>
-                              CEO, Business consulting and automation services
+                              CTO, Business consulting and automation services
                               company
                             </span>
                           </div>
@@ -149,7 +149,7 @@ const Home5TestimonialSection = () => {
                     <div className="col-xl-3 col-lg-4 col-md-5">
                       <div className="testimonial-img">
                         <img
-                          src="/assets/img/testimonial/jumarashiq.jpg"
+                          src="/assets/img/home4/testimonial-img3.webp"
                           alt="Jumarashiq"
                         />
                       </div>

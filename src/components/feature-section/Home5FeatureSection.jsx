@@ -1,10 +1,11 @@
 "use client";
 
-import React from "react";
+import React, { useRef } from "react";
 import Counter from "../common/Counter";
 import Link from "next/link";
 
 const Home5FeatureSection = ({ openModal }) => {
+  const ref3 = useRef(null);
   return (
     <div className="home5-feature-section mb-130">
       <div className="container">
@@ -17,7 +18,7 @@ const Home5FeatureSection = ({ openModal }) => {
           >
             <div className="about-area">
               <img
-                src="/assets/img/home5/home5-feature-img1.jpg"
+                src="/assets/img/home5/home5-feature-img1.webp"
                 alt="Tailored custom software solutions"
               />
               <div className="content">
@@ -38,7 +39,7 @@ const Home5FeatureSection = ({ openModal }) => {
                   </svg>
                 </Link>
               </div>
-              <div className="counter-wrap">
+              {/* <div className="counter-wrap">
                 <div className="counter-gif">
                   <img
                     src="/assets/img/home5/home5-feature-counter.gif"
@@ -50,6 +51,7 @@ const Home5FeatureSection = ({ openModal }) => {
                     <Counter
                       start={0}
                       end={30}
+                      forwardedRef={ref3}
                       speed={80}
                       as="h2"
                       className="counter"
@@ -57,12 +59,12 @@ const Home5FeatureSection = ({ openModal }) => {
                     <span>%</span>
                   </div>
                   <p>
-                    Average Cost Savings
+                    Up to 30% possible savings
                     <br />
-                    for Our Clients
+                    by delivering the right solution
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 

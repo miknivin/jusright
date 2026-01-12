@@ -1,7 +1,8 @@
 "use client"
 import Counter from '@/components/common/Counter'
 import Home3Footer from '@/components/Footer/Home3Footer'
-import Header3 from '@/components/header/Header3'
+
+import Header5 from '@/components/header/Header5'
 import Link from 'next/link'
 import React, { useEffect, useRef } from 'react'
 
@@ -27,7 +28,7 @@ const ServicePage = () => {
     })
     return (
         <>
-            <Header3 />
+            <Header5 />
             {/* Breadcrumb Section Start */}
             <div className="breadcrumb-section mb-130">
                 <div className="container">

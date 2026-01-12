@@ -7,7 +7,7 @@ const Home5AboutSection = ({ openModal }) => {
   return (
     <>
       <div className="home5-about-section">
-        <div className="video-area">
+        {/* <div className="video-area">
           <video
             autoPlay
             loop
@@ -15,7 +15,7 @@ const Home5AboutSection = ({ openModal }) => {
             playsInline
             src="/assets/video/home4-contact-video2.mp4"
           />
-        </div>
+        </div> */}
         <div className="about-wrapper">
           <img
             src="/assets/img/home5/home5-about-section-vector1.svg"

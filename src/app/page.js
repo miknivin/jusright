@@ -13,7 +13,7 @@ import Home5TestimonialSection from "@/components/testimonial-section/Home5Testi
 
 const ItConsultingPageLight = () => {
   return (
-    <ThemeAndLayoutWrapper>
+    <>
       <Header5 />
       <Home5Banner />
       <Home5FeatureSection />
@@ -24,7 +24,7 @@ const ItConsultingPageLight = () => {
       <Home5TestimonialSection />
       {/* <Home5BlogSection /> */}
       <Home5Footer />
-    </ThemeAndLayoutWrapper>
+    </>
   );
 };
 

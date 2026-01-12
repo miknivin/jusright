@@ -26,6 +26,7 @@ import ThemeAndLayoutWrapper from "@/components/layout/ThemeAndLayoutWrapper";
 import Header5 from "@/components/header/Header5";
 import Home5Footer from "@/components/Footer/Home5Footer";
 import Home5TestimonialSection from "@/components/testimonial-section/Home5TestimonialSection";
+import Home2ServiceSection from "@/components/service-section/Home2ServiceSection";
 
 const AboutPage = ({ openModal }) => {
   const [isOpenimg, setOpenimg] = React.useState({
@@ -98,8 +99,8 @@ const AboutPage = ({ openModal }) => {
                 <SwiperSlide className="swiper-slide">
                   <div className="single-img">
                     <img
-                      src="assets/img/innerpages/about-page-banner-img1.png"
-                      alt=""
+                      src="assets/img/innerpages/about-page-banner-img1.webp"
+                      alt="Happy Indian professional satisfied with custom software"
                     />
                   </div>
                 </SwiperSlide>
@@ -114,16 +115,16 @@ const AboutPage = ({ openModal }) => {
                 <SwiperSlide className="swiper-slide">
                   <div className="single-img two">
                     <img
-                      src="assets/img/innerpages/about-page-banner-img2.png"
-                      alt=""
+                      src="assets/img/innerpages/about-page-banner-img2.webp"
+                      alt="Happy Indian professional satisfied with custom software"
                     />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
                   <div className="single-img three">
                     <img
-                      src="assets/img/innerpages/about-page-banner-img3.png"
-                      alt=""
+                      src="assets/img/innerpages/about-page-banner-img3.webp"
+                      alt="Happy Indian professional satisfied with custom software"
                     />
                   </div>
                 </SwiperSlide>
@@ -138,8 +139,8 @@ const AboutPage = ({ openModal }) => {
                 <SwiperSlide className="swiper-slide">
                   <div className="single-img two">
                     <img
-                      src="assets/img/innerpages/about-page-banner-img4.png"
-                      alt=""
+                      src="assets/img/innerpages/about-page-banner-img4.webp"
+                      alt="Happy Indian professional satisfied with custom software"
                     />
                   </div>
                 </SwiperSlide>
@@ -199,7 +200,7 @@ const AboutPage = ({ openModal }) => {
           </div>
         </div>
 
-        <div className="about-page-feature-section mb-130">
+        <div className="about-page-feature-section">
           <div className="container">
             <div
               className="row justify-content-center mb-70 wow animate fadeInDown"
@@ -365,180 +366,7 @@ const AboutPage = ({ openModal }) => {
           </div>
         </div>
 
-        <div className="about-page-gallery-section mb-130">
-          <div className="container">
-            <div className="row mb-70">
-              <div className="col-lg-12">
-                <div className="section-title-wrap">
-                  <img
-                    src="/assets/img/innerpages/about-gallery-title-img.gif"
-                    alt=""
-                  />
-                  <div className="section-title three white">
-                    <h2>Focused on Real Results</h2>
-                    <p>
-                      We create clean, efficient systems that solve your
-                      business challenges and help you grow — without
-                      unnecessary complexity.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="gallery-img-wrap">
-              <div className="row g-2">
-                {/* Gallery images kept exactly as original – no changes */}
-                <div className="col-lg-4 col-md-6">
-                  <div className="row g-2">
-                    <div className="col-md-12 d-md-flex justify-content-md-end">
-                      <a
-                        style={{ cursor: "pointer" }}
-                        onClick={() =>
-                          setOpenimg({ openingState: true, openingIndex: 0 })
-                        }
-                      >
-                        <img
-                          src="/assets/img/innerpages/about-page-gallery-img1.jpg"
-                          alt=""
-                        />
-                      </a>
-                    </div>
-                    <div className="col-md-12 d-md-flex justify-content-md-end">
-                      <a
-                        style={{ cursor: "pointer" }}
-                        onClick={() =>
-                          setOpenimg({ openingState: true, openingIndex: 1 })
-                        }
-                      >
-                        <img
-                          src="/assets/img/innerpages/about-page-gallery-img2.jpg"
-                          alt=""
-                        />
-                      </a>
-                    </div>
-                    <div className="col-md-12 d-lg-flex d-none align-items-center justify-content-md-end gap-5">
-                      <div className="vector">
-                        <svg
-                          width={88}
-                          height={64}
-                          viewBox="0 0 88 64"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path d="M88 0V64H0L88 0Z" />
-                          <path d="M60 8L10 44V8H60Z" />
-                        </svg>
-                      </div>
-                    </div>
-                    <div className="col-md-12 d-lg-none d-md-flex justify-content-md-end">
-                      <a
-                        style={{ cursor: "pointer" }}
-                        onClick={() =>
-                          setOpenimg({ openingState: true, openingIndex: 2 })
-                        }
-                      >
-                        <img
-                          src="/assets/img/innerpages/about-page-gallery-img6.jpg"
-                          alt=""
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-4 col-md-6">
-                  <div className="row g-2">
-                    <div className="col-md-12 d-md-flex justify-content-md-end">
-                      <a
-                        style={{ cursor: "pointer" }}
-                        onClick={() =>
-                          setOpenimg({ openingState: true, openingIndex: 3 })
-                        }
-                      >
-                        <img
-                          src="/assets/img/innerpages/about-page-gallery-img3.jpg"
-                          alt=""
-                        />
-                      </a>
-                    </div>
-                    <div className="col-md-12 d-md-flex justify-content-md-end">
-                      <a
-                        style={{ cursor: "pointer" }}
-                        onClick={() =>
-                          setOpenimg({ openingState: true, openingIndex: 4 })
-                        }
-                      >
-                        <img
-                          src="/assets/img/innerpages/about-page-gallery-img4.jpg"
-                          alt=""
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-4 col-md-6">
-                  <div className="row g-2">
-                    <div className="col-md-12 d-lg-flex d-none align-items-center gap-5">
-                      <div className="vector two">
-                        <svg
-                          width={88}
-                          height={88}
-                          viewBox="0 0 88 88"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <g>
-                            <path d="M0 0.00195312L88 88.0019H0V0.00195312Z" />
-                            <circle cx="54.12" cy="17.4553" r="17.4533" />
-                          </g>
-                        </svg>
-                      </div>
-                    </div>
-                    <div className="col-md-12">
-                      <a
-                        style={{ cursor: "pointer" }}
-                        onClick={() =>
-                          setOpenimg({ openingState: true, openingIndex: 5 })
-                        }
-                      >
-                        <img
-                          src="/assets/img/innerpages/about-page-gallery-img5.jpg"
-                          alt=""
-                        />
-                      </a>
-                    </div>
-                    <div className="col-md-12 d-lg-block d-none">
-                      <a
-                        style={{ cursor: "pointer" }}
-                        onClick={() =>
-                          setOpenimg({ openingState: true, openingIndex: 6 })
-                        }
-                      >
-                        <img
-                          src="/assets/img/innerpages/about-page-gallery-img6.jpg"
-                          alt=""
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <Lightbox
-            open={isOpenimg.openingState}
-            plugins={[Fullscreen]}
-            index={isOpenimg.openingIndex}
-            close={() => setOpenimg(false)}
-            styles={{ container: { backgroundColor: "rgba(0, 0, 0, .9)" } }}
-            slides={[
-              { src: "/assets/img/innerpages/about-page-gallery-img1-big.jpg" },
-              { src: "/assets/img/innerpages/about-page-gallery-img2-big.jpg" },
-              { src: "/assets/img/innerpages/about-page-gallery-img6-big.jpg" },
-              { src: "/assets/img/innerpages/about-page-gallery-img3-big.jpg" },
-              { src: "/assets/img/innerpages/about-page-gallery-img4-big.jpg" },
-              { src: "/assets/img/innerpages/about-page-gallery-img5-big.jpg" },
-              { src: "/assets/img/innerpages/about-page-gallery-img6-big.jpg" },
-            ]}
-          />
-        </div>
+        <Home2ServiceSection />
 
         <Home5TestimonialSection />
         <Home5Footer openModal={openModal} />

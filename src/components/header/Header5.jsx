@@ -118,7 +118,6 @@ const Header5 = () => {
     "/checkout",
     "/product-details",
     "/faq",
-    "/contact",
   ];
   const homePaths = [
     "/digital-agency",
@@ -1115,18 +1114,18 @@ const Header5 = () => {
                   </ul>
                 </li>
                 <li
-                  className={`menu-item ${isPortfolioActive ? "active" : ""}`}
+                  className={`menu-item ${
+                    pathname === "/contact" ? "active" : ""
+                  }`}
                 >
-                  <Link href="/contact" className="drop-down">
-                    Contact{" "}
-                  </Link>
+                  <Link href="/contact">Contact </Link>
                   <i
                     onClick={() => toggleMenu("portfolio")}
                     className={`bi bi-${
-                      state.activeMenu === "portfolio" ? "dash" : "plus"
+                      state.activeMenu === "contact" ? "dash" : "plus"
                     } dropdown-icon`}
                   />
-                  <ul
+                  {/* <ul
                     className={`sub-menu ${
                       state.activeMenu === "portfolio" ? "d-block" : "none"
                     }`}
@@ -1198,7 +1197,7 @@ const Header5 = () => {
                     >
                       <Link href="/portfolio/details">Portfolio Details</Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 {/* <li className="menu-item-has-children position-inherit">
                   <a href="#" className="drop-down">

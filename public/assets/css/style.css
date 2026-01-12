@@ -18613,7 +18613,7 @@ header.style-7 .primary-btn3.four svg {
   padding: 0;
   margin: 0;
   list-style: none;
-  max-width: 572px;
+  max-width: 100%;
   width: 100%;
   display: flex;
   align-items: center;
@@ -21322,7 +21322,7 @@ header.style-7 .primary-btn3.four svg {
   }
 }
 .home2-global-map-section .section-title {
-  max-width: 536px;
+  max-width: 100%;
   width: 100%;
   margin-bottom: 200px;
 }
@@ -47196,4 +47196,8 @@ body:not(.is-mobile) .tt-style-switch:hover {
 .primary-btn3 .transparent .three .btn-hover {
   margin-top: 65px;
   padding: 19px 34px;
+}
+
+.legal h4{
+  margin-top: 20px;
 }
