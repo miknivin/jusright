@@ -224,7 +224,7 @@ const PrivacyPolicyPage = ({ openModal }) => {
                   If you have questions about this Privacy Policy or our data
                   practices, please contact us at:
                   <br />
-                  <strong>Email:</strong> your@email.com
+                  <strong>Email:</strong> hello@justrighttech.co
                   <br />
                   <strong>Phone:</strong> +91 __________
                 </p>

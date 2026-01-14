@@ -34,7 +34,7 @@ const Home5Footer = ({ openModal }) => {
               <div className="footer-contact-wrap">
                 <div className="title-and-contact">
                   <div className="title-area">
-                    <h2>Custom Software Solutions Built Just Right</h2>
+                    <h2>Custom Solutions Built Just Right</h2>
                   </div>
                   <ul className="contact-list">
                     <li className="single-contact">
@@ -43,7 +43,7 @@ const Home5Footer = ({ openModal }) => {
                           width={20}
                           height={20}
                           viewBox="0 0 20 20"
-                          fill="none"
+                          fill="white"
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
@@ -64,7 +64,9 @@ const Home5Footer = ({ openModal }) => {
                       </div>
                       <div className="content">
                         <span>Send Us Mail</span>
-                        <a href="mailto:your@email.com">your@email.com</a>
+                        <a href="mailto:hello@justrighttech.co">
+                          hello@justrighttech.co
+                        </a>
                       </div>
                     </li>
                     <li className="single-contact">
@@ -72,8 +74,9 @@ const Home5Footer = ({ openModal }) => {
                         <svg
                           width={20}
                           height={20}
+                          style={{ color: "white" }}
                           viewBox="0 0 20 20"
-                          fill="none"
+                          fill="white"
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
@@ -87,7 +90,7 @@ const Home5Footer = ({ openModal }) => {
                       </div>
                       <div className="content">
                         <span>WhatsApp / Call</span>
-                        <a href="tel:+919876543210">+91 98765 43210</a>
+                        <a href="tel:+916238002737">+91 6238002737</a>
                       </div>
                     </li>
                   </ul>
@@ -106,17 +109,6 @@ const Home5Footer = ({ openModal }) => {
                         </li>
                         <li>
                           <Link href="/services">Services</Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="/contact"
-                            onClick={(e) => {
-                              e.preventDefault();
-                              openModal();
-                            }}
-                          >
-                            Get Free Audit
-                          </Link>
                         </li>
                         <li>
                           <Link href="/contact">Contact</Link>
@@ -141,7 +133,7 @@ const Home5Footer = ({ openModal }) => {
                             width={18}
                             height={18}
                             viewBox="0 0 18 18"
-                            fill="none"
+                            fill="inherit"
                             xmlns="http://www.w3.org/2000/svg"
                           >
                             <path
@@ -257,7 +249,7 @@ const Home5Footer = ({ openModal }) => {
       <div className="footer-bottom">
         <div className="container">
           <div className="copyright-and-social-area">
-            <p>© 2026 Your Company Name. All Rights Reserved.</p>
+            <p>© 2026 JustRight Tech. All Rights Reserved.</p>
             <div className="terms-condition">
               <svg
                 width={12}

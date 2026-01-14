@@ -1,8 +1,9 @@
 "use client";
-import React, { useEffect, useReducer, useRef } from "react";
+import React, { useEffect, useReducer, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { services } from "@/data/js-objects/services";
+import ContactModal from "../shared/ContactModal";
 const initialState = {
   activeMenu: "",
   activeSubMenu: "",
@@ -64,6 +65,10 @@ const Header5 = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
   const headerRef = useRef(null);
   const pathname = usePathname();
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
   const handleScroll = () => {
     const { scrollY } = window;
     dispatch({ type: "setScrollY", payload: scrollY });
@@ -155,7 +160,7 @@ const Header5 = () => {
   const isPortfolioActive = portfolioPaths.some((path) =>
     pathname.startsWith(path)
   );
-  const isHomeActive = homePaths.some((path) => pathname.startsWith(path));
+  const isHomeActive = pathname === "/";
   return (
     <>
       <div
@@ -1095,12 +1100,12 @@ const Header5 = () => {
                   <Link href="/service" className="drop-down">
                     Services
                   </Link>
-                  <i
+                  {/* <i
                     onClick={() => toggleMenu("company")}
                     className={`bi bi-${
                       state.activeMenu === "company" ? "dash" : "plus"
                     } dropdown-icon`}
-                  />
+                  /> */}
                   <ul
                     className={`sub-menu ${
                       state.activeMenu === "company" ? "d-block" : "none"
@@ -1119,12 +1124,12 @@ const Header5 = () => {
                   }`}
                 >
                   <Link href="/contact">Contact </Link>
-                  <i
+                  {/* <i
                     onClick={() => toggleMenu("portfolio")}
                     className={`bi bi-${
                       state.activeMenu === "contact" ? "dash" : "plus"
                     } dropdown-icon`}
-                  />
+                  /> */}
                   {/* <ul
                     className={`sub-menu ${
                       state.activeMenu === "portfolio" ? "d-block" : "none"
@@ -1500,7 +1505,7 @@ const Header5 = () => {
                 </li> */}
               </ul>
               <div className="btn-and-contact-area d-lg-none d-block">
-                <Link href="/contact" className="primary-btn4">
+                <button onClick={openModal} className="primary-btn4">
                   <span className="icon">
                     <svg
                       width={10}
@@ -1530,7 +1535,7 @@ const Header5 = () => {
                       />
                     </svg>
                   </span>
-                </Link>
+                </button>
               </div>
             </div>
           </div>
@@ -1590,9 +1595,9 @@ const Header5 = () => {
                 </form>
               </div>
             </div> */}
-            <Link
+            <button
+              onClick={openModal}
               className="primary-btn5 two white-bg d-lg-flex d-none"
-              href="/contact"
             >
               Let’s Talk
               <svg
@@ -1607,7 +1612,7 @@ const Header5 = () => {
                   strokeLinecap="round"
                 />
               </svg>
-            </Link>
+            </button>
             <div
               className="sidebar-button mobile-menu-btn"
               onClick={toggleSidebar}
@@ -1626,6 +1631,11 @@ const Header5 = () => {
           </div>
         </div>
       </header>
+      <ContactModal
+        isOpen={isModalOpen}
+        onClose={closeModal}
+        pointOfSource="FeatureSection" // Optional: track source
+      />
     </>
   );
 };

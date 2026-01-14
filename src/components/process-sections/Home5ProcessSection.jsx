@@ -1,9 +1,13 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
+import ContactModal from "../shared/ContactModal";
 
-const Home5ProcessSection = ({ openModal }) => {
+const Home5ProcessSection = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
   return (
     <>
       <div className="home5-process-section mb-4">
@@ -153,6 +157,11 @@ const Home5ProcessSection = ({ openModal }) => {
           </div>
         </div>
       </div>
+       <ContactModal
+        isOpen={isModalOpen}
+        onClose={closeModal}
+        pointOfSource="FeatureSection" // Optional: track source
+      />
     </>
   );
 };

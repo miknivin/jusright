@@ -1,11 +1,16 @@
 "use client";
 
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import Counter from "../common/Counter";
 import Link from "next/link";
+import ContactModal from "../shared/ContactModal";
 
-const Home5FeatureSection = ({ openModal }) => {
+const Home5FeatureSection = () => {
   const ref3 = useRef(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
   return (
     <div className="home5-feature-section mb-130">
       <div className="container">
@@ -167,6 +172,11 @@ const Home5FeatureSection = ({ openModal }) => {
           </div>
         </div>
       </div>
+      <ContactModal
+        isOpen={isModalOpen}
+        onClose={closeModal}
+        pointOfSource="FeatureSection" // Optional: track source
+      />
     </div>
   );
 };

@@ -167,7 +167,7 @@ const TermsOfServicePage = ({ openModal }) => {
                 <p>
                   Questions about these Terms? Contact us at:
                   <br />
-                  <strong>Email:</strong> your@email.com
+                  <strong>Email:</strong> hello@justrighttech.co
                   <br />
                   <strong>Phone:</strong> +91 __________
                 </p>

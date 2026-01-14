@@ -1,15 +1,11 @@
 // app/api/contact/route.js
-
 import dbConnect from "@/lib/connection";
 import ContactSubmission from "@/lib/models/ContactSubmission";
 import { NextResponse } from "next/server";
 
 export async function POST(request) {
   try {
-    // Connect to MongoDB
     await dbConnect();
-
-    // Parse form data
     const body = await request.json();
 
     const {
@@ -19,11 +15,12 @@ export async function POST(request) {
       phone,
       interests = [],
       message,
+      pointOfSource,
       agreedToPrivacy,
     } = body;
 
-    // Basic server-side validation
-    if (!name || !email || !message || !agreedToPrivacy) {
+    // Validation
+    if (!name || !email || !agreedToPrivacy) {
       return NextResponse.json(
         {
           success: false,
@@ -40,39 +37,60 @@ export async function POST(request) {
       );
     }
 
-    if (message.length < 7) {
-      return NextResponse.json(
-        { success: false, error: "Message too short" },
-        { status: 400 }
-      );
-    }
-
-    // Create new submission
-    const submission = new ContactSubmission({
-      name: name.trim(),
-      company: company?.trim() || null,
+    // Upsert filter
+    const filter = {
       email: email.toLowerCase().trim(),
-      phone: phone?.trim() || null,
-      interests,
-      message: message.trim(),
-      agreedToPrivacy,
-    });
+      pointOfSource: pointOfSource || "ContactPage",
+    };
 
-    await submission.save();
+    // Update/insert data
+    const update = {
+      $set: {
+        name: name.trim(),
+        company: company?.trim() || null,
+        phone: phone?.trim() || null,
+        interests,
+        message: message.trim(), // latest message (for quick view)
+        agreedToPrivacy,
+        pointOfSource: pointOfSource || "ContactPage",
+        status: "new", // reset status on new interaction
+      },
+      // ← Push new message to history array (this is the key addition)
+      $push: {
+        messageHistory: {
+          message: message.trim(),
+          submittedAt: new Date(),
+        },
+      },
+      // Only set on first insert
+      $setOnInsert: {
+        createdAt: new Date(),
+      },
+    };
 
-    // Success response
+    const options = {
+      upsert: true,
+      new: true, // return updated doc
+      setDefaultsOnInsert: true,
+    };
+
+    const submission = await ContactSubmission.findOneAndUpdate(
+      filter,
+      update,
+      options
+    );
+
     return NextResponse.json(
       {
         success: true,
         message:
           "Thank you! Your message has been received. We'll get back to you soon.",
+        submissionId: submission._id,
       },
       { status: 200 }
     );
   } catch (error) {
-    console.error("Contact form submission error:", error);
-
-    // Don't expose internal errors
+    console.error("Contact form error:", error);
     return NextResponse.json(
       {
         success: false,
@@ -83,7 +101,6 @@ export async function POST(request) {
   }
 }
 
-// Optional: Handle non-POST requests
 export async function GET() {
   return NextResponse.json({ error: "Method not allowed" }, { status: 405 });
 }

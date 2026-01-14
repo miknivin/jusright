@@ -142,7 +142,7 @@ const ContactMainPage = ({ openModal }) => {
                         <input
                           type="email"
                           name="email"
-                          placeholder="your@email.com"
+                          placeholder="hello@justrighttech.co"
                           required
                         />
                       </div>

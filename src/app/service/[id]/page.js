@@ -7,31 +7,28 @@ import SwiperCore, { Autoplay, EffectFade, Navigation } from "swiper";
 import Header5 from "@/components/header/Header5";
 import Home5Footer from "@/components/Footer/Home5Footer";
 
-import { useParams } from "next/navigation";
 import { services } from "@/data/js-objects/services";
 
 SwiperCore.use([Autoplay, EffectFade, Navigation]);
 
 const ServiceDetailsPage = ({ openModal, params }) => {
-  console.log(params);
-
-  const { slug } = useParams();
-
-  // Find current service by slug (from path like "#custom-erp" → "custom-erp")
-  const currentService = services.find((service) => service.id === params?.id);
-
-  // Find prev/next for pagination
   const currentIndex = services.findIndex(
-    (service) => service.path.substring(2) === slug
+    (service) => service?.id === params?.id
   );
+
+  if (currentIndex === -1) {
+    return <div className="container mt-5">Service not found</div>;
+  }
+
+  const currentService = services[currentIndex];
+
+  const totalServices = services.length;
+
   const prevService =
-    currentIndex > 0
-      ? services[currentIndex - 1]
-      : services[services.length - 1];
+    currentIndex > 0 ? services[currentIndex - 1] : services[totalServices - 1];
+
   const nextService =
-    currentIndex < services.length - 1
-      ? services[currentIndex + 1]
-      : services[0];
+    currentIndex < totalServices - 1 ? services[currentIndex + 1] : services[0];
 
   const settings = useMemo(() => {
     return {
@@ -180,12 +177,12 @@ const ServiceDetailsPage = ({ openModal, params }) => {
             <div className="row justify-content-center">
               <div className="col-xl-8 col-lg-10">
                 <div className="post-title-and-tag">
-                  <h2>{currentService.title}</h2>
+                  <h2>{currentService.headline}</h2>
                   {currentService.tags && currentService.tags.length > 0 && (
                     <ul className="tag-list">
                       {currentService.tags.map((tag, i) => (
                         <li key={i}>
-                          <Link href={tag.href}>{tag.label}</Link>
+                          <button>{tag.label}</button>
                         </li>
                       ))}
                     </ul>
@@ -263,7 +260,7 @@ const ServiceDetailsPage = ({ openModal, params }) => {
             </div>
 
             {/* Image Group 1 */}
-            <div className="img-grp">
+            {/* <div className="img-grp">
               <div className="row g-4">
                 {currentService.imageGroup1?.map((img, i) => (
                   <div key={i} className={img.className}>
@@ -286,7 +283,7 @@ const ServiceDetailsPage = ({ openModal, params }) => {
                   </>
                 )}
               </div>
-            </div>
+            </div> */}
 
             <span className="line-break" />
             <span className="line-break" />
@@ -412,14 +409,11 @@ const ServiceDetailsPage = ({ openModal, params }) => {
             <div className="col-lg-12">
               <div className="details-pagination two">
                 <div className="single-pagination">
-                  <Link
-                    className="pagination-btn"
-                    href={`/service/${prevService.path.substring(2)}`}
-                  >
-                    <img
+                  <Link className="pagination-btn" href={`${prevService.path}`}>
+                    {/* <img
                       src="/assets/img/innerpages/details-pagination-btn-bg1.png"
                       alt=""
-                    />
+                    /> */}
                     <div className="btn-content">
                       <svg
                         width={7}
@@ -434,7 +428,7 @@ const ServiceDetailsPage = ({ openModal, params }) => {
                   </Link>
                   <div className="content">
                     <h6>
-                      <Link href={`/service/${prevService.path.substring(2)}`}>
+                      <Link href={`${prevService.path}`}>
                         {prevService.title}
                       </Link>
                     </h6>
@@ -443,19 +437,16 @@ const ServiceDetailsPage = ({ openModal, params }) => {
                 <div className="single-pagination two text-end">
                   <div className="content">
                     <h6>
-                      <Link href={`/service/${nextService.path.substring(2)}`}>
+                      <Link href={`${nextService.path}`}>
                         {nextService.title}
                       </Link>
                     </h6>
                   </div>
-                  <Link
-                    className="pagination-btn"
-                    href={`/service/${nextService.path.substring(2)}`}
-                  >
-                    <img
+                  <Link className="pagination-btn" href={`${nextService.path}`}>
+                    {/* <img
                       src="/assets/img/innerpages/details-pagination-btn-bg2.png"
                       alt=""
-                    />
+                    /> */}
                     <div className="btn-content">
                       Next
                       <svg
@@ -483,7 +474,6 @@ const ServiceDetailsPage = ({ openModal, params }) => {
           </div>
         </div>
       </div>
-
       <Home5Footer openModal={openModal} />
     </div>
   );

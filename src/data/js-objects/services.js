@@ -5,6 +5,7 @@ export const services = [
     id: "custom-erp",
     title: "Custom ERP Systems",
     path: "/service/custom-erp",
+    headline: "Your Business, Your Rules — Built Exactly Right",
     veryShortDesc:
       "Tailored ERP built only with the modules your business actually needs — no bloat, just efficiency.",
     serviceImage: "/assets/img/services/custom-erp.jpg", // Replace with your actual image
@@ -16,15 +17,15 @@ export const services = [
     ],
     sliderImages: [
       {
-        src: "/assets/img/innerpages/service-details-thumb-img1.jpg",
+        src: "/assets/img/innerpages/erp/1.webp",
         alt: "Custom ERP Dashboard",
       },
       {
-        src: "/assets/img/innerpages/service-details-thumb-img2.jpg",
+        src: "/assets/img/innerpages/erp/2.webp",
         alt: "ERP Workflow",
       },
       {
-        src: "/assets/img/innerpages/service-details-thumb-img3.jpg",
+        src: "/assets/img/innerpages/erp/3.webp",
         alt: "ERP Integration",
       },
     ],
@@ -115,6 +116,7 @@ export const services = [
     id: "ecommerce",
     title: "E-Commerce Solutions",
     path: "/service/ecommerce",
+    headline: "E-commerce That Reflects Your Brand and Scales Your Business",
     veryShortDesc:
       "Secure, user-friendly online stores designed to grow with your sales and delight your customers.",
     serviceImage: "/assets/img/services/ecommerce.jpg",
@@ -126,27 +128,29 @@ export const services = [
     ],
     sliderImages: [
       {
-        src: "/assets/img/innerpages/service-details-thumb-img1.jpg",
+        src: "/assets/img/innerpages/ecommerce/1.webp",
         alt: "E-Commerce Storefront",
       },
       {
-        src: "/assets/img/innerpages/service-details-thumb-img2.jpg",
+        src: "/assets/img/innerpages/ecommerce/2.webp",
         alt: "Product Management",
       },
       {
-        src: "/assets/img/innerpages/service-details-thumb-img3.jpg",
-        alt: "Checkout Flow",
+        src: "/assets/img/innerpages/ecommerce/3.webp",
+        alt: "Inventory Management",
       },
     ],
     highlights: [
       "Secure and user-friendly online stores",
       "Designed to grow with your sales",
+      "Custom UI/UX that truly reflects your brand and business",
+      "Built to scale effortlessly as your sales grow",
       "Seamless shopping experience for customers",
       "Tailored just right to your business model",
     ],
     overview: [
-      "We create complete e-commerce solutions — from fully custom platforms to optimized Shopify setups — tailored to your business model.",
-      "Our focus is on secure, fast, and intuitive shopping experiences that convert visitors into loyal customers while keeping management simple for you.",
+      "We build e-commerce stores that feel truly yours — unique designs and experiences that reflect your brand and business.",
+      "Whether fully custom or strategically powered by Shopify, every solution is crafted to deliver seamless shopping, drive real conversions, and scale smoothly as you grow — without unnecessary complexity.",
     ],
     keyFeaturesIntro: "Key features of our e-commerce solutions include:",
     keyFeatures: [
@@ -225,6 +229,7 @@ export const services = [
     id: "ai-automation",
     title: "AI-Powered Automations",
     path: "/service/ai-automation",
+    headline: "Get Your Time Back with Quiet, Reliable Automation",
     veryShortDesc:
       "Intelligent automations that save time, reduce errors, and give you better business insights.",
     serviceImage: "/assets/img/services/ai-automation.jpg",
@@ -236,16 +241,16 @@ export const services = [
     ],
     sliderImages: [
       {
-        src: "/assets/img/innerpages/service-details-thumb-img1.jpg",
+        src: "/assets/img/innerpages/ai/1.webp",
         alt: "Automation Workflow",
       },
       {
-        src: "/assets/img/innerpages/service-details-thumb-img2.jpg",
-        alt: "AI Agent Interface",
+        src: "/assets/img/innerpages/ai/2.webp",
+        alt: "A man watching while AI Automates",
       },
       {
-        src: "/assets/img/innerpages/service-details-thumb-img3.jpg",
-        alt: "Data Flow",
+        src: "/assets/img/innerpages/ai/3.webp",
+        alt: "watching while AI Automates",
       },
     ],
     highlights: [
@@ -255,8 +260,8 @@ export const services = [
       "Built just right for your unique processes",
     ],
     overview: [
-      "We create smart AI agents and automated workflows that handle repetitive tasks, freeing you to focus on growth.",
-      "Using tools like n8n and modern AI, we build reliable, custom automations that integrate seamlessly with your existing systems.",
+      "We build reliable, secure, and scalable automations that quietly handle repetitive tasks — so you can focus on what really matters: growing your business.",
+      "Every solution starts with proper planning and open discussion — we take time to understand your exact needs and create custom workflows that fit smoothly into your daily operations.",
     ],
     keyFeaturesIntro: "Key features of our AI-powered automations include:",
     keyFeatures: [
@@ -335,6 +340,7 @@ export const services = [
     id: "custom-websites",
     title: "Custom Websites",
     path: "/service/custom-websites",
+    headline: "Websites Built to Reflect Your Brand and Drive Business",
     veryShortDesc:
       "Professional, high-performance websites that reflect your brand and convert visitors into customers.",
     serviceImage: "/assets/img/services/custom-websites.jpg",
@@ -346,16 +352,12 @@ export const services = [
     ],
     sliderImages: [
       {
-        src: "/assets/img/innerpages/service-details-thumb-img1.jpg",
-        alt: "Website Homepage",
+        src: "/assets/img/innerpages/websites/1.webp",
+        alt: "Website service page image",
       },
       {
-        src: "/assets/img/innerpages/service-details-thumb-img2.jpg",
-        alt: "Mobile View",
-      },
-      {
-        src: "/assets/img/innerpages/service-details-thumb-img3.jpg",
-        alt: "Feature Section",
+        src: "/assets/img/innerpages/websites/2.webp",
+        alt: "Website service page image",
       },
     ],
     highlights: [
@@ -374,7 +376,7 @@ export const services = [
       "Mobile-first responsive layout",
       "Fast loading and smooth performance",
       "SEO-optimized structure",
-      "Easy content management",
+      "Conversion-focused design",
       "Ongoing maintenance and support",
     ],
     imageGroup1: [
@@ -445,6 +447,7 @@ export const services = [
     id: "startup-packages",
     title: "Business Startup Packages",
     path: "/service/startup-packages",
+    headline: "Launch Fast — Look Professional from Day One",
     veryShortDesc:
       "Everything you need to launch your business online — fast, professional, and ready to grow.",
     serviceImage: "/assets/img/services/startup-packages.jpg",
@@ -456,16 +459,12 @@ export const services = [
     ],
     sliderImages: [
       {
-        src: "/assets/img/innerpages/service-details-thumb-img1.jpg",
+        src: "/assets/img/innerpages/bs/1.webp",
         alt: "Startup Website",
       },
       {
-        src: "/assets/img/innerpages/service-details-thumb-img2.jpg",
+        src: "/assets/img/innerpages/bs/2.webp",
         alt: "Branding Elements",
-      },
-      {
-        src: "/assets/img/innerpages/service-details-thumb-img3.jpg",
-        alt: "Email & Domain Setup",
       },
     ],
     highlights: [

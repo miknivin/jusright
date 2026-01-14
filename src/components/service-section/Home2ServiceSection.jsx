@@ -1,7 +1,12 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
+import ContactModal from "../shared/ContactModal";
 
-const Home2ServiceSection = ({ openModal }) => {
+const Home2ServiceSection = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
   return (
     <>
       <div className="home2-global-map-section mb-130">
@@ -24,25 +29,24 @@ const Home2ServiceSection = ({ openModal }) => {
                 <div className="section-title two white w-100">
                   <h2>The Reason Behind All This</h2>
                   <p>
-                    I’ve always felt that good technology shouldn’t be locked
-                    behind big budgets or complex setups.
+                    I’ve always believed that good technology should feel
+                    natural — like it was made exactly for the way you work.
                   </p>
                   <p>
-                    Every business — small shop, growing startup, or family-run
-                    operation — should be able to use tools that make work
-                    easier, save time, and keep mistakes low.
+                    Every business has its own rhythm, its own challenges, and
+                    its own way of getting things done.
                   </p>
                   <p>
-                    That quiet satisfaction when everything just works smoothly…
-                    that’s what I want every client to feel.
+                    That quiet moment when everything just clicks and runs
+                    smoothly… that’s the feeling I want every client to have.
                   </p>
                   <p>
-                    So I build solutions that fit exactly — nothing extra,
-                    nothing missing.
+                    So I build solutions that fit — nothing extra, nothing
+                    missing, just what actually helps.
                   </p>
                   <p>
-                    Because when the right tool is there, the real work can
-                    begin.
+                    When the tool is actually right for you, the everyday stuff
+                    stops being a battle.
                   </p>
                   <p
                     className="mt-30"
@@ -69,6 +73,11 @@ const Home2ServiceSection = ({ openModal }) => {
           />
         </div>
       </div>
+      <ContactModal
+        isOpen={isModalOpen}
+        onClose={closeModal}
+        pointOfSource="VisionSection" // Optional: track source
+      />
     </>
   );
 };

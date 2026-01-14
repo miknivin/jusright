@@ -1,5 +1,4 @@
 // models/ContactSubmission.js
-
 import mongoose from "mongoose";
 
 const InterestEnum = [
@@ -7,8 +6,22 @@ const InterestEnum = [
   "E-Commerce Solution",
   "AI-Powered Automation",
   "Custom Website",
+
   "Business Startup Package",
   "General Inquiry / Consultation",
+];
+
+const SourceEnum = [
+  "Banner", // From a specific page
+  "ContactPage", // Main contact page
+  "Modal", // Quick contact modal (e.g., header CTA)
+  "Footer", // Footer link/email
+  "FeatureSection",
+  "AboutSection",
+  "VisionSection",
+  "ServicesPage", // From a specific service detail page
+  "HomePage", // From homepage CTA/banner
+  "Other", // Catch-all for future or unknown sources
 ];
 
 const contactSubmissionSchema = new mongoose.Schema(
@@ -36,7 +49,7 @@ const contactSubmissionSchema = new mongoose.Schema(
       type: String,
       trim: true,
       default: null,
-      match: [/^\+?[0-9\s\-()]{10,20}$/, "Please enter a valid phone number"], // Optional validation
+      match: [/^\+?[0-9\s\-()]{10,20}$/, "Please enter a valid phone number"],
     },
     interests: {
       type: [String],
@@ -48,15 +61,35 @@ const contactSubmissionSchema = new mongoose.Schema(
     },
     message: {
       type: String,
-      required: [true, "Message is required"],
+      required: false,
       trim: true,
-      minlength: [20, "Message should be at least 20 characters"],
-      maxlength: [2000, "Message cannot exceed 2000 characters"],
     },
     agreedToPrivacy: {
       type: Boolean,
       required: [true, "You must agree to Privacy Policy and Terms"],
       default: false,
+    },
+    messageHistory: [
+      {
+        message: {
+          type: String,
+          required: true,
+          trim: true,
+        },
+        submittedAt: {
+          type: Date,
+          default: Date.now,
+        },
+      },
+    ],
+    pointOfSource: {
+      type: String,
+      enum: {
+        values: SourceEnum,
+        message: "{VALUE} is not a valid source",
+      },
+      default: "ContactPage", // Default to main contact page
+      required: true,
     },
     status: {
       type: String,
@@ -69,12 +102,16 @@ const contactSubmissionSchema = new mongoose.Schema(
     },
   },
   {
-    timestamps: true, // Automatically adds createdAt and updatedAt
+    timestamps: true,
     collection: "contact_submissions",
   }
 );
 
-// Prevent model overwrite in development (Next.js hot reload)
+contactSubmissionSchema.index(
+  { email: 1, pointOfSource: 1 },
+  { unique: true, background: true }
+);
+// Prevent model overwrite during hot reload in development
 const ContactSubmission =
   mongoose.models.ContactSubmission ||
   mongoose.model("ContactSubmission", contactSubmissionSchema);

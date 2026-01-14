@@ -1,15 +1,20 @@
 "use client";
 
-import React, { useMemo } from "react";
+import React, { useMemo, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay, EffectFade, Pagination } from "swiper";
 import Link from "next/link";
 import Counter from "../common/Counter";
 import ArrowRightIcon from "../icons/ArrowRightIcon";
+import ContactModal from "../shared/ContactModal";
 
 SwiperCore.use([Autoplay, EffectFade, Pagination]);
 
-const Home5Banner = ({ openModal }) => {
+const Home5Banner = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
   // Pass openModal from parent to trigger form
   const settings = useMemo(() => {
     return {
@@ -69,7 +74,7 @@ const Home5Banner = ({ openModal }) => {
                   {/* Optional secondary CTA */}
                   <Link
                     className="rating-area  sec-btn d-inline-flex align-items-center"
-                    href="/#services"
+                    href="/service"
                   >
                     Explore Services{" "}
                     {<ArrowRightIcon className={"arrow-right"} />}
@@ -79,7 +84,7 @@ const Home5Banner = ({ openModal }) => {
               <div className="contact-area">
                 <ul className="contact-list">
                   <li className="single-contact">
-                    <a href="mailto:your@email.com">
+                    <a href="mailto:hello@justrighttech.co">
                       <svg
                         width={16}
                         height={16}
@@ -88,7 +93,7 @@ const Home5Banner = ({ openModal }) => {
                       >
                         {/* mail icon path */}
                       </svg>
-                      your@email.com
+                      hello@justrighttech.co
                     </a>
                   </li>
                   <li className="single-contact">
@@ -158,6 +163,11 @@ const Home5Banner = ({ openModal }) => {
           </div>
         </div>
       </div>
+      <ContactModal
+        isOpen={isModalOpen}
+        onClose={closeModal}
+        pointOfSource={"Banner"}
+      />
     </div>
   );
 };

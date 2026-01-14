@@ -1,9 +1,14 @@
 "use client";
 
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
+import ContactModal from "../shared/ContactModal";
 
-const Home5AboutSection = ({ openModal }) => {
+const Home5AboutSection = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
   return (
     <>
       <div className="home5-about-section">
@@ -156,6 +161,11 @@ const Home5AboutSection = ({ openModal }) => {
           </div>
         </div>
       </div>
+      <ContactModal
+        isOpen={isModalOpen}
+        onClose={closeModal}
+        pointOfSource="AboutSection" // Track source for analytics
+      />
     </>
   );
 };
