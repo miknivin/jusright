@@ -2,6 +2,7 @@
 
 import ClientLayout from "@/components/layout/ClientLayout";
 import { dmsans, suseSans, lora } from "@/fonts/font";
+import { Analytics } from "@vercel/analytics/next";
 import "../../public/assets/css/bootstrap.min.css";
 import "../../public/assets/css/all.min.css";
 import "../../public/assets/css/bootstrap-icons.css";
@@ -72,7 +73,10 @@ export default function RootLayout({ children }) {
         className={`tt-magic-cursor ${lora.variable} ${dmsans.variable} ${suseSans.variable}`}
         suppressHydrationWarning
       >
-        <ClientLayout>{children}</ClientLayout>
+        <ClientLayout>
+          <Analytics />
+          {children}
+        </ClientLayout>
       </body>
     </html>
   );

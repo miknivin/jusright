@@ -56,7 +56,7 @@ const PrivacyPolicyPage = ({ openModal }) => {
                   inquiries, or engage our services for custom software
                   development (including Custom ERP Systems, E-Commerce
                   Solutions, AI-Powered Automations, Custom Websites, and
-                  Business Startup Packages).
+                  Business Launch Packages).
                 </p>
 
                 <h4>1. Information We Collect</h4>

@@ -71,14 +71,6 @@ const Home5Banner = () => {
                       />
                     </svg>
                   </button>
-                  {/* Optional secondary CTA */}
-                  <Link
-                    className="rating-area  sec-btn d-inline-flex align-items-center"
-                    href="/service"
-                  >
-                    Explore Services{" "}
-                    {<ArrowRightIcon className={"arrow-right"} />}
-                  </Link>
                 </div>
               </div>
               <div className="contact-area">
@@ -106,7 +98,7 @@ const Home5Banner = () => {
                       >
                         {/* phone icon path */}
                       </svg>
-                      +91 98765 43210
+                      +91 6238002737
                     </a>
                   </li>
                 </ul>

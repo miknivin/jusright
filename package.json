@@ -9,6 +9,7 @@
         "lint": "next lint"
     },
     "dependencies": {
+        "@vercel/analytics": "^1.6.1",
         "apexcharts": "^4.7.0",
         "axios": "^1.13.2",
         "gsap": "^3.12.5",

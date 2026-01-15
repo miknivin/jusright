@@ -108,7 +108,7 @@ const Home5Footer = ({ openModal }) => {
                           <Link href="/about">About Us</Link>
                         </li>
                         <li>
-                          <Link href="/services">Services</Link>
+                          <Link href="/service">Services</Link>
                         </li>
                         <li>
                           <Link href="/contact">Contact</Link>

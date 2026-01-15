@@ -445,7 +445,7 @@ export const services = [
   },
   {
     id: "startup-packages",
-    title: "Business Startup Packages",
+    title: "Business Launch Packages",
     path: "/service/startup-packages",
     headline: "Launch Fast — Look Professional from Day One",
     veryShortDesc:
