@@ -12,10 +12,25 @@ const Home5Footer = ({ openModal }) => {
             <div className="col-lg-3">
               <div className="company-logo-and-location-area">
                 <div className="company-logo-area">
-                  <img
-                    src="/assets/img/footer-logo.svg"
-                    alt="Your Company Logo"
-                  />
+                  <Link href="/" className="d-flex align-items-start gap-1">
+                    <img
+                      alt="image"
+                      style={{ width: "40px" }}
+                      className="img-fluid"
+                      src="/assets/img/header-logo2.png"
+                    />
+                    <div className="d-flex flex-column gap-1">
+                      <h1 className="font-suse text-white fw-medium fs-5 m-0 p-0">
+                        JustRight Tech
+                      </h1>
+                      <h6
+                        style={{ fontSize: "12px", lineHeight: "2.5px" }}
+                        className="m-0 p-0 text-white font-suse fw-light"
+                      >
+                        Built Just right
+                      </h6>
+                    </div>
+                  </Link>
                   {/* Optional brochure link – remove if not needed */}
                   {/* <a href="/brochure.pdf" className="file-download-btn" target="_blank" rel="noopener noreferrer">
                     <div className="icon">

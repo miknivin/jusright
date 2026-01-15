@@ -1,7 +1,7 @@
 // app/layout.tsx          → Server Component (only metadata + basic structure)
 
 import ClientLayout from "@/components/layout/ClientLayout";
-import { dmsans, suseSans, lora } from "@/fonts/font";
+import { dmsans, suseSans, lora, poppins } from "@/fonts/font";
 import { Analytics } from "@vercel/analytics/next";
 import "../../public/assets/css/bootstrap.min.css";
 import "../../public/assets/css/all.min.css";
@@ -70,7 +70,7 @@ export default function RootLayout({ children }) {
 
       <body
         id="body"
-        className={`tt-magic-cursor ${lora.variable} ${dmsans.variable} ${suseSans.variable}`}
+        className={`tt-magic-cursor ${lora.variable} ${dmsans.variable} ${suseSans.variable}  ${poppins.variable}`}
         suppressHydrationWarning
       >
         <ClientLayout>

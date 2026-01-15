@@ -170,17 +170,23 @@ const Header5 = () => {
       >
         <div className="sidebar-logo-area d-flex justify-content-between align-items-center">
           <div className="sidebar-logo-wrap">
-            <Link href="/">
+            <Link href="/" className="d-flex align-items-start gap-1">
               <img
                 alt="image"
-                src="/assets/img/right-sidebar-sm-logo.svg"
-                className="light"
+                className="img-fluid"
+                src="/assets/img/header-logo2.png"
               />
-              <img
-                alt="image"
-                src="/assets/img/right-sidebar-sm-logo-white.svg"
-                className="dark"
-              />
+              <div className="d-flex flex-column gap-1">
+                <h1 className="font-suse fw-medium fs-5 m-0 p-0">
+                  JustRight Tech
+                </h1>
+                <h6
+                  style={{ fontSize: "12px", lineHeight: "2.5px" }}
+                  className="m-0 p-0 font-suse fw-light"
+                >
+                  Built Just right
+                </h6>
+              </div>
             </Link>
           </div>
           <div className="right-sidebar-close-btn" onClick={toggleRightSidebar}>
@@ -198,7 +204,7 @@ const Header5 = () => {
             </svg>
           </div>
         </div>
-        <div className="sidebar-content-wrap">
+        {/* <div className="sidebar-content-wrap">
           <div className="sidebar-content">
             <h3>We are Global Digital Brand Tech Agency.</h3>
             <div className="address-area">
@@ -294,7 +300,7 @@ const Header5 = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
       <header
         className={`header-area style-5 ${
@@ -308,36 +314,47 @@ const Header5 = () => {
         <div className="container-fluid d-flex flex-nowrap align-items-center justify-content-between">
           <div className="logo-and-menu-area">
             <div className="company-logo">
-              <Link href="/" className="logo-dark">
+              <Link href="/" className="d-flex align-items-start gap-1">
                 <img
                   alt="image"
                   className="img-fluid"
-                  src="/assets/img/header-logo2.svg"
+                  src="/assets/img/header-logo2.png"
                 />
-              </Link>
-              <Link href="/" className="logo-light">
-                <img
-                  alt="image"
-                  className="img-fluid"
-                  src="/assets/img/header-logo2-white.svg"
-                />
+                <div className="d-flex flex-column gap-1">
+                  <h1 className="font-suse fw-medium fs-5 m-0 p-0">
+                    JustRight Tech
+                  </h1>
+                  <h6
+                    style={{ fontSize: "12px", lineHeight: "2.5px" }}
+                    className="m-0 p-0 font-suse fw-light"
+                  >
+                    Built Just right
+                  </h6>
+                </div>
               </Link>
             </div>
             <div
               className={`main-menu ${state.isSidebarOpen ? "show-menu" : ""}`}
             >
               <div className="mobile-logo-area d-lg-none d-flex align-items-center justify-content-between">
-                <Link href="/" className="mobile-logo-wrap">
+                <Link href="/" className="d-flex align-items-start gap-1">
                   <img
                     alt="image"
-                    className="img-fluid light"
-                    src="/assets/img/header-logo.svg"
+                    style={{ width: "40px" }}
+                    className="img-fluid"
+                    src="/assets/img/header-logo2.png"
                   />
-                  <img
-                    alt="image"
-                    className="img-fluid dark"
-                    src="/assets/img/header-logo-white.svg"
-                  />
+                  <div className="d-flex flex-column gap-1">
+                    <h1 className="font-suse fw-medium fs-5 m-0 p-0">
+                      JustRight Tech
+                    </h1>
+                    <h6
+                      style={{ fontSize: "12px", lineHeight: "2.5px" }}
+                      className="m-0 p-0 font-suse fw-light"
+                    >
+                      Built Just right
+                    </h6>
+                  </div>
                 </Link>
                 <div className="menu-close-btn" onClick={toggleSidebar}>
                   <i className="bi bi-x" />
@@ -1505,7 +1522,11 @@ const Header5 = () => {
                 </li> */}
               </ul>
               <div className="btn-and-contact-area d-lg-none d-block">
-                <button onClick={openModal} className="primary-btn4">
+                <button
+                  onClick={openModal}
+                  className="primary-btn4"
+                  style={{ background: "none" }}
+                >
                   <span className="icon">
                     <svg
                       width={10}
