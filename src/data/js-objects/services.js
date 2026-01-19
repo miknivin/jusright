@@ -125,6 +125,7 @@ export const services = [
       { label: "Mobile-Optimized", href: "/service/ecommerce" },
       { label: "Scalable", href: "/service/ecommerce" },
       { label: "Custom Design", href: "/service/ecommerce" },
+      { label: "Shipping Integration", href: "/service/ecommerce" }, // Added for visibility
     ],
     sliderImages: [
       {
@@ -141,16 +142,15 @@ export const services = [
       },
     ],
     highlights: [
-      "Secure and user-friendly online stores",
-      "Designed to grow with your sales",
       "Custom UI/UX that truly reflects your brand and business",
-      "Built to scale effortlessly as your sales grow",
       "Seamless shopping experience for customers",
-      "Tailored just right to your business model",
+      "Built to scale effortlessly as your sales grow",
+      "Integrated shipping & logistics (Delhivery, Shiprocket, ClickPost, etc.)",
+      "Automatic manifest creation, shipping label generation and tracking",
     ],
     overview: [
       "We build e-commerce stores that feel truly yours — unique designs and experiences that reflect your brand and business.",
-      "Whether fully custom or strategically powered by Shopify, every solution is crafted to deliver seamless shopping, drive real conversions, and scale smoothly as you grow — without unnecessary complexity.",
+      "Whether fully custom or strategically powered by Shopify, every solution is crafted to deliver seamless shopping, drive real conversions, and scale smoothly as you grow — including full shipping & logistics integration (Delhivery, Shiprocket, ClickPost, etc.), automatic manifest creation, shipping label generation and tracking — without unnecessary complexity.",
     ],
     keyFeaturesIntro: "Key features of our e-commerce solutions include:",
     keyFeatures: [
@@ -159,6 +159,8 @@ export const services = [
       "Mobile-first, responsive design",
       "Inventory and order management",
       "SEO optimization for better visibility",
+      "Full shipping & logistics integration (Delhivery, Shiprocket, ClickPost, etc.)",
+      "Automatic manifest creation, shipping label generation and tracking",
       "Performance tuning and ongoing support",
     ],
     imageGroup1: [

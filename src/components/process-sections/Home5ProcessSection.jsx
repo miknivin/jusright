@@ -10,7 +10,7 @@ const Home5ProcessSection = () => {
   const closeModal = () => setIsModalOpen(false);
   return (
     <>
-      <div className="home5-process-section mb-4">
+      <div className="home5-process-section">
         <div className="container">
           <div
             className="row g-4 align-items-center justify-content-between mb-70 wow animate fadeInDown"
@@ -157,7 +157,7 @@ const Home5ProcessSection = () => {
           </div>
         </div>
       </div>
-       <ContactModal
+      <ContactModal
         isOpen={isModalOpen}
         onClose={closeModal}
         pointOfSource="FeatureSection" // Optional: track source

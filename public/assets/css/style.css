@@ -1030,7 +1030,9 @@ body.tt-magic-cursor #magic-cursor {
   }
 }
 .primary-btn1 > span {
-  transition: opacity 0.3s, transform 0.3s;
+  transition:
+    opacity 0.3s,
+    transform 0.3s;
   transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
   background-color: transparent;
   width: 100%;
@@ -1045,7 +1047,9 @@ body.tt-magic-cursor #magic-cursor {
   left: 0;
   opacity: 0;
   transform: translate(0, 100%);
-  transition: opacity 0.3s, transform 0.3s;
+  transition:
+    opacity 0.3s,
+    transform 0.3s;
   transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
   white-space: nowrap;
 }
@@ -1078,7 +1082,9 @@ body.tt-magic-cursor #magic-cursor {
   transform: translateY(110%);
   background-color: var(--primary-color1);
   overflow: hidden;
-  transition: opacity 0.5s, transform 0.5s;
+  transition:
+    opacity 0.5s,
+    transform 0.5s;
   z-index: -1;
 }
 .primary-btn1:hover {
@@ -1169,7 +1175,9 @@ body.tt-magic-cursor #magic-cursor {
   }
 }
 .primary-btn2 > span {
-  transition: opacity 0.3s, transform 0.3s;
+  transition:
+    opacity 0.3s,
+    transform 0.3s;
   transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
   background-color: transparent;
   width: 100%;
@@ -1184,7 +1192,9 @@ body.tt-magic-cursor #magic-cursor {
   left: 0;
   opacity: 0;
   transform: translate(0, 100%);
-  transition: opacity 0.3s, transform 0.3s;
+  transition:
+    opacity 0.3s,
+    transform 0.3s;
   transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
   white-space: nowrap;
 }
@@ -1218,7 +1228,9 @@ body.tt-magic-cursor #magic-cursor {
   transform: translateY(110%);
   background-color: var(--black-color);
   overflow: hidden;
-  transition: opacity 0.5s, transform 0.5s;
+  transition:
+    opacity 0.5s,
+    transform 0.5s;
   z-index: -1;
 }
 .primary-btn2:hover {
@@ -1694,7 +1706,7 @@ body.tt-magic-cursor #magic-cursor {
 }
 .section-title h2 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 45px;
   font-weight: 600;
   line-height: 1.2;
@@ -1749,7 +1761,7 @@ body.tt-magic-cursor #magic-cursor {
   border-color: var(--borders-color);
 }
 .section-title.three h2 {
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 55px;
   font-weight: 700;
 }
@@ -1811,7 +1823,7 @@ body.tt-magic-cursor #magic-cursor {
   border-color: var(--borders-color);
 }
 .section-title.four h2 {
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 55px;
   font-weight: 700;
 }
@@ -1833,7 +1845,7 @@ body.tt-magic-cursor #magic-cursor {
 
 .section-title2 h2 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 55px;
   font-weight: 600;
   line-height: 1.1;
@@ -1889,7 +1901,7 @@ body.tt-magic-cursor #magic-cursor {
 }
 .section-title3 h2 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 55px;
   font-weight: 700;
   line-height: 1.1;
@@ -2073,7 +2085,7 @@ body.tt-magic-cursor #magic-cursor {
   color: #a0a0a0;
 }
 .form-inner.two label {
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
 }
 
 .form-inner2 .form-check {
@@ -2601,8 +2613,8 @@ header.style-1 .main-menu > ul > li .mega-menu {
   display: none;
   background: var(--white-color);
   padding: 70px 0px;
-  background-image: url(../img/home1/home1-megamenu-bg.png),
-    linear-gradient(#f0f0f0, #f0f0f0);
+  background-image:
+    url(../img/home1/home1-megamenu-bg.png), linear-gradient(#f0f0f0, #f0f0f0);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -2823,8 +2835,8 @@ header.style-1 .main-menu > ul > li .mega-menu2 {
   display: none;
   background: var(--white-color);
   padding: 70px 0px;
-  background-image: url(../img/home1/home1-megamenu-bg.png),
-    linear-gradient(#f0f0f0, #f0f0f0);
+  background-image:
+    url(../img/home1/home1-megamenu-bg.png), linear-gradient(#f0f0f0, #f0f0f0);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -4606,8 +4618,8 @@ header.style-2 .main-menu > ul > li .mega-menu {
   display: none;
   background: var(--white-color);
   padding: 70px 0px;
-  background-image: url(../img/home2/home2-megamenu-bg.png),
-    linear-gradient(#094539, #094539);
+  background-image:
+    url(../img/home2/home2-megamenu-bg.png), linear-gradient(#094539, #094539);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -4828,8 +4840,8 @@ header.style-2 .main-menu > ul > li .mega-menu2 {
   display: none;
   background: var(--white-color);
   padding: 70px 0px;
-  background-image: url(../img/home2/home2-megamenu-bg.png),
-    linear-gradient(#094539, #094539);
+  background-image:
+    url(../img/home2/home2-megamenu-bg.png), linear-gradient(#094539, #094539);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -6523,7 +6535,7 @@ header.style-3 .main-menu > ul > li ul.sub-menu > li > a {
   padding: 12px 20px;
   color: var(--title-color);
   font-weight: 500;
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 15px;
   line-height: 1.2;
   transition: all 0.4s ease-out 0s;
@@ -6620,8 +6632,8 @@ header.style-3 .main-menu > ul > li .mega-menu {
   display: none;
   background: var(--white-color);
   padding: 70px 0px;
-  background-image: url(../img/home1/home1-megamenu-bg.png),
-    linear-gradient(#f0f0f0, #f0f0f0);
+  background-image:
+    url(../img/home1/home1-megamenu-bg.png), linear-gradient(#f0f0f0, #f0f0f0);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -6736,7 +6748,7 @@ header.style-3
   li
   a {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 700;
   line-height: 1;
@@ -6797,7 +6809,7 @@ header.style-3 .main-menu > ul > li .mega-menu .single-menu-item h5 {
 }
 header.style-3 .main-menu > ul > li .mega-menu .single-menu-item h5 a {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 600;
   line-height: 1.2;
@@ -6842,8 +6854,8 @@ header.style-3 .main-menu > ul > li .mega-menu2 {
   display: none;
   background: var(--white-color);
   padding: 70px 0px;
-  background-image: url(../img/home1/home1-megamenu-bg.png),
-    linear-gradient(#f0f0f0, #f0f0f0);
+  background-image:
+    url(../img/home1/home1-megamenu-bg.png), linear-gradient(#f0f0f0, #f0f0f0);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -6883,7 +6895,7 @@ header.style-3 .main-menu > ul > li .mega-menu2 .title-area {
 }
 header.style-3 .main-menu > ul > li .mega-menu2 .title-area h2 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 35px;
   font-weight: 600;
   line-height: 1.1;
@@ -6977,7 +6989,7 @@ header.style-3
   .menu-title
   h6 {
   color: var(--text-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 600;
   line-height: 1.3;
@@ -7053,7 +7065,7 @@ header.style-3
   li
   > a {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 500;
   line-height: 1;
@@ -7242,7 +7254,7 @@ header.style-3
   .banner-content
   h3 {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 500;
   line-height: 1.3;
@@ -7507,7 +7519,7 @@ header.style-3
   h5
   a {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 600;
   line-height: 1.4;
@@ -8347,7 +8359,7 @@ header.style-4 .contact-area .content h6 {
 }
 header.style-4 .contact-area .content h6 a {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 700;
   line-height: 1;
@@ -8611,7 +8623,7 @@ header.style-4 .main-menu > ul > li ul.sub-menu > li > a {
   padding: 12px 20px;
   color: var(--title-color);
   font-weight: 500;
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 15px;
   line-height: 1.2;
   transition: all 0.4s ease-out 0s;
@@ -8708,8 +8720,8 @@ header.style-4 .main-menu > ul > li .mega-menu {
   display: none;
   background: var(--white-color);
   padding: 70px 0px;
-  background-image: url(../img/home1/home1-megamenu-bg.png),
-    linear-gradient(#f0f0f0, #f0f0f0);
+  background-image:
+    url(../img/home1/home1-megamenu-bg.png), linear-gradient(#f0f0f0, #f0f0f0);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -8824,7 +8836,7 @@ header.style-4
   li
   a {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 700;
   line-height: 1;
@@ -8885,7 +8897,7 @@ header.style-4 .main-menu > ul > li .mega-menu .single-menu-item h5 {
 }
 header.style-4 .main-menu > ul > li .mega-menu .single-menu-item h5 a {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 600;
   line-height: 1.2;
@@ -8930,8 +8942,8 @@ header.style-4 .main-menu > ul > li .mega-menu2 {
   display: none;
   background: var(--white-color);
   padding: 70px 0px;
-  background-image: url(../img/home1/home1-megamenu-bg.png),
-    linear-gradient(#f0f0f0, #f0f0f0);
+  background-image:
+    url(../img/home1/home1-megamenu-bg.png), linear-gradient(#f0f0f0, #f0f0f0);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -8971,7 +8983,7 @@ header.style-4 .main-menu > ul > li .mega-menu2 .title-area {
 }
 header.style-4 .main-menu > ul > li .mega-menu2 .title-area h2 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 35px;
   font-weight: 600;
   line-height: 1.1;
@@ -9065,7 +9077,7 @@ header.style-4
   .menu-title
   h6 {
   color: var(--text-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 600;
   line-height: 1.3;
@@ -9141,7 +9153,7 @@ header.style-4
   li
   > a {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 500;
   line-height: 1;
@@ -9330,7 +9342,7 @@ header.style-4
   .banner-content
   h3 {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 500;
   line-height: 1.3;
@@ -9595,7 +9607,7 @@ header.style-4
   h5
   a {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 600;
   line-height: 1.4;
@@ -10563,7 +10575,7 @@ header.style-5
   .quick-search
   ul
   li:first-child {
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 500;
   letter-spacing: 0.1em;
   font-size: 13px;
@@ -10802,7 +10814,7 @@ header.style-5 .main-menu > ul > li ul.sub-menu > li > a {
   padding: 12px 20px;
   color: var(--title-color);
   font-weight: 500;
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 15px;
   line-height: 1.2;
   transition: all 0.4s ease-out 0s;
@@ -10899,8 +10911,8 @@ header.style-5 .main-menu > ul > li .mega-menu {
   display: none;
   background: var(--white-color);
   padding: 70px 0px;
-  background-image: url(../img/home1/home1-megamenu-bg.png),
-    linear-gradient(#f0f0f0, #f0f0f0);
+  background-image:
+    url(../img/home1/home1-megamenu-bg.png), linear-gradient(#f0f0f0, #f0f0f0);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -11015,7 +11027,7 @@ header.style-5
   li
   a {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 700;
   line-height: 1;
@@ -11076,7 +11088,7 @@ header.style-5 .main-menu > ul > li .mega-menu .single-menu-item h5 {
 }
 header.style-5 .main-menu > ul > li .mega-menu .single-menu-item h5 a {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 600;
   line-height: 1.2;
@@ -11130,8 +11142,8 @@ header.style-5 .main-menu > ul > li .mega-menu2 {
   display: none;
   background: var(--white-color);
   padding: 70px 0px;
-  background-image: url(../img/home1/home1-megamenu-bg.png),
-    linear-gradient(#f0f0f0, #f0f0f0);
+  background-image:
+    url(../img/home1/home1-megamenu-bg.png), linear-gradient(#f0f0f0, #f0f0f0);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -11171,7 +11183,7 @@ header.style-5 .main-menu > ul > li .mega-menu2 .title-area {
 }
 header.style-5 .main-menu > ul > li .mega-menu2 .title-area h2 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 35px;
   font-weight: 600;
   line-height: 1.1;
@@ -11265,7 +11277,7 @@ header.style-5
   .menu-title
   h6 {
   color: var(--text-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 600;
   line-height: 1.3;
@@ -11341,7 +11353,7 @@ header.style-5
   li
   > a {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 500;
   line-height: 1;
@@ -11530,7 +11542,7 @@ header.style-5
   .banner-content
   h3 {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 500;
   line-height: 1.3;
@@ -11807,7 +11819,7 @@ header.style-5
   h5
   a {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 600;
   line-height: 1.4;
@@ -12997,8 +13009,8 @@ header.style-6 .main-menu > ul > li .mega-menu {
   display: none;
   background: var(--white-color);
   padding: 70px 0px;
-  background-image: url(../img/home1/home1-megamenu-bg.png),
-    linear-gradient(#f0f0f0, #f0f0f0);
+  background-image:
+    url(../img/home1/home1-megamenu-bg.png), linear-gradient(#f0f0f0, #f0f0f0);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -13219,8 +13231,8 @@ header.style-6 .main-menu > ul > li .mega-menu2 {
   display: none;
   background: var(--white-color);
   padding: 70px 0px;
-  background-image: url(../img/home1/home1-megamenu-bg.png),
-    linear-gradient(#f0f0f0, #f0f0f0);
+  background-image:
+    url(../img/home1/home1-megamenu-bg.png), linear-gradient(#f0f0f0, #f0f0f0);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -14613,7 +14625,7 @@ header.style-7 .location svg {
 }
 header.style-7 .location p {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
@@ -14641,7 +14653,7 @@ header.style-7 .contact-list li:last-child {
 header.style-7 .contact-list li span,
 header.style-7 .contact-list li a {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
@@ -14783,7 +14795,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .right-sidebar-menu .sidebar-content-wrap h3 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 700;
   line-height: 1.3;
@@ -14817,7 +14829,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .right-sidebar-menu .sidebar-content-wrap .address-area h5 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 700;
   line-height: 1;
@@ -14914,7 +14926,7 @@ header.style-7 .primary-btn3.four svg {
   h6
   a {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 22px;
   line-height: 1;
@@ -14962,7 +14974,7 @@ header.style-7 .primary-btn3.four svg {
   .subscribe-area
   h5 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 700;
   line-height: 1.2;
@@ -15198,7 +15210,7 @@ header.style-7 .primary-btn3.four svg {
   display: block;
   line-height: 1;
   position: relative;
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 700;
   font-size: 22px;
   transition: all 0.5s ease-out 0s;
@@ -15287,7 +15299,7 @@ header.style-7 .primary-btn3.four svg {
   padding: 12px 0;
   color: var(--title-color);
   font-weight: 500;
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 20px;
   line-height: 1.2;
   transition: all 0.4s ease-out 0s;
@@ -15611,7 +15623,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .right-sidebar-menu.two .sidebar-content-wrap .location p {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
@@ -15639,7 +15651,7 @@ header.style-7 .primary-btn3.four svg {
 .right-sidebar-menu.two .sidebar-content-wrap .contact-list li span,
 .right-sidebar-menu.two .sidebar-content-wrap .contact-list li a {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
@@ -16115,14 +16127,14 @@ header.style-7 .primary-btn3.four svg {
   }
 }
 .partner-area.three .partner-title-area h6 {
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
 }
 .partner-area.three .partner-title-area h6 span {
   color: var(--primary-color3);
 }
 .partner-area.four .partner-title-area h6 {
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
 }
 .partner-area.five .partner-title-area {
   border: 1px solid var(--borders-color);
@@ -16144,7 +16156,7 @@ header.style-7 .primary-btn3.four svg {
   }
 }
 .partner-area.five .partner-title-area h6 {
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   padding: 0;
   border: unset;
   border-radius: 0;
@@ -16173,7 +16185,8 @@ header.style-7 .primary-btn3.four svg {
   06. Home1 Partner Section CSS
 ========================================*/
 .home1-feature-section .feature-banner-area {
-  background-image: url(../img/home1/home1-feature-banner-bg.png),
+  background-image:
+    url(../img/home1/home1-feature-banner-bg.png),
     linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -16276,7 +16289,8 @@ header.style-7 .primary-btn3.four svg {
   align-items: center;
   justify-content: center;
   border: 1px solid transparent;
-  background: linear-gradient(#1c1a1e, #1c1a1e) padding-box,
+  background:
+    linear-gradient(#1c1a1e, #1c1a1e) padding-box,
     linear-gradient(
         180deg,
         var(--primary-color1) 25%,
@@ -16486,7 +16500,7 @@ header.style-7 .primary-btn3.four svg {
   }
 }
 .contact-btn-area.two h6 {
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 16px;
 }
 .contact-btn-area.two .primary-btn3 {
@@ -16509,7 +16523,8 @@ header.style-7 .primary-btn3.four svg {
   07. Home1 Process Section CSS
 ========================================*/
 .home1-process-section .process-wrapper {
-  background-image: url(../img/home1/home1-process-bg.png),
+  background-image:
+    url(../img/home1/home1-process-bg.png),
     linear-gradient(180deg, #fff2e5 0%, #fff2e5 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -17146,7 +17161,8 @@ header.style-7 .primary-btn3.four svg {
   transform: scale(1);
 }
 .home1-industries-section .industries-banner-area {
-  background-image: url(../img/home1/industries-banner-bg.png),
+  background-image:
+    url(../img/home1/industries-banner-bg.png),
     linear-gradient(180deg, #f1f1ff 0%, #f1f1ff 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -17261,7 +17277,7 @@ header.style-7 .primary-btn3.four svg {
   a
   span {
   color: var(--title-color2);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 700;
 }
@@ -17394,7 +17410,7 @@ header.style-7 .primary-btn3.four svg {
   li
   a
   span {
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 600;
 }
@@ -17615,7 +17631,8 @@ header.style-7 .primary-btn3.four svg {
   09. Home1 Service Section CSS
 ========================================*/
 .home1-service-section {
-  background-image: url(../img/home1/home1-service-bg.png),
+  background-image:
+    url(../img/home1/home1-service-bg.png),
     linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -17953,7 +17970,7 @@ header.style-7 .primary-btn3.four svg {
   }
 }
 .testimonial-card.two .testimonial-content p {
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
 }
 .testimonial-card.two .author-area {
   justify-content: center;
@@ -18320,7 +18337,8 @@ header.style-7 .primary-btn3.four svg {
   12. Home1 Contact Section CSS
 ========================================*/
 .home1-contact-section {
-  background-image: url(../img/home1/home1-contact-bg.png),
+  background-image:
+    url(../img/home1/home1-contact-bg.png),
     linear-gradient(180deg, #f0f0ff 0%, #f0f0ff 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -18729,14 +18747,14 @@ header.style-7 .primary-btn3.four svg {
   }
 }
 .contact-form-wrap.style-2 .form-inner label {
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
 }
 .contact-form-wrap.style-2 .form-inner input:focus,
 .contact-form-wrap.style-2 .form-inner textarea:focus {
   border-color: var(--primary-color3);
 }
 .contact-form-wrap.style-2 .form-inner2 > label {
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
 }
 .contact-form-wrap.style-2 .form-inner2 .form-check .form-check-input {
   border: 1px solid var(--black-color);
@@ -18951,7 +18969,8 @@ header.style-7 .primary-btn3.four svg {
   14. Home1 Footer Section CSS
 ========================================*/
 .footer-section {
-  background-image: url(../img/home1/footer-bg.png),
+  background-image:
+    url(../img/home1/footer-bg.png),
     linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -19240,7 +19259,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .footer-section .footer-menu-wrap .social-area h5 {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 600;
   line-height: 1;
@@ -19431,7 +19450,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .footer-section .location-list li span {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 600;
   line-height: 1;
@@ -19457,7 +19476,8 @@ header.style-7 .primary-btn3.four svg {
   color: var(--primary-color3);
 }
 .footer-section.style-2 {
-  background-image: url(../img/home2/footer-bg.png),
+  background-image:
+    url(../img/home2/footer-bg.png),
     linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 }
 .footer-section.style-2 .footer-menu-wrap {
@@ -19783,7 +19803,7 @@ header.style-7 .primary-btn3.four svg {
   }
 }
 .footer-section.style-3 .footer-menu-wrap .footer-contact-wrap h2 {
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 700;
   max-width: 472px;
   width: 100%;
@@ -19798,7 +19818,7 @@ header.style-7 .primary-btn3.four svg {
   .single-contact
   .content
   a {
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
 }
 .footer-section.style-3
   .footer-menu-wrap
@@ -19806,10 +19826,10 @@ header.style-7 .primary-btn3.four svg {
   .footer-widget
   .widget-title
   h3 {
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
 }
 .footer-section.style-3 .footer-menu-wrap .newsletter-area h3 {
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
 }
 .footer-section.style-3 .footer-menu-wrap .footer-menu {
   padding: 60px 0 160px 110px;
@@ -19837,7 +19857,7 @@ header.style-7 .primary-btn3.four svg {
   }
 }
 .footer-section.style-3 .file-download-btn {
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   margin-top: 40px;
   margin-bottom: 0;
   padding: 11px 20px;
@@ -19873,7 +19893,7 @@ header.style-7 .primary-btn3.four svg {
   max-width: 470px;
 }
 .footer-section.style-4 .footer-menu-wrap .footer-contact-wrap h2 {
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 700;
 }
 .footer-section.style-4 .footer-menu-wrap .footer-contact-wrap .contact-list {
@@ -19886,13 +19906,13 @@ header.style-7 .primary-btn3.four svg {
   .single-contact
   .content
   a {
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
 }
 .footer-section.style-4 .footer-menu-wrap .footer-widget .widget-title h3 {
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
 }
 .footer-section.style-4 .footer-menu-wrap .newsletter-area h3 {
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
 }
 .footer-section.style-4 .footer-menu-wrap .company-logo-area {
   display: flex;
@@ -19910,7 +19930,7 @@ header.style-7 .primary-btn3.four svg {
 .footer-section.style-4 .file-download-btn {
   margin-top: 40px;
   margin-bottom: 0;
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   padding: 11px 15px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   background-color: #18161a;
@@ -20075,7 +20095,7 @@ header.style-7 .primary-btn3.four svg {
   }
 }
 .footer-section.style-5 .footer-menu-wrap .footer-contact-wrap h2 {
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 700;
 }
 .footer-section.style-5
@@ -20096,7 +20116,7 @@ header.style-7 .primary-btn3.four svg {
   .single-contact
   .content
   a {
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
 }
 .footer-section.style-5
   .footer-menu-wrap
@@ -20165,7 +20185,7 @@ header.style-7 .primary-btn3.four svg {
   }
 }
 .footer-section.style-5 .footer-menu-wrap .footer-widget .widget-title h3 {
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
 }
 .footer-section.style-5
   .footer-menu-wrap
@@ -20178,7 +20198,7 @@ header.style-7 .primary-btn3.four svg {
   color: var(--dark-title-color2);
 }
 .footer-section.style-5 .footer-menu-wrap .newsletter-area h3 {
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
 }
 .footer-section.style-5 .file-download-btn {
   margin-top: 40px;
@@ -20505,7 +20525,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .footer-section.style-7 .footer-top h2 {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 70px;
   font-weight: 600;
   line-height: 1.1;
@@ -20542,7 +20562,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .footer-section.style-7 .footer-top .mail-area {
   color: var(--primary-color4);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 600;
   line-height: 1;
@@ -20587,7 +20607,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .footer-section.style-7 .footer-menu-wrap .company-logo-area h4 {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 600;
   line-height: 1.3;
@@ -20600,10 +20620,10 @@ header.style-7 .primary-btn3.four svg {
   }
 }
 .footer-section.style-7 .footer-menu-wrap .footer-widget .widget-title h3 {
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
 }
 .footer-section.style-7 .footer-menu-wrap .newsletter-area h3 {
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
 }
 .footer-section.style-7 .footer-bottom {
   border-top: 1px solid #2e2c30;
@@ -20613,7 +20633,8 @@ header.style-7 .primary-btn3.four svg {
   15. Home2 Banner Section CSS
 ========================================*/
 .home2-banner-section {
-  background-image: url(../img/home2/home2-banner-bg.png),
+  background-image:
+    url(../img/home2/home2-banner-bg.png),
     linear-gradient(180deg, #003c30 0%, #003c30 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -20970,11 +20991,8 @@ header.style-7 .primary-btn3.four svg {
 }
 
 .home2-feature-section .feature-contact-banner {
-  background-image: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.25) 0%,
-      rgba(0, 0, 0, 0.25) 100%
-    ),
+  background-image:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%),
     url(../img/home2/feature-contact-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -21293,7 +21311,8 @@ header.style-7 .primary-btn3.four svg {
   }
 }
 .service-card2.two {
-  background-image: url(../img/home2/home2-service-card-bg2.png),
+  background-image:
+    url(../img/home2/home2-service-card-bg2.png),
     linear-gradient(180deg, #f8f8f8 0%, #f8f8f8 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -21306,7 +21325,8 @@ header.style-7 .primary-btn3.four svg {
   18. Home2 Global Map Section CSS
 ========================================*/
 .home2-global-map-section {
-  background-image: url(../img/home2/home2-global-map-bg.png),
+  background-image:
+    url(../img/home2/home2-global-map-bg.png),
     linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -21859,7 +21879,8 @@ header.style-7 .primary-btn3.four svg {
   }
 }
 .home2-process-section .process-wrapper {
-  background-image: url(../img/home2/home2-process-bg.png),
+  background-image:
+    url(../img/home2/home2-process-bg.png),
     linear-gradient(180deg, rgba(255, 255, 255, 0) 58.31%, #78eb54 100%);
   background-color: var(--white-color);
   background-size: cover;
@@ -22011,7 +22032,8 @@ header.style-7 .primary-btn3.four svg {
   }
 }
 .testimonial-card2 .testimonial-content-wrap {
-  background-image: url(../img/home2/home2-testimonial-bg.png),
+  background-image:
+    url(../img/home2/home2-testimonial-bg.png),
     linear-gradient(180deg, #f0f0f0 0%, #f0f0f0 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -22448,7 +22470,8 @@ header.style-7 .primary-btn3.four svg {
   21. Home2 Feature Slider Section CSS
 ========================================*/
 .home2-feature-slider-section {
-  background-image: url(../img/home2/home2-feature-slider-bg.png),
+  background-image:
+    url(../img/home2/home2-feature-slider-bg.png),
     linear-gradient(180deg, #fff2e5 0%, #fff2e5 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -22834,7 +22857,8 @@ header.style-7 .primary-btn3.four svg {
   }
 }
 .home2-app-banner-section .banner-wrapper {
-  background-image: url(../img/home2/home2-app-banner-bg.png),
+  background-image:
+    url(../img/home2/home2-app-banner-bg.png),
     linear-gradient(180deg, #003c30 0%, #003c30 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -22961,7 +22985,8 @@ header.style-7 .primary-btn3.four svg {
   24. Home2 Contact Section CSS
 ========================================*/
 .home2-contact-section {
-  background-image: url(../img/home2/home2-contact-bg.png),
+  background-image:
+    url(../img/home2/home2-contact-bg.png),
     linear-gradient(180deg, #fff2e5 0%, #fff2e5 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -23120,7 +23145,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home3-banner-section .banner-content-wrap .banner-content h1 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 70px;
   font-weight: 700;
   line-height: 1.1;
@@ -23131,12 +23156,13 @@ header.style-7 .primary-btn3.four svg {
 }
 .home3-banner-section .banner-content-wrap .banner-content h1 span {
   color: var(--dark-title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 700;
   line-height: 1;
   padding: 12px 12px;
-  background-image: url(../img/home3/banner-text-bg.png),
+  background-image:
+    url(../img/home3/banner-text-bg.png),
     linear-gradient(180deg, #8adf99 0%, #8adf99 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -23323,7 +23349,7 @@ header.style-7 .primary-btn3.four svg {
   .number
   span {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 700;
   line-height: 1;
@@ -23337,7 +23363,7 @@ header.style-7 .primary-btn3.four svg {
   .content
   p {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 600;
   line-height: 1;
@@ -23416,7 +23442,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home3-banner-section .banner-content-wrap .banner-vector span {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 500;
   line-height: 22.68px;
@@ -23486,7 +23512,9 @@ header.style-7 .primary-btn3.four svg {
   height: 328px;
   margin-left: auto;
   z-index: 1;
-  transition: width 0.3s ease-out, position 0.3s ease;
+  transition:
+    width 0.3s ease-out,
+    position 0.3s ease;
   direction: rtl;
   z-index: 9;
   margin-top: -60px;
@@ -23577,7 +23605,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home3-banner-section .home3-video-wrapper .content h6 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 700;
   line-height: 1.2;
@@ -23656,7 +23684,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home3-about-section .achievment-area .content h6 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 700;
   line-height: 1;
@@ -23684,7 +23712,8 @@ header.style-7 .primary-btn3.four svg {
   color: var(--title-color);
 }
 .home3-about-section .about-feature-card {
-  background-image: url(../img/home3/about-feature-card-bg1.png),
+  background-image:
+    url(../img/home3/about-feature-card-bg1.png),
     linear-gradient(180deg, #f8f8f8 0%, #f8f8f8 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -23721,7 +23750,7 @@ header.style-7 .primary-btn3.four svg {
 .home3-about-section .about-feature-card .card-content h2,
 .home3-about-section .about-feature-card .card-content span {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 55px;
   font-weight: 700;
   line-height: 1;
@@ -23773,11 +23802,8 @@ header.style-7 .primary-btn3.four svg {
   color: var(--white-color);
 }
 .home3-about-section .about-feature-card.three {
-  background-image: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.2) 0%,
-      rgba(0, 0, 0, 0.2) 100%
-    ),
+  background-image:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
     url(../img/home3/about-feature-card-bg3.png);
   background-position: left;
 }
@@ -23792,7 +23818,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home3-about-section .about-feature-card.three .card-content h3 {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 700;
   line-height: 35.28px;
@@ -24059,7 +24085,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .portfolio-card .portfolio-content h3 a {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 700;
   line-height: 1.3;
@@ -24097,7 +24123,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .portfolio-card .portfolio-content .tag {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 14px;
   font-weight: 700;
   line-height: 1;
@@ -24214,7 +24240,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home3-service-section .sevices-wrap .single-services .title-area h3 a {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 700;
   line-height: 1.4;
@@ -24246,7 +24272,9 @@ header.style-7 .primary-btn3.four svg {
   left: 0;
   opacity: 0;
   z-index: -1;
-  transition: opacity 0.3s, transform 0.7s cubic-bezier(0.23, 1, 0.32, 1);
+  transition:
+    opacity 0.3s,
+    transform 0.7s cubic-bezier(0.23, 1, 0.32, 1);
   border-radius: 5px;
   overflow: hidden;
   pointer-events: none;
@@ -24287,7 +24315,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home3-service-section .sevices-wrap .single-services .content .tag-list li {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 16px;
   font-weight: 600;
   line-height: 1;
@@ -24374,7 +24402,8 @@ header.style-7 .primary-btn3.four svg {
   29. Home3 Service Section CSS
 ========================================*/
 .home3-process-section {
-  background-image: url(../img/home3/home3-process-bg.png),
+  background-image:
+    url(../img/home3/home3-process-bg.png),
     linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -24481,14 +24510,14 @@ header.style-7 .primary-btn3.four svg {
 }
 .home3-process-section .process-wrapper .process-card2 .step-no strong {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 700;
   line-height: 1;
 }
 .home3-process-section .process-wrapper .process-card2 h4 {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 700;
   line-height: 36px;
@@ -24648,7 +24677,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home3-process-section .founder-area .founder-content p {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 35px;
   font-weight: 600;
   line-height: 1.3;
@@ -24693,7 +24722,7 @@ header.style-7 .primary-btn3.four svg {
   .founder-name-and-desig
   h5 {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 700;
   line-height: 1.2;
@@ -24715,7 +24744,8 @@ header.style-7 .primary-btn3.four svg {
   30. Home3 Testimonial Section CSS
 ========================================*/
 .home3-testimonial-section {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       180deg,
       rgba(240, 240, 240, 0.6) 0%,
       rgba(240, 240, 240, 0.6) 100%
@@ -24904,7 +24934,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .testimonial-card3 .testimonial-content-wrap .author-area .author-content h5 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 700;
   line-height: 1.3;
@@ -24943,7 +24973,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .testimonial-card3 .testimonial-content-wrap p {
   color: var(--text-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 500;
   line-height: 36px;
@@ -25157,7 +25187,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .blog-card2 .blog-content-wrap h3 a {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 700;
   line-height: 1.4;
@@ -25366,7 +25396,8 @@ header.style-7 .primary-btn3.four svg {
   32. Home3 Scroll Text CSS
 ========================================*/
 .home3-scroll-text-area {
-  background-image: url(../img/home3/home3-scroll-text-bg.png),
+  background-image:
+    url(../img/home3/home3-scroll-text-bg.png),
     linear-gradient(180deg, #5956e9 0%, #5956e9 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -25409,7 +25440,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home3-scroll-text-area .scroll-text a {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 55px;
   font-weight: 700;
   line-height: 1;
@@ -25447,7 +25478,8 @@ header.style-7 .primary-btn3.four svg {
   33. Home4 Banner Section CSS
 ========================================*/
 .home4-banner-section {
-  background-image: url(../img/home4/home4-banner-bg.png),
+  background-image:
+    url(../img/home4/home4-banner-bg.png),
     linear-gradient(180deg, #f0f0f0 0%, #f0f0f0 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -25511,7 +25543,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home4-banner-section .partner-area h5 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 600;
   line-height: 1.2;
@@ -25625,7 +25657,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home4-banner-section .banner-content-wrap h1 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 70px;
   font-weight: 600;
   line-height: 1.1;
@@ -25841,7 +25873,7 @@ header.style-7 .primary-btn3.four svg {
   .number
   span {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 700;
   line-height: 1;
@@ -25854,7 +25886,7 @@ header.style-7 .primary-btn3.four svg {
   .content
   p {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 600;
   line-height: 1;
@@ -25912,7 +25944,7 @@ header.style-7 .primary-btn3.four svg {
   .number
   span {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 700;
   line-height: 1;
@@ -26028,7 +26060,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .feature-card3 .feature-content h4 {
   color: var(--dark-title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 600;
   line-height: 1.3;
@@ -26100,7 +26132,8 @@ header.style-7 .primary-btn3.four svg {
 }
 .home4-process-section .process-wrapper {
   padding: 40px 35px;
-  background-image: url(../img/home4/home4-process-bg.png),
+  background-image:
+    url(../img/home4/home4-process-bg.png),
     linear-gradient(180deg, #f0f0f0 0%, #f0f0f0 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -26217,7 +26250,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home4-process-section .process-wrapper ul li .single-process .step-no strong {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 700;
   line-height: 1;
@@ -26230,7 +26263,7 @@ header.style-7 .primary-btn3.four svg {
   .process-content
   h5 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 700;
   line-height: 1.3;
@@ -26350,7 +26383,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home4-service-section .result-area span {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 700;
   line-height: 1;
@@ -26359,7 +26392,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home4-service-section .result-area p {
   color: var(--text-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 600;
   line-height: 22.68px;
@@ -26423,7 +26456,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .service-card3 h4 a {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 700;
   line-height: 1.3;
@@ -26455,7 +26488,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .service-card3 ul li {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 16px;
   font-weight: 600;
   line-height: 1.5;
@@ -26611,7 +26644,7 @@ header.style-7 .primary-btn3.four svg {
 .home4-counter-section .single-counter .conter-content .number h2,
 .home4-counter-section .single-counter .conter-content .number span {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 45px;
   font-weight: 700;
   line-height: 1;
@@ -26632,7 +26665,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home4-counter-section .single-counter .conter-content p {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 600;
   line-height: 27.72px;
@@ -26685,7 +26718,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home4-industry-section .result-area span {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 700;
   line-height: 1;
@@ -26694,7 +26727,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home4-industry-section .result-area p {
   color: var(--text-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 600;
   line-height: 22.68px;
@@ -26847,7 +26880,7 @@ header.style-7 .primary-btn3.four svg {
   .number
   span {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 700;
   line-height: 1;
@@ -26912,7 +26945,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home4-industry-section .industry-list ul li h2 a {
   color: var(--text-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 35px;
   font-weight: 600;
   line-height: 1.2;
@@ -27200,7 +27233,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home4-testimonial-section .result-and-award-area .result-area span {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 700;
   line-height: 1;
@@ -27209,7 +27242,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home4-testimonial-section .result-and-award-area .result-area p {
   color: var(--text-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 600;
   line-height: 22.68px;
@@ -27230,7 +27263,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home4-testimonial-section .result-and-award-area .award-area .award-title {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 700;
   line-height: 1.2;
@@ -27401,7 +27434,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .testimonial-card4 .testimonial-content p {
   color: var(--text-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 500;
   line-height: 1.3;
@@ -27430,7 +27463,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .testimonial-card4 .testimonial-content .author-area h5 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 700;
   line-height: 1.3;
@@ -27519,7 +27552,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home4-case-study-section .result-area span {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 700;
   line-height: 1;
@@ -27528,7 +27561,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home4-case-study-section .result-area p {
   color: var(--text-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 600;
   line-height: 22.68px;
@@ -27650,7 +27683,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .case-study-card2 .case-study-content-wrap .case-study-content h4 a {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 600;
   line-height: 1.3;
@@ -27698,7 +27731,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .case-study-card2 .case-study-content-wrap .case-study-content ul li h6 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 500;
   line-height: 1.4;
@@ -27929,7 +27962,8 @@ header.style-7 .primary-btn3.four svg {
   42. Home4 Team Section CSS
 ========================================*/
 .home4-team-section {
-  background-image: url(../img/home4/home4-team-bg.png),
+  background-image:
+    url(../img/home4/home4-team-bg.png),
     linear-gradient(180deg, #e7e6c7 0%, #e7e6c7 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -27959,7 +27993,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home4-team-section .button-area h5 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 600;
   line-height: 1.3;
@@ -28036,7 +28070,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .team-card .team-content h5 a {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 700;
   line-height: 1.2;
@@ -28105,7 +28139,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .team-card .team-content .social-list li .social-area .content span {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 14px;
   font-weight: 600;
   line-height: 1;
@@ -28256,7 +28290,9 @@ header.style-7 .primary-btn3.four svg {
   transform: translateX(-50%);
   opacity: 0;
   visibility: hidden;
-  transition: all 0.6s ease, opacity 0.3s ease;
+  transition:
+    all 0.6s ease,
+    opacity 0.3s ease;
 }
 @media (max-width: 991px) {
   .home4-contact-section
@@ -28538,7 +28574,8 @@ header.style-7 .primary-btn3.four svg {
   44. Home5 Banner Section CSS
 ========================================*/
 .home5-banner-section {
-  background-image: url(../img/home5/home5-banner-bg.png),
+  background-image:
+    url(../img/home5/home5-banner-bg.png),
     linear-gradient(180deg, #ffffff 0%, #ffffff 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -28627,7 +28664,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home5-banner-section .banner-content h1 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 70px;
   font-weight: 700;
   line-height: 1.1;
@@ -28804,7 +28841,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home5-banner-section .contact-area .contact-list .single-contact a {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 16px;
   font-weight: 600;
   line-height: 1;
@@ -28929,7 +28966,7 @@ header.style-7 .primary-btn3.four svg {
   .number
   span {
   color: var(--secondary-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 700;
   line-height: 1;
@@ -29069,7 +29106,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home5-feature-section .about-area .content h4 {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 600;
   line-height: 1.2;
@@ -29174,7 +29211,7 @@ header.style-7 .primary-btn3.four svg {
 .home5-feature-section .about-area .counter-wrap .counter-content .number h2,
 .home5-feature-section .about-area .counter-wrap .counter-content .number span {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 35px;
   font-weight: 600;
   line-height: 1;
@@ -29265,7 +29302,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home5-service-section .service-wrapper .single-service .service-content h2 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 35px;
   font-weight: 700;
   line-height: 1.2;
@@ -29531,7 +29568,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home5-about-section .about-wrapper .benefit-area h5 {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 700;
   line-height: 1.2;
@@ -29596,7 +29633,7 @@ header.style-7 .primary-btn3.four svg {
   .number
   span {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 55px;
   font-weight: 700;
   line-height: 1;
@@ -29662,7 +29699,8 @@ header.style-7 .primary-btn3.four svg {
   48. Home5 Process Section CSS
 ========================================*/
 .home5-process-section {
-  background-image: url(../img/home5/home5-process-bg.png),
+  background-image:
+    url(../img/home5/home5-process-bg.png),
     linear-gradient(180deg, #f0f0ff 0%, #f0f0ff 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -29684,7 +29722,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home5-process-section .result-area span {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 700;
   line-height: 1;
@@ -29693,7 +29731,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home5-process-section .result-area p {
   color: var(--text-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 600;
   line-height: 22.68px;
@@ -29842,14 +29880,14 @@ header.style-7 .primary-btn3.four svg {
 }
 .home5-process-section .process-card3 .step-no strong {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 700;
   line-height: 1;
 }
 .home5-process-section .process-card3 h5 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 600;
   line-height: 27.72px;
@@ -29906,7 +29944,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home5-process-section .contact-area p {
   color: var(--text-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -29975,7 +30013,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home5-graph-section .grap-wrapper h4 {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 700;
   line-height: 35.28px;
@@ -29996,7 +30034,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home5-graph-section .grap-wrapper .graph-chart h6 {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 16px;
   font-weight: 500;
   line-height: 1;
@@ -30244,7 +30282,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home5-award-section .award-content-wrap h2 {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 35px;
   font-weight: 600;
   line-height: 1.2;
@@ -30295,7 +30333,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home5-award-section .award-content-wrap .award-list li .award-content h6 {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 16px;
   font-weight: 600;
   line-height: 20.16px;
@@ -30455,7 +30493,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .blog-card3 .blog-content-wrap .blog-content h4 a {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 600;
   line-height: 1.2;
@@ -30987,7 +31025,8 @@ header.style-7 .primary-btn3.four svg {
   54. Home6 Review Section CSS
 ========================================*/
 .home6-review-section .review-wrapper {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       180deg,
       rgba(240, 240, 240, 0.5) 0%,
       rgba(240, 240, 240, 0.5) 100%
@@ -31253,7 +31292,8 @@ header.style-7 .primary-btn3.four svg {
   55. Home6 Feature Section CSS
 ========================================*/
 .home6-feature-section .feature-card4 {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       180deg,
       rgba(240, 240, 240, 0.5) 0%,
       rgba(240, 240, 240, 0.5) 100%
@@ -32565,7 +32605,8 @@ header.style-7 .primary-btn3.four svg {
   60. Home6 Process Section CSS
 ========================================*/
 .home6-process-section {
-  background-image: url(../img/home6/home6-process-bg.png),
+  background-image:
+    url(../img/home6/home6-process-bg.png),
     linear-gradient(180deg, #ffefb4 0%, #ffefb4 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -33048,7 +33089,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .faq-wrap.two .accordion .accordion-item .accordion-header .accordion-button {
   background-color: var(--dark-white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 500;
   padding: 15px 25px;
 }
@@ -33162,7 +33203,8 @@ header.style-7 .primary-btn3.four svg {
   63. Home7 Banner Section CSS
 ========================================*/
 .home7-banner-section {
-  background-image: url(../img/home7/home7-banner-bg.png),
+  background-image:
+    url(../img/home7/home7-banner-bg.png),
     linear-gradient(180deg, #0d0d0e 0%, #0d0d0e 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -33180,7 +33222,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home7-banner-section .banner-content-wrap .title-area h1 {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 70px;
   font-weight: 700;
   line-height: 1.1;
@@ -33452,7 +33494,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home7-about-section .about-content p {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 45px;
   font-weight: 500;
   line-height: 1.2;
@@ -33541,7 +33583,9 @@ header.style-7 .primary-btn3.four svg {
   border: 1px solid rgba(238, 238, 238, 0.8);
   border-radius: 100px;
   position: relative;
-  transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1), z-index 0.8s ease;
+  transition:
+    transform 0.8s cubic-bezier(0.25, 1, 0.5, 1),
+    z-index 0.8s ease;
 }
 @media (max-width: 1199px) {
   .home7-about-section .skill-area .skill-list .single-skill {
@@ -33584,7 +33628,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home7-about-section .skill-area .skill-list .single-skill .content h4 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 700;
   line-height: 1;
@@ -33768,7 +33812,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home7-about-section .contact-area h6 {
   color: var(--text-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 16px;
   font-weight: 600;
   line-height: 1.5;
@@ -33840,7 +33884,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home7-portfolio-section .project-btn-duration-area .project-duration h6 {
   color: var(--text-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -34012,7 +34056,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .portfolio-card2 .portfolio-content h4 a {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 600;
   line-height: 1.2;
@@ -34125,7 +34169,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home7-service-section .service-wrapper .service-list .single-service h2 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 55px;
   font-weight: 600;
   line-height: 1.1;
@@ -34173,7 +34217,9 @@ header.style-7 .primary-btn3.four svg {
 .home7-service-section .service-wrapper .service-list .single-service h2 span {
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.5s ease, visibility 0.5s ease;
+  transition:
+    opacity 0.5s ease,
+    visibility 0.5s ease;
 }
 .home7-service-section
   .service-wrapper
@@ -34269,7 +34315,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home7-service-section .service-wrapper .contact-btn-area h6 {
   color: var(--text-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   max-width: unset;
   width: unset;
 }
@@ -34389,7 +34435,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .award-table tbody tr td {
   color: var(--dark-text-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 500;
   padding: 30px;
@@ -34598,7 +34644,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .breadcrumb-section .banner-content h1 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 700;
   font-size: 70px;
   line-height: 1.1;
@@ -34757,7 +34803,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .pagination-area .paginations .page-item a {
   color: var(--text-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 16px;
   font-weight: 600;
   line-height: 1;
@@ -34847,7 +34893,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .portfolio-page .nav-pills .nav-item .nav-link {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 16px;
   line-height: 1;
@@ -34909,7 +34955,9 @@ header.style-7 .primary-btn3.four svg {
   left: 0;
   opacity: 0;
   z-index: 1;
-  transition: opacity 0.3s, transform 0.7s cubic-bezier(0.23, 1, 0.32, 1);
+  transition:
+    opacity 0.3s,
+    transform 0.7s cubic-bezier(0.23, 1, 0.32, 1);
 }
 .portfolio-caption-card .info-flow-content h6 {
   margin-bottom: 0;
@@ -34917,7 +34965,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .portfolio-caption-card .info-flow-content h6 a {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 600;
   line-height: 24px;
@@ -35000,7 +35048,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .industries-page-banner .banner-content-wrap .banner-title h2 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 700;
   font-size: 45px;
   line-height: 1.2;
@@ -35095,7 +35143,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .pricing-plan-page .nav-area .nav-pills .nav-item .nav-link {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 18px;
   line-height: 1;
@@ -35166,7 +35214,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .pricing-plan-page .pricing-plan-card .pricing-plan-top .title-area h4 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 28px;
   line-height: 1.4;
@@ -35179,7 +35227,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .pricing-plan-page .pricing-plan-card .pricing-plan-top .title-area span {
   color: var(--primary-color3);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 14px;
   line-height: 1;
@@ -35190,7 +35238,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .pricing-plan-page .pricing-plan-card .pricing-plan-top h2 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 45px;
   line-height: 1.1;
@@ -35266,7 +35314,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .pricing-plan-page .pricing-plan-card .included-feature-area h6 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 18px;
   line-height: 1.5;
@@ -35344,7 +35392,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .contact-page-top .single-contact h4 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 28px;
   line-height: 1.3;
@@ -35436,7 +35484,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .contact-page-top .single-contact .contact-list li .content h6 a {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 500;
   font-size: 22px;
   line-height: 1;
@@ -35631,7 +35679,7 @@ header.style-7 .primary-btn3.four svg {
   .number
   span {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 45px;
   line-height: 1;
@@ -35741,7 +35789,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .service-page-banner-section .banner-content-wrap .banner-title h2 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 700;
   font-size: 45px;
   line-height: 1.2;
@@ -35769,7 +35817,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .service-page-banner-section .banner-content-wrap .banner-title p {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 500;
   font-size: 22px;
   line-height: 1.5;
@@ -35925,7 +35973,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .service2-page .service-card4 h4 a {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 700;
   font-size: 28px;
   line-height: 1.3;
@@ -36050,7 +36098,7 @@ header.style-7 .primary-btn3.four svg {
 .award-page-banner .single-counter .number h2,
 .award-page-banner .single-counter .number span {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 45px;
   line-height: 1;
@@ -36167,7 +36215,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .social-responsibility-section .title-area h2 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 700;
   font-size: 55px;
   line-height: 1.2;
@@ -36260,7 +36308,8 @@ header.style-7 .primary-btn3.four svg {
 }
 
 .social-responsibility-contact-section .social-responsibility-contact-wrap {
-  background-image: url(../img/innerpages/social-responsibility-contact-bg.png),
+  background-image:
+    url(../img/innerpages/social-responsibility-contact-bg.png),
     linear-gradient(180deg, #f0f0f0 0%, #f0f0f0 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -36293,7 +36342,7 @@ header.style-7 .primary-btn3.four svg {
   .contact-content
   h2 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 700;
   font-size: 55px;
   line-height: 1.2;
@@ -36430,7 +36479,7 @@ header.style-7 .primary-btn3.four svg {
   .content
   span {
   color: var(--dark-title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 14px;
   font-weight: 600;
   line-height: 1;
@@ -36606,14 +36655,14 @@ header.style-7 .primary-btn3.four svg {
 }
 .career-feature-section .title-area .content .button-area span {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
 }
 .career-feature-section .title-area .content .button-area a {
   color: var(--primary-color3);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
@@ -36667,7 +36716,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .career-feature-section .single-feature h5 {
   color: var(--dark-title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 22px;
   line-height: 1.4;
@@ -36785,7 +36834,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .career-page-benefit-section .single-benefit h5 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 500;
   font-size: 22px;
   line-height: 1.4;
@@ -36917,7 +36966,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .career-page-position-section .single-position .title-area h4 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 28px;
   line-height: 1.3;
@@ -36993,7 +37042,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .career-page-position-section .single-position .info-area li .content strong {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 18px;
   line-height: 1;
@@ -37097,7 +37146,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .career-details-page .career-details-content h4 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 35px;
   line-height: 1.3;
@@ -37277,7 +37326,7 @@ header.style-7 .primary-btn3.four svg {
   .contact
   a {
   color: var(--dark-title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 600;
   line-height: 27px;
@@ -37335,7 +37384,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .career-details-page .career-details-sidebar h4 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 500;
   font-size: 28px;
   line-height: 1.3;
@@ -37392,7 +37441,7 @@ header.style-7 .primary-btn3.four svg {
   }
 }
 .career-details-page .career-details-sidebar .form-inner2 > label {
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
 }
 .career-details-page
   .career-details-sidebar
@@ -37465,7 +37514,8 @@ header.style-7 .primary-btn3.four svg {
 .job-form-modal .modal-dialog .modal-content .modal-header {
   padding: 35px 20px;
   border-bottom: 1px solid var(--borders-color);
-  background-image: url(../img/innerpages/job-form-modal-header-bg.png),
+  background-image:
+    url(../img/innerpages/job-form-modal-header-bg.png),
     linear-gradient(180deg, #5956e9 0%, #5956e9 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -37479,7 +37529,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .job-form-modal .modal-dialog .modal-content .modal-header .modal-title {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 45px;
   font-weight: 600;
   line-height: 1.2;
@@ -37583,7 +37633,7 @@ header.style-7 .primary-btn3.four svg {
   .single-info
   .info-title {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 600;
   line-height: 1.2;
@@ -37618,7 +37668,7 @@ header.style-7 .primary-btn3.four svg {
   .single-info
   .form-inner
   label {
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
 }
 .job-form-modal
   .modal-dialog
@@ -37847,7 +37897,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .details-content-wrap .post-title-and-tag h2 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 700;
   font-size: 55px;
   line-height: 1.1;
@@ -37915,7 +37965,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .details-content-wrap h2 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 35px;
   line-height: 1.2;
@@ -37954,7 +38004,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .details-content-wrap h5 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 22px;
   line-height: 1.5;
@@ -38003,7 +38053,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .details-content-wrap blockquote .content h4 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 500;
   font-size: 28px;
   line-height: 36px;
@@ -38026,7 +38076,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .details-content-wrap blockquote .content .author-area h6 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 500;
   font-size: 18px;
   line-height: 1.4;
@@ -38094,7 +38144,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .details-content-wrap .listing li {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 500;
   font-size: 18px;
   line-height: 1.5;
@@ -38165,7 +38215,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .details-content-wrap .tag-and-social-area h6 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 18px;
   line-height: 1;
@@ -38284,7 +38334,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .details-content-wrap .single-service h5 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 500;
   font-size: 18px;
   line-height: 1.4;
@@ -38374,7 +38424,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .details-content-wrap .case-details-result-area .single-item h5 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 22px;
   line-height: 32px;
@@ -38391,7 +38441,8 @@ header.style-7 .primary-btn3.four svg {
   background-color: #d4dffc;
 }
 .details-content-wrap .testimonial-area {
-  background-image: url(../img/innerpages/portfolio-details-testimonial-bg.png),
+  background-image:
+    url(../img/innerpages/portfolio-details-testimonial-bg.png),
     linear-gradient(180deg, #f0f0f0 0%, #f0f0f0 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -38418,7 +38469,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .details-content-wrap .testimonial-area p {
   color: var(--text-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 500;
   font-size: 22px;
   line-height: 32px;
@@ -38432,7 +38483,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .details-content-wrap .testimonial-area span {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 500;
   font-size: 18px;
   line-height: 32px;
@@ -38472,7 +38523,8 @@ header.style-7 .primary-btn3.four svg {
   .portfolio-details-info-area {
   display: flex;
   align-items: end;
-  background-image: url(../img/innerpages/portfolio-details-info-area-bg.png),
+  background-image:
+    url(../img/innerpages/portfolio-details-info-area-bg.png),
     linear-gradient(180deg, #f0f0f0 0%, #f0f0f0 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -38556,7 +38608,7 @@ header.style-7 .primary-btn3.four svg {
   .info-item
   strong {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   max-width: 130px;
   width: 100%;
@@ -38628,7 +38680,7 @@ header.style-7 .primary-btn3.four svg {
   line-height: 1;
   margin-bottom: 0;
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 600;
 }
@@ -38669,7 +38721,7 @@ header.style-7 .primary-btn3.four svg {
 
 .comment-and-form-area .comment-title {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 35px;
   line-height: 1.2;
@@ -38749,7 +38801,7 @@ header.style-7 .primary-btn3.four svg {
   line-height: 1;
   margin-bottom: 0;
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 600;
 }
@@ -38818,7 +38870,7 @@ header.style-7 .primary-btn3.four svg {
   .comment-content
   .replay-btn {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 16px;
   font-weight: 600;
   display: inline-flex;
@@ -38918,7 +38970,8 @@ header.style-7 .primary-btn3.four svg {
 }
 
 .details-pagination {
-  background-image: url(../img/innerpages/details-pagination-bg.png),
+  background-image:
+    url(../img/innerpages/details-pagination-bg.png),
     linear-gradient(180deg, #f0f0f0 0%, #f0f0f0 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -39066,7 +39119,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .details-pagination .single-pagination .content h6 a {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 600;
   line-height: 32px;
@@ -39130,7 +39183,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .details-pagination.two .single-pagination .content h2 a {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 35px;
   line-height: 1.2;
@@ -39178,7 +39231,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .shop-page .shop-sidebar .single-widgets .widget-title h5 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 600;
   line-height: 1.3;
@@ -39312,7 +39365,7 @@ header.style-7 .primary-btn3.four svg {
   h6
   a {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 500;
   line-height: 22px;
@@ -39374,14 +39427,14 @@ header.style-7 .primary-btn3.four svg {
 }
 .shop-page .shop-sidebar .single-widgets .cart-menu .total-price span {
   color: var(--text-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 600;
   line-height: 1;
 }
 .shop-page .shop-sidebar .single-widgets .cart-menu .total-price strong {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 600;
   line-height: 1;
@@ -39430,7 +39483,7 @@ header.style-7 .primary-btn3.four svg {
   .containerss
   span {
   color: var(--text-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 16px;
   font-weight: 500;
   line-height: 1;
@@ -39506,7 +39559,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .shop-page .shop-sidebar .single-widgets .tag-list li a {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 16px;
   font-weight: 500;
   transition: 0.35s;
@@ -39672,7 +39725,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .product-card .product-card-content h6 a {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 18px;
   line-height: 1.4;
@@ -39858,7 +39911,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .product-details-page .product-details-content h2 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 45px;
   font-weight: 600;
   line-height: 1.2;
@@ -39921,7 +39974,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .product-details-page .product-details-content ul li {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 500;
   font-size: 18px;
   line-height: 22.68px;
@@ -40074,7 +40127,7 @@ header.style-7 .primary-btn3.four svg {
   background-color: transparent;
   color: var(--title-color);
   text-align: center;
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 700;
 }
@@ -40111,7 +40164,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .product-details-page .product-details-content .aditional-info > li span {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   display: inline-block;
   margin-right: 5px;
@@ -40145,7 +40198,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .product-details-page .product-description-and-review-area .nav2 .nav-link {
   color: var(--text-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 600;
   padding: 6px 15px;
@@ -40271,7 +40324,7 @@ header.style-7 .primary-btn3.four svg {
   line-height: 1;
   margin-bottom: 0;
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 600;
 }
@@ -40442,7 +40495,7 @@ header.style-7 .primary-btn3.four svg {
 
 .related-product-section .section-title h4 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 28px;
   line-height: 1.3;
@@ -40516,7 +40569,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .cart-page .cart-widget-title h4 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 600;
   line-height: 1.4;
@@ -40541,7 +40594,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .cart-page .cart-shopping-wrapper .cart-table thead tr th {
   color: var(--text-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 600;
   line-height: 1;
@@ -40563,7 +40616,7 @@ header.style-7 .primary-btn3.four svg {
 .cart-page .cart-shopping-wrapper .cart-table tbody tr td {
   padding: 30px 15px;
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 16px;
   font-weight: 600;
   line-height: 1;
@@ -40624,7 +40677,7 @@ header.style-7 .primary-btn3.four svg {
   .product-info-content
   h6 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 600;
   line-height: 1.4;
@@ -40796,7 +40849,7 @@ header.style-7 .primary-btn3.four svg {
   align-items: center;
   justify-content: center;
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 700;
   cursor: pointer;
@@ -40873,7 +40926,7 @@ header.style-7 .primary-btn3.four svg {
   align-items: center;
   justify-content: center;
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 16px;
   font-weight: 600;
   text-align: center;
@@ -40930,7 +40983,7 @@ header.style-7 .primary-btn3.four svg {
     position: absolute;
     left: 15px;
     color: var(--text-color);
-    font-family: var(--font-suse);
+    font-family: var(--font-dmsans);
     font-size: 18px;
     font-weight: 600;
   }
@@ -41230,7 +41283,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .checkout-page .checkout-form-wrapper .checkout-form-title h4 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 600;
   line-height: 1.4;
@@ -41477,7 +41530,7 @@ header.style-7 .primary-btn3.four svg {
   h6
   a {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 18px;
   line-height: 1.3;
@@ -41591,7 +41644,7 @@ header.style-7 .primary-btn3.four svg {
   align-items: center;
   justify-content: center;
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 14px;
   font-weight: 600;
   text-align: center;
@@ -41670,7 +41723,7 @@ header.style-7 .primary-btn3.four svg {
 .checkout-page .choose-payment-method h6 {
   margin-bottom: 10px;
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 16px;
   font-weight: 500;
 }
@@ -41799,7 +41852,7 @@ header.style-7 .primary-btn3.four svg {
   td
   span {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   line-height: 1.2;
 }
@@ -41856,7 +41909,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .case-study-details-sidebar .note-area .title-area h6 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 700;
   font-size: 18px;
   line-height: 1;
@@ -41930,7 +41983,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .case-study-details-sidebar .note-area .content ul li h6 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 600;
   line-height: 1.4;
@@ -41985,7 +42038,7 @@ header.style-7 .primary-btn3.four svg {
   line-height: 1;
   margin-bottom: 0;
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 600;
 }
@@ -42091,7 +42144,7 @@ header.style-7 .primary-btn3.four svg {
 .team-page-counter-area .single-counter .number h2,
 .team-page-counter-area .single-counter .number span {
   color: var(--dark-title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 45px;
   line-height: 1;
@@ -42153,7 +42206,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .team-page-content-banner h2 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 700;
   font-size: 55px;
   line-height: 1.2;
@@ -42182,7 +42235,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .team-page-content-banner .banner-content > span {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 500;
   font-size: 22px;
   line-height: 32px;
@@ -42243,7 +42296,7 @@ header.style-7 .primary-btn3.four svg {
   .accordion-header
   .accordion-button {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 500;
   font-size: 22px;
   line-height: 1.4;
@@ -42475,7 +42528,8 @@ header.style-7 .primary-btn3.four svg {
 }
 
 .team-card-section {
-  background-image: url(../img/innerpages/team-card-section-bg.png),
+  background-image:
+    url(../img/innerpages/team-card-section-bg.png),
     linear-gradient(180deg, #f0f0f0 0%, #f0f0f0 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -42527,7 +42581,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .team-page-gallery-section .section-title.three p {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   line-height: 32px;
   margin-left: 0;
@@ -42574,7 +42628,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .team-page-gallery-section .content h6 {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
@@ -42600,7 +42654,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .team-join-section .team-join-wrap .section-title.three p {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   line-height: 32px;
   margin-left: 0;
@@ -42705,7 +42759,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .team-card2 .team-content h5 a {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 700;
   line-height: 1.2;
@@ -42810,7 +42864,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .team-details-page .team-details-content .name-designation-area h2 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 55px;
   line-height: 1.1;
@@ -42851,7 +42905,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .team-details-page .team-details-content > span {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 500;
   font-size: 22px;
   line-height: 32px;
@@ -42880,7 +42934,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .team-details-page .team-details-content h5 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 22px;
   line-height: 32px;
@@ -42901,7 +42955,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .team-details-page .team-details-content ul li {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 18px;
   line-height: 1.5;
@@ -42953,7 +43007,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .team-details-page .team-details-content .social-list li a {
   color: var(--text-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 16px;
   line-height: 1;
@@ -42990,7 +43044,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .about-page-banner-section .banner-content-wrap .title-area h2 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 700;
   font-size: 44px;
   line-height: 1.3;
@@ -43013,7 +43067,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .about-page-banner-section .banner-content-wrap .title-area span {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 500;
   font-size: 22px;
   line-height: 32px;
@@ -43087,7 +43141,8 @@ header.style-7 .primary-btn3.four svg {
   position: relative;
 }
 .about-page-counter-section .counter-wrapper {
-  background-image: url(../img/innerpages/about-page-counter-bg.png),
+  background-image:
+    url(../img/innerpages/about-page-counter-bg.png),
     linear-gradient(180deg, #5956e9 0%, #5956e9 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -43121,7 +43176,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .about-page-counter-section .counter-wrapper .single-counter h2 {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 55px;
   line-height: 1;
@@ -43258,7 +43313,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .about-page-feature-section .single-feature h4 {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 28px;
   font-weight: 700;
   line-height: 1.3;
@@ -43300,7 +43355,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .about-page-feature-section .single-feature ul li {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 16px;
   font-weight: 600;
   line-height: 1.5;
@@ -43367,7 +43422,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .about-page-team-section .result-area span {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 22px;
   font-weight: 700;
   line-height: 1;
@@ -43376,7 +43431,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .about-page-team-section .result-area p {
   color: var(--text-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-size: 18px;
   font-weight: 600;
   line-height: 22.68px;
@@ -43512,7 +43567,8 @@ header.style-7 .primary-btn3.four svg {
 }
 
 .about-page-testimonial-section {
-  background-image: url(../img/innerpages/about-page-testimonial-bg.png),
+  background-image:
+    url(../img/innerpages/about-page-testimonial-bg.png),
     linear-gradient(180deg, #f0f0f0 0%, #f0f0f0 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -44052,7 +44108,7 @@ header.style-7 .primary-btn3.four svg {
   h1
   a {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 700;
   font-size: 70px;
   line-height: 1.1;
@@ -44123,7 +44179,7 @@ header.style-7 .primary-btn3.four svg {
   .social-area
   > a {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 500;
   font-size: 22px;
   line-height: 1;
@@ -44414,7 +44470,7 @@ header.style-7 .primary-btn3.four svg {
   h1
   a {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 700;
   font-size: 70px;
   line-height: 1.1;
@@ -44489,7 +44545,7 @@ header.style-7 .primary-btn3.four svg {
   .social-area
   > a {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 500;
   font-size: 22px;
   line-height: 1;
@@ -44544,7 +44600,8 @@ header.style-7 .primary-btn3.four svg {
   93. Portfolio Carousal Page CSS
 ========================================*/
 .portfolio-carousel-slider-page {
-  background-image: url(../img/innerpages/portfolio-carousel-slider-bg.png),
+  background-image:
+    url(../img/innerpages/portfolio-carousel-slider-bg.png),
     linear-gradient(180deg, #f0f0f0 0%, #f0f0f0 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -44693,7 +44750,7 @@ header.style-7 .primary-btn3.four svg {
   .social-area
   > a {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 500;
   font-size: 22px;
   line-height: 1;
@@ -44807,7 +44864,7 @@ header.style-7 .primary-btn3.four svg {
   h1
   a {
   color: var(--title-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 700;
   font-size: 70px;
   line-height: 1.1;
@@ -44997,7 +45054,7 @@ header.style-7 .primary-btn3.four svg {
   .portfolio-slider-img
   strong {
   color: #f8f8f8;
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 200px;
   line-height: 1;
@@ -45327,7 +45384,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .portfolio-interactive-page .nav-pills .nav-item .nav-link {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 16px;
   line-height: 1;
@@ -45376,7 +45433,7 @@ header.style-7 .primary-btn3.four svg {
   }
 }
 .portfolio-interactive-page .interactive-list .interactive-item {
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 600;
   font-size: 55px;
   line-height: 1.1;
@@ -45514,7 +45571,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .portfolio-interactive-page .social-area > a {
   color: var(--white-color);
-  font-family: var(--font-suse);
+  font-family: var(--font-dmsans);
   font-weight: 500;
   font-size: 22px;
   line-height: 1;
@@ -45658,11 +45715,13 @@ body.dark
   display: block;
 }
 body.dark header.style-1 .main-menu > ul > li .mega-menu {
-  background-image: url(../img/home1/home1-megamenu-bg-dark.png),
+  background-image:
+    url(../img/home1/home1-megamenu-bg-dark.png),
     linear-gradient(#222222, #222222);
 }
 body.dark header.style-1 .main-menu > ul > li .mega-menu2 {
-  background-image: url(../img/home1/home1-megamenu-bg-dark.png),
+  background-image:
+    url(../img/home1/home1-megamenu-bg-dark.png),
     linear-gradient(#222222, #222222);
 }
 @media (max-width: 991px) {
@@ -45694,11 +45753,13 @@ body.dark header.style-3 .company-logo .logo-light {
   display: block;
 }
 body.dark header.style-3 .main-menu > ul > li .mega-menu {
-  background-image: url(../img/home1/home1-megamenu-bg-dark.png),
+  background-image:
+    url(../img/home1/home1-megamenu-bg-dark.png),
     linear-gradient(#222222, #222222);
 }
 body.dark header.style-3 .main-menu > ul > li .mega-menu2 {
-  background-image: url(../img/home1/home1-megamenu-bg-dark.png),
+  background-image:
+    url(../img/home1/home1-megamenu-bg-dark.png),
     linear-gradient(#222222, #222222);
 }
 @media (max-width: 991px) {
@@ -45730,11 +45791,13 @@ body.dark header.style-4 .company-logo .logo-light {
   display: block;
 }
 body.dark header.style-4 .main-menu > ul > li .mega-menu {
-  background-image: url(../img/home1/home1-megamenu-bg-dark.png),
+  background-image:
+    url(../img/home1/home1-megamenu-bg-dark.png),
     linear-gradient(#222222, #222222);
 }
 body.dark header.style-4 .main-menu > ul > li .mega-menu2 {
-  background-image: url(../img/home1/home1-megamenu-bg-dark.png),
+  background-image:
+    url(../img/home1/home1-megamenu-bg-dark.png),
     linear-gradient(#222222, #222222);
 }
 @media (max-width: 991px) {
@@ -45766,11 +45829,13 @@ body.dark header.style-5 .company-logo .logo-light {
   display: block;
 }
 body.dark header.style-5 .main-menu > ul > li .mega-menu {
-  background-image: url(../img/home1/home1-megamenu-bg-dark.png),
+  background-image:
+    url(../img/home1/home1-megamenu-bg-dark.png),
     linear-gradient(#222222, #222222);
 }
 body.dark header.style-5 .main-menu > ul > li .mega-menu2 {
-  background-image: url(../img/home1/home1-megamenu-bg-dark.png),
+  background-image:
+    url(../img/home1/home1-megamenu-bg-dark.png),
     linear-gradient(#222222, #222222);
 }
 @media (max-width: 991px) {
@@ -45803,11 +45868,13 @@ body.dark header.style-6 .main-menu > ul > li:hover > a {
   background-color: #2f2f2f;
 }
 body.dark header.style-6 .main-menu > ul > li .mega-menu {
-  background-image: url(../img/home1/home1-megamenu-bg-dark.png),
+  background-image:
+    url(../img/home1/home1-megamenu-bg-dark.png),
     linear-gradient(#222222, #222222);
 }
 body.dark header.style-6 .main-menu > ul > li .mega-menu2 {
-  background-image: url(../img/home1/home1-megamenu-bg-dark.png),
+  background-image:
+    url(../img/home1/home1-megamenu-bg-dark.png),
     linear-gradient(#222222, #222222);
 }
 @media (max-width: 991px) {
@@ -45816,7 +45883,8 @@ body.dark header.style-6 .main-menu > ul > li .mega-menu2 {
   }
 }
 body.dark .right-sidebar-menu {
-  background-image: url(../img/home3/right-sidebar-menu-bg-dark.png),
+  background-image:
+    url(../img/home3/right-sidebar-menu-bg-dark.png),
     linear-gradient(180deg, #222222 0%, #222222 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -45924,7 +45992,8 @@ body.dark .feature-card.three .learn-btn {
   background-color: #2f2f2f;
 }
 body.dark .home1-process-section .process-wrapper {
-  background-image: url(../img/home1/home1-process-bg-dark.png),
+  background-image:
+    url(../img/home1/home1-process-bg-dark.png),
     linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 }
 body.dark .home1-process-section .process-wrapper .section-title span {
@@ -45986,7 +46055,8 @@ body.dark .testimonial-card.two .quote {
   stroke: #2f2f2f;
 }
 body.dark .home1-contact-section {
-  background-image: url(../img/home1/home1-contact-bg-dark.png),
+  background-image:
+    url(../img/home1/home1-contact-bg-dark.png),
     linear-gradient(180deg, #1c1c1c 0%, #1c1c1c 100%);
 }
 body.dark .home1-company-info-section .feature-wrap {
@@ -45996,10 +46066,8 @@ body.dark .home1-company-info-section .counter-wrap {
   background-color: #1c1a1e;
 }
 body.dark .contact-form-wrap {
-  background-image: linear-gradient(
-      rgba(28, 26, 30, 0.9),
-      rgba(28, 26, 30, 0.9)
-    ),
+  background-image:
+    linear-gradient(rgba(28, 26, 30, 0.9), rgba(28, 26, 30, 0.9)),
     url(../img/home1/contact-form-dark-bg.png);
 }
 body.dark .contact-form-wrap .form-inner input,
@@ -46033,7 +46101,8 @@ body.dark .home2-process-section .title-area h6 {
   background-color: #131213;
 }
 body.dark .home2-process-section .process-wrapper {
-  background-image: url(../img/home2/home2-process-bg-dark.png),
+  background-image:
+    url(../img/home2/home2-process-bg-dark.png),
     linear-gradient(
       180deg,
       rgba(120, 235, 84, 0) 55.48%,
@@ -46045,7 +46114,8 @@ body.dark .testimonial-card2 .testimonial-img {
   background-color: #1c1a1e;
 }
 body.dark .testimonial-card2 .testimonial-content-wrap {
-  background-image: url(../img/home2/home2-testimonial-bg-dark.png),
+  background-image:
+    url(../img/home2/home2-testimonial-bg-dark.png),
     linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 }
 body.dark .testimonial-card2 .testimonial-content-wrap .company-logo img {
@@ -46072,7 +46142,8 @@ body.dark .blog-card .blog-content .blog-category a:hover {
   background-color: var(--primary-color2);
 }
 body.dark .home2-feature-slider-section {
-  background-image: url(../img/home2/home2-feature-slider-bg-dark.png),
+  background-image:
+    url(../img/home2/home2-feature-slider-bg-dark.png),
     linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 }
 body.dark
@@ -46110,7 +46181,8 @@ body.dark
   background-color: #131313;
 }
 body.dark .home2-contact-section {
-  background-image: url(../img/home2/home2-contact-bg-dark.png),
+  background-image:
+    url(../img/home2/home2-contact-bg-dark.png),
     linear-gradient(180deg, #1c1c1c 0%, #1c1c1c 100%);
 }
 body.dark .home2-contact-section .contact-video-wrap .contact-video .shape {
@@ -46138,7 +46210,8 @@ body.dark .home3-banner-section .banner-content-wrap .banner-content > span {
   background-color: #1c1c1c;
 }
 body.dark .home3-about-section .about-feature-card {
-  background-image: url(../img/home3/about-feature-card-bg1-dark.png),
+  background-image:
+    url(../img/home3/about-feature-card-bg1-dark.png),
     linear-gradient(180deg, #1c1c1c 0%, #1c1c1c 100%);
 }
 body.dark .home3-about-section .about-feature-card.two {
@@ -46148,11 +46221,8 @@ body.dark .home3-about-section .about-feature-card.two {
   background-color: #5ba0de;
 }
 body.dark .home3-about-section .about-feature-card.three {
-  background-image: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.2) 0%,
-      rgba(0, 0, 0, 0.2) 100%
-    ),
+  background-image:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
     url(../img/home3/about-feature-card-bg3.png);
 }
 body.dark .home3-service-section .section-vector {
@@ -46168,7 +46238,8 @@ body.dark .contact-btn-area.two .primary-btn4.transparent .icon {
   background-color: #1c1c1c;
 }
 body.dark .home3-testimonial-section {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       180deg,
       rgba(28, 26, 30, 0.9) 0%,
       rgba(28, 26, 30, 0.9) 100%
@@ -46193,7 +46264,8 @@ body.dark .blog-card2 .blog-content-wrap .blog-meta li svg {
   fill: #2f2f2f;
 }
 body.dark .home4-banner-section {
-  background-image: url(../img/home4/home4-banner-bg-dark.png),
+  background-image:
+    url(../img/home4/home4-banner-bg-dark.png),
     linear-gradient(180deg, #1c1c1c 0%, #1c1c1c 100%);
 }
 body.dark
@@ -46213,7 +46285,8 @@ body.dark .home4-feature-section .partner-area .microsoft-partner .light {
   display: none;
 }
 body.dark .home4-process-section .process-wrapper {
-  background-image: url(../img/home4/home4-process-bg-dark.png),
+  background-image:
+    url(../img/home4/home4-process-bg-dark.png),
     linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 }
 body.dark .home4-process-section .process-wrapper ul li .divider {
@@ -46309,7 +46382,8 @@ body.dark
   display: none;
 }
 body.dark .home4-team-section {
-  background-image: url(../img/home4/home4-team-bg-dark.png),
+  background-image:
+    url(../img/home4/home4-team-bg-dark.png),
     linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 }
 body.dark .home4-team-section .button-area .arrow {
@@ -46326,7 +46400,8 @@ body.dark .team-card .team-content .social-area:hover .content span {
   color: var(--white-color);
 }
 body.dark .home5-banner-section {
-  background-image: url(../img/home5/home5-banner-bg-light.png),
+  background-image:
+    url(../img/home5/home5-banner-bg-light.png),
     linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 }
 body.dark .home5-banner-section .banner-img-wrap .counter-area {
@@ -46355,7 +46430,8 @@ body.dark .home5-service-section .service-wrapper .single-service .vector {
   stroke: #2f2f2f;
 }
 body.dark .home5-process-section {
-  background-image: url(../img/home5/home5-process-bg-light.png),
+  background-image:
+    url(../img/home5/home5-process-bg-light.png),
     linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 }
 body.dark
@@ -46404,7 +46480,8 @@ body.dark .dashboard-img-section .light {
   display: none;
 }
 body.dark .home6-review-section .review-wrapper {
-  background-image: url(../img/home6/home6-review-section-bg-dark.png),
+  background-image:
+    url(../img/home6/home6-review-section-bg-dark.png),
     linear-gradient(180deg, #1c1c1c 0%, #1c1c1c 100%);
 }
 body.dark .home6-review-section .review-wrapper .title-area {
@@ -46437,7 +46514,8 @@ body.dark
   display: none;
 }
 body.dark .home6-feature-section .feature-card4 {
-  background-image: url(../img/home6/home6-feature-card-bg-dark.png),
+  background-image:
+    url(../img/home6/home6-feature-card-bg-dark.png),
     linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 }
 body.dark .home6-feature-section .feature-card4 .feature-icon.dark {
@@ -46554,7 +46632,8 @@ body.dark
   display: block;
 }
 body.dark .home6-process-section {
-  background-image: url(../img/home6/home6-process-bg-dark.png),
+  background-image:
+    url(../img/home6/home6-process-bg-dark.png),
     linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 }
 body.dark
@@ -46661,7 +46740,8 @@ body.dark .service2-page .service-card4 {
 body.dark
   .social-responsibility-contact-section
   .social-responsibility-contact-wrap {
-  background-image: url(../img/innerpages/social-responsibility-contact-bg-dark.png),
+  background-image:
+    url(../img/innerpages/social-responsibility-contact-bg-dark.png),
     linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 }
 body.dark .career-page-position-section .single-position {
@@ -46712,7 +46792,8 @@ body.dark
   color: var(--white-color);
 }
 body.dark .details-content-wrap .testimonial-area {
-  background-image: url(../img/innerpages/portfolio-details-testimonial-bg-dark.png),
+  background-image:
+    url(../img/innerpages/portfolio-details-testimonial-bg-dark.png),
     linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 }
 body.dark .details-content-wrap .testimonial-area .quote {
@@ -46722,7 +46803,8 @@ body.dark
   .details-content-wrap.portfolio-details
   .post-thumb
   .portfolio-details-info-area {
-  background-image: url(../img/innerpages/portfolio-details-info-area-bg-dark.png),
+  background-image:
+    url(../img/innerpages/portfolio-details-info-area-bg-dark.png),
     linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 }
 body.dark .details-content-wrap.portfolio-details .social-area ul li a {
@@ -46736,7 +46818,8 @@ body.dark .comment-and-form-area .inquiry-form {
   background-color: #252525;
 }
 body.dark .details-pagination {
-  background-image: url(../img/innerpages/details-pagination-bg-dark.png),
+  background-image:
+    url(../img/innerpages/details-pagination-bg-dark.png),
     linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 }
 body.dark .details-pagination .single-pagination .pagination-btn .btn-content {
@@ -46834,7 +46917,8 @@ body.dark .team-page-content-banner.style-2 .vector {
   stroke: #2f2f2f;
 }
 body.dark .team-card-section {
-  background-image: url(../img/innerpages/team-card-section-bg-dark.png),
+  background-image:
+    url(../img/innerpages/team-card-section-bg-dark.png),
     linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 }
 body.dark
@@ -46884,7 +46968,8 @@ body.dark
   stroke: var(--white-color);
 }
 body.dark .about-page-testimonial-section {
-  background-image: url(../img/innerpages/about-page-testimonial-bg-dark.png),
+  background-image:
+    url(../img/innerpages/about-page-testimonial-bg-dark.png),
     linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 }
 body.dark .about-page-testimonial-section .testimonial-card.two {
@@ -46913,7 +46998,8 @@ body.dark .award-list-section .award-wrap .award-img-group li .award-img .dark {
   display: block;
 }
 body.dark .portfolio-carousel-slider-page {
-  background-image: url(../img/innerpages/portfolio-carousel-slider-bg-dark.png),
+  background-image:
+    url(../img/innerpages/portfolio-carousel-slider-bg-dark.png),
     linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 }
 body.dark
@@ -47213,5 +47299,5 @@ body:not(.is-mobile) .tt-style-switch:hover {
 }
 
 .font-suse {
-  font-family: var(--font-suse) !important;
+  font-family: var(--font-dmsans) !important;
 }

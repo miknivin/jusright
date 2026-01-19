@@ -1179,7 +1179,9 @@ body.tt-magic-cursor #magic-cursor {
   }
 
   > span {
-    transition: opacity 0.3s, transform 0.3s;
+    transition:
+      opacity 0.3s,
+      transform 0.3s;
     transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
     background-color: transparent;
     width: 100%;
@@ -1194,7 +1196,9 @@ body.tt-magic-cursor #magic-cursor {
       left: 0;
       opacity: 0;
       transform: translate(0, 100%);
-      transition: opacity 0.3s, transform 0.3s;
+      transition:
+        opacity 0.3s,
+        transform 0.3s;
       transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
       white-space: nowrap;
     }
@@ -1231,7 +1235,9 @@ body.tt-magic-cursor #magic-cursor {
     transform: translateY(110%);
     background-color: var(--primary-color1);
     overflow: hidden;
-    transition: opacity 0.5s, transform 0.5s;
+    transition:
+      opacity 0.5s,
+      transform 0.5s;
     z-index: -1;
   }
 
@@ -1340,7 +1346,9 @@ body.tt-magic-cursor #magic-cursor {
   }
 
   > span {
-    transition: opacity 0.3s, transform 0.3s;
+    transition:
+      opacity 0.3s,
+      transform 0.3s;
     transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
     background-color: transparent;
     width: 100%;
@@ -1355,7 +1363,9 @@ body.tt-magic-cursor #magic-cursor {
       left: 0;
       opacity: 0;
       transform: translate(0, 100%);
-      transition: opacity 0.3s, transform 0.3s;
+      transition:
+        opacity 0.3s,
+        transform 0.3s;
       transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
       white-space: nowrap;
     }
@@ -1393,7 +1403,9 @@ body.tt-magic-cursor #magic-cursor {
     transform: translateY(110%);
     background-color: var(--black-color);
     overflow: hidden;
-    transition: opacity 0.5s, transform 0.5s;
+    transition:
+      opacity 0.5s,
+      transform 0.5s;
     z-index: -1;
   }
 
@@ -2046,7 +2058,7 @@ body.tt-magic-cursor #magic-cursor {
     }
 
     h2 {
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 55px;
       font-weight: 700;
 
@@ -2113,7 +2125,7 @@ body.tt-magic-cursor #magic-cursor {
     }
 
     h2 {
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 55px;
       font-weight: 700;
 
@@ -2135,7 +2147,7 @@ body.tt-magic-cursor #magic-cursor {
 .section-title2 {
   h2 {
     color: var(--title-color);
-    font-family: var(--font-suse);
+    font-family: var(--font-dmsans);
     font-size: 55px;
     font-weight: 600;
     line-height: 1.1;
@@ -2188,7 +2200,7 @@ body.tt-magic-cursor #magic-cursor {
 
   h2 {
     color: var(--title-color);
-    font-family: var(--font-suse);
+    font-family: var(--font-dmsans);
     font-size: 55px;
     font-weight: 700;
     line-height: 1.1;
@@ -2392,7 +2404,7 @@ body.tt-magic-cursor #magic-cursor {
 
   &.two {
     label {
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
     }
   }
 }
@@ -2998,7 +3010,8 @@ header.style-1 {
           display: none;
           background: var(--white-color);
           padding: 70px 0px;
-          background-image: url(../img/home1/home1-megamenu-bg.png),
+          background-image:
+            url(../img/home1/home1-megamenu-bg.png),
             linear-gradient(#f0f0f0, #f0f0f0);
           background-size: cover;
           background-repeat: no-repeat;
@@ -3154,7 +3167,8 @@ header.style-1 {
           display: none;
           background: var(--white-color);
           padding: 70px 0px;
-          background-image: url(../img/home1/home1-megamenu-bg.png),
+          background-image:
+            url(../img/home1/home1-megamenu-bg.png),
             linear-gradient(#f0f0f0, #f0f0f0);
           background-size: cover;
           background-repeat: no-repeat;
@@ -3856,7 +3870,9 @@ header.style-1 {
       background: var(--dark-white-color);
       border-right: 1px solid var(--borders-color);
       transform: translateX(-100%);
-      transition: transform 0.3s ease-in, -webkit-transform 0.3s ease-in;
+      transition:
+        transform 0.3s ease-in,
+        -webkit-transform 0.3s ease-in;
       box-shadow: 0px 2px 20px rgba(#000, 0.03);
 
       &.show-menu {
@@ -4549,7 +4565,8 @@ header.style-2 {
           display: none;
           background: var(--white-color);
           padding: 70px 0px;
-          background-image: url(../img/home2/home2-megamenu-bg.png),
+          background-image:
+            url(../img/home2/home2-megamenu-bg.png),
             linear-gradient(#094539, #094539);
           background-size: cover;
           background-repeat: no-repeat;
@@ -4705,7 +4722,8 @@ header.style-2 {
           display: none;
           background: var(--white-color);
           padding: 70px 0px;
-          background-image: url(../img/home2/home2-megamenu-bg.png),
+          background-image:
+            url(../img/home2/home2-megamenu-bg.png),
             linear-gradient(#094539, #094539);
           background-size: cover;
           background-repeat: no-repeat;
@@ -5433,7 +5451,9 @@ header.style-2 {
       overflow: auto;
       background: #094539;
       transform: translateX(-100%);
-      transition: transform 0.3s ease-in, -webkit-transform 0.3s ease-in;
+      transition:
+        transform 0.3s ease-in,
+        -webkit-transform 0.3s ease-in;
       box-shadow: 0px 2px 20px rgba(#000, 0.03);
 
       &.show-menu {
@@ -5941,7 +5961,7 @@ header.style-3 {
               padding: 12px 20px;
               color: var(--title-color);
               font-weight: 500;
-              font-family: var(--font-suse);
+              font-family: var(--font-dmsans);
               font-size: 15px;
               line-height: 1.2;
               -webkit-transition: all 0.4s ease-out 0s;
@@ -6071,7 +6091,8 @@ header.style-3 {
           display: none;
           background: var(--white-color);
           padding: 70px 0px;
-          background-image: url(../img/home1/home1-megamenu-bg.png),
+          background-image:
+            url(../img/home1/home1-megamenu-bg.png),
             linear-gradient(#f0f0f0, #f0f0f0);
           background-size: cover;
           background-repeat: no-repeat;
@@ -6150,7 +6171,7 @@ header.style-3 {
                       }
 
                       color: var(--white-color);
-                      font-family: var(--font-suse);
+                      font-family: var(--font-dmsans);
                       font-size: 18px;
                       font-weight: 700;
                       line-height: 1;
@@ -6182,7 +6203,7 @@ header.style-3 {
 
               a {
                 color: var(--title-color);
-                font-family: var(--font-suse);
+                font-family: var(--font-dmsans);
                 font-size: 22px;
                 font-weight: 600;
                 line-height: 1.2;
@@ -6227,7 +6248,8 @@ header.style-3 {
           display: none;
           background: var(--white-color);
           padding: 70px 0px;
-          background-image: url(../img/home1/home1-megamenu-bg.png),
+          background-image:
+            url(../img/home1/home1-megamenu-bg.png),
             linear-gradient(#f0f0f0, #f0f0f0);
           background-size: cover;
           background-repeat: no-repeat;
@@ -6263,7 +6285,7 @@ header.style-3 {
 
             h2 {
               color: var(--title-color);
-              font-family: var(--font-suse);
+              font-family: var(--font-dmsans);
               font-size: 35px;
               font-weight: 600;
               line-height: 1.1;
@@ -6323,7 +6345,7 @@ header.style-3 {
 
                 h6 {
                   color: var(--text-color);
-                  font-family: var(--font-suse);
+                  font-family: var(--font-dmsans);
                   font-size: 18px;
                   font-weight: 600;
                   line-height: 1.3;
@@ -6360,7 +6382,7 @@ header.style-3 {
 
                   > a {
                     color: var(--title-color);
-                    font-family: var(--font-suse);
+                    font-family: var(--font-dmsans);
                     font-size: 22px;
                     font-weight: 500;
                     line-height: 1;
@@ -6454,7 +6476,7 @@ header.style-3 {
 
               h3 {
                 color: var(--white-color);
-                font-family: var(--font-suse);
+                font-family: var(--font-dmsans);
                 font-size: 28px;
                 font-weight: 500;
                 line-height: 1.3;
@@ -6586,7 +6608,7 @@ header.style-3 {
 
                 a {
                   color: var(--title-color);
-                  font-family: var(--font-suse);
+                  font-family: var(--font-dmsans);
                   font-size: 22px;
                   font-weight: 600;
                   line-height: 1.4;
@@ -6925,7 +6947,9 @@ header.style-3 {
       background: var(--dark-white-color);
       border-right: 1px solid var(--borders-color);
       transform: translateX(-100%);
-      transition: transform 0.3s ease-in, -webkit-transform 0.3s ease-in;
+      transition:
+        transform 0.3s ease-in,
+        -webkit-transform 0.3s ease-in;
       box-shadow: 0px 2px 20px rgba(#000, 0.03);
 
       &.show-menu {
@@ -7347,7 +7371,7 @@ header.style-4 {
 
         a {
           color: var(--title-color);
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-size: 18px;
           font-weight: 700;
           line-height: 1;
@@ -7622,7 +7646,7 @@ header.style-4 {
               padding: 12px 20px;
               color: var(--title-color);
               font-weight: 500;
-              font-family: var(--font-suse);
+              font-family: var(--font-dmsans);
               font-size: 15px;
               line-height: 1.2;
               -webkit-transition: all 0.4s ease-out 0s;
@@ -7752,7 +7776,8 @@ header.style-4 {
           display: none;
           background: var(--white-color);
           padding: 70px 0px;
-          background-image: url(../img/home1/home1-megamenu-bg.png),
+          background-image:
+            url(../img/home1/home1-megamenu-bg.png),
             linear-gradient(#f0f0f0, #f0f0f0);
           background-size: cover;
           background-repeat: no-repeat;
@@ -7831,7 +7856,7 @@ header.style-4 {
                       }
 
                       color: var(--white-color);
-                      font-family: var(--font-suse);
+                      font-family: var(--font-dmsans);
                       font-size: 18px;
                       font-weight: 700;
                       line-height: 1;
@@ -7863,7 +7888,7 @@ header.style-4 {
 
               a {
                 color: var(--title-color);
-                font-family: var(--font-suse);
+                font-family: var(--font-dmsans);
                 font-size: 22px;
                 font-weight: 600;
                 line-height: 1.2;
@@ -7908,7 +7933,8 @@ header.style-4 {
           display: none;
           background: var(--white-color);
           padding: 70px 0px;
-          background-image: url(../img/home1/home1-megamenu-bg.png),
+          background-image:
+            url(../img/home1/home1-megamenu-bg.png),
             linear-gradient(#f0f0f0, #f0f0f0);
           background-size: cover;
           background-repeat: no-repeat;
@@ -7944,7 +7970,7 @@ header.style-4 {
 
             h2 {
               color: var(--title-color);
-              font-family: var(--font-suse);
+              font-family: var(--font-dmsans);
               font-size: 35px;
               font-weight: 600;
               line-height: 1.1;
@@ -8004,7 +8030,7 @@ header.style-4 {
 
                 h6 {
                   color: var(--text-color);
-                  font-family: var(--font-suse);
+                  font-family: var(--font-dmsans);
                   font-size: 18px;
                   font-weight: 600;
                   line-height: 1.3;
@@ -8041,7 +8067,7 @@ header.style-4 {
 
                   > a {
                     color: var(--title-color);
-                    font-family: var(--font-suse);
+                    font-family: var(--font-dmsans);
                     font-size: 22px;
                     font-weight: 500;
                     line-height: 1;
@@ -8135,7 +8161,7 @@ header.style-4 {
 
               h3 {
                 color: var(--white-color);
-                font-family: var(--font-suse);
+                font-family: var(--font-dmsans);
                 font-size: 28px;
                 font-weight: 500;
                 line-height: 1.3;
@@ -8267,7 +8293,7 @@ header.style-4 {
 
                 a {
                   color: var(--title-color);
-                  font-family: var(--font-suse);
+                  font-family: var(--font-dmsans);
                   font-size: 22px;
                   font-weight: 600;
                   line-height: 1.4;
@@ -8622,7 +8648,9 @@ header.style-4 {
       background: var(--dark-white-color);
       border-right: 1px solid var(--borders-color);
       transform: translateX(-100%);
-      transition: transform 0.3s ease-in, -webkit-transform 0.3s ease-in;
+      transition:
+        transform 0.3s ease-in,
+        -webkit-transform 0.3s ease-in;
       box-shadow: 0px 2px 20px rgba(#000, 0.03);
 
       &.show-menu {
@@ -9094,7 +9122,7 @@ header.style-5 {
               line-height: 1.5;
 
               &:first-child {
-                font-family: var(--font-suse);
+                font-family: var(--font-dmsans);
                 font-weight: 500;
                 letter-spacing: 0.1em;
                 font-size: 13px;
@@ -9345,7 +9373,7 @@ header.style-5 {
               padding: 12px 20px;
               color: var(--title-color);
               font-weight: 500;
-              font-family: var(--font-suse);
+              font-family: var(--font-dmsans);
               font-size: 15px;
               line-height: 1.2;
               -webkit-transition: all 0.4s ease-out 0s;
@@ -9475,7 +9503,8 @@ header.style-5 {
           display: none;
           background: var(--white-color);
           padding: 70px 0px;
-          background-image: url(../img/home1/home1-megamenu-bg.png),
+          background-image:
+            url(../img/home1/home1-megamenu-bg.png),
             linear-gradient(#f0f0f0, #f0f0f0);
           background-size: cover;
           background-repeat: no-repeat;
@@ -9554,7 +9583,7 @@ header.style-5 {
                       }
 
                       color: var(--white-color);
-                      font-family: var(--font-suse);
+                      font-family: var(--font-dmsans);
                       font-size: 18px;
                       font-weight: 700;
                       line-height: 1;
@@ -9586,7 +9615,7 @@ header.style-5 {
 
               a {
                 color: var(--title-color);
-                font-family: var(--font-suse);
+                font-family: var(--font-dmsans);
                 font-size: 22px;
                 font-weight: 600;
                 line-height: 1.2;
@@ -9635,7 +9664,8 @@ header.style-5 {
           display: none;
           background: var(--white-color);
           padding: 70px 0px;
-          background-image: url(../img/home1/home1-megamenu-bg.png),
+          background-image:
+            url(../img/home1/home1-megamenu-bg.png),
             linear-gradient(#f0f0f0, #f0f0f0);
           background-size: cover;
           background-repeat: no-repeat;
@@ -9671,7 +9701,7 @@ header.style-5 {
 
             h2 {
               color: var(--title-color);
-              font-family: var(--font-suse);
+              font-family: var(--font-dmsans);
               font-size: 35px;
               font-weight: 600;
               line-height: 1.1;
@@ -9731,7 +9761,7 @@ header.style-5 {
 
                 h6 {
                   color: var(--text-color);
-                  font-family: var(--font-suse);
+                  font-family: var(--font-dmsans);
                   font-size: 18px;
                   font-weight: 600;
                   line-height: 1.3;
@@ -9768,7 +9798,7 @@ header.style-5 {
 
                   > a {
                     color: var(--title-color);
-                    font-family: var(--font-suse);
+                    font-family: var(--font-dmsans);
                     font-size: 22px;
                     font-weight: 500;
                     line-height: 1;
@@ -9862,7 +9892,7 @@ header.style-5 {
 
               h3 {
                 color: var(--white-color);
-                font-family: var(--font-suse);
+                font-family: var(--font-dmsans);
                 font-size: 28px;
                 font-weight: 500;
                 line-height: 1.3;
@@ -9999,7 +10029,7 @@ header.style-5 {
 
                 a {
                   color: var(--title-color);
-                  font-family: var(--font-suse);
+                  font-family: var(--font-dmsans);
                   font-size: 22px;
                   font-weight: 600;
                   line-height: 1.4;
@@ -10354,7 +10384,9 @@ header.style-5 {
       background: var(--dark-white-color);
       border-right: 1px solid var(--borders-color);
       transform: translateX(-100%);
-      transition: transform 0.3s ease-in, -webkit-transform 0.3s ease-in;
+      transition:
+        transform 0.3s ease-in,
+        -webkit-transform 0.3s ease-in;
       box-shadow: 0px 2px 20px rgba(#000, 0.03);
 
       &.show-menu {
@@ -11128,7 +11160,8 @@ header.style-6 {
           display: none;
           background: var(--white-color);
           padding: 70px 0px;
-          background-image: url(../img/home1/home1-megamenu-bg.png),
+          background-image:
+            url(../img/home1/home1-megamenu-bg.png),
             linear-gradient(#f0f0f0, #f0f0f0);
           background-size: cover;
           background-repeat: no-repeat;
@@ -11284,7 +11317,8 @@ header.style-6 {
           display: none;
           background: var(--white-color);
           padding: 70px 0px;
-          background-image: url(../img/home1/home1-megamenu-bg.png),
+          background-image:
+            url(../img/home1/home1-megamenu-bg.png),
             linear-gradient(#f0f0f0, #f0f0f0);
           background-size: cover;
           background-repeat: no-repeat;
@@ -12004,7 +12038,9 @@ header.style-6 {
       background: var(--dark-white-color);
       border-right: 1px solid var(--borders-color);
       transform: translateX(-100%);
-      transition: transform 0.3s ease-in, -webkit-transform 0.3s ease-in;
+      transition:
+        transform 0.3s ease-in,
+        -webkit-transform 0.3s ease-in;
       box-shadow: 0px 2px 20px rgba(#000, 0.03);
 
       &.show-menu {
@@ -12267,7 +12303,7 @@ header.style-7 {
 
     p {
       color: var(--white-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 16px;
       font-weight: 600;
       line-height: 24px;
@@ -12297,7 +12333,7 @@ header.style-7 {
       span,
       a {
         color: var(--white-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 16px;
         font-weight: 600;
         line-height: 24px;
@@ -12459,7 +12495,7 @@ header.style-7 {
 
     h3 {
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 28px;
       font-weight: 700;
       line-height: 1.3;
@@ -12490,7 +12526,7 @@ header.style-7 {
 
       h5 {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 22px;
         font-weight: 700;
         line-height: 1;
@@ -12568,7 +12604,7 @@ header.style-7 {
 
             a {
               color: var(--title-color);
-              font-family: var(--font-suse);
+              font-family: var(--font-dmsans);
               font-weight: 600;
               font-size: 22px;
               line-height: 1;
@@ -12601,7 +12637,7 @@ header.style-7 {
 
         h5 {
           color: var(--title-color);
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-size: 22px;
           font-weight: 700;
           line-height: 1.2;
@@ -12769,7 +12805,7 @@ header.style-7 {
             display: block;
             line-height: 1;
             position: relative;
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
             font-weight: 700;
             font-size: 22px;
             transition: all 0.5s ease-out 0s;
@@ -12835,7 +12871,7 @@ header.style-7 {
                 padding: 12px 0;
                 color: var(--title-color);
                 font-weight: 500;
-                font-family: var(--font-suse);
+                font-family: var(--font-dmsans);
                 font-size: 20px;
                 line-height: 1.2;
                 -webkit-transition: all 0.4s ease-out 0s;
@@ -13051,7 +13087,7 @@ header.style-7 {
 
         p {
           color: var(--title-color);
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-size: 16px;
           font-weight: 600;
           line-height: 24px;
@@ -13081,7 +13117,7 @@ header.style-7 {
           span,
           a {
             color: var(--title-color);
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
             font-size: 16px;
             font-weight: 600;
             line-height: 24px;
@@ -13518,7 +13554,7 @@ header.style-7 {
   &.three {
     .partner-title-area {
       h6 {
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-weight: 600;
 
         span {
@@ -13531,7 +13567,7 @@ header.style-7 {
   &.four {
     .partner-title-area {
       h6 {
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
       }
     }
   }
@@ -13556,7 +13592,7 @@ header.style-7 {
       }
 
       h6 {
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         padding: 0;
         border: unset;
         border-radius: 0;
@@ -13590,7 +13626,8 @@ header.style-7 {
 ========================================*/
 .home1-feature-section {
   .feature-banner-area {
-    background-image: url(../img/home1/home1-feature-banner-bg.png),
+    background-image:
+      url(../img/home1/home1-feature-banner-bg.png),
       linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
     background-size: cover;
     background-repeat: no-repeat;
@@ -13687,7 +13724,8 @@ header.style-7 {
         align-items: center;
         justify-content: center;
         border: 1px solid transparent;
-        background: linear-gradient(#1c1a1e, #1c1a1e) padding-box,
+        background:
+          linear-gradient(#1c1a1e, #1c1a1e) padding-box,
           linear-gradient(
               180deg,
               var(--primary-color1) 25%,
@@ -13898,7 +13936,7 @@ header.style-7 {
     }
 
     h6 {
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 16px;
     }
 
@@ -13932,7 +13970,8 @@ header.style-7 {
 ========================================*/
 .home1-process-section {
   .process-wrapper {
-    background-image: url(../img/home1/home1-process-bg.png),
+    background-image:
+      url(../img/home1/home1-process-bg.png),
       linear-gradient(180deg, #fff2e5 0%, #fff2e5 100%);
     background-size: cover;
     background-repeat: no-repeat;
@@ -14355,7 +14394,8 @@ header.style-7 {
   }
 
   .industries-banner-area {
-    background-image: url(../img/home1/industries-banner-bg.png),
+    background-image:
+      url(../img/home1/industries-banner-bg.png),
       linear-gradient(180deg, #f1f1ff 0%, #f1f1ff 100%);
     background-size: cover;
     background-repeat: no-repeat;
@@ -14446,7 +14486,7 @@ header.style-7 {
 
             span {
               color: var(--title-color2);
-              font-family: var(--font-suse);
+              font-family: var(--font-dmsans);
               font-size: 28px;
               font-weight: 700;
 
@@ -14523,7 +14563,7 @@ header.style-7 {
             }
 
             span {
-              font-family: var(--font-suse);
+              font-family: var(--font-dmsans);
               font-size: 28px;
               font-weight: 600;
 
@@ -14631,7 +14671,8 @@ header.style-7 {
   09. Home1 Service Section CSS
 ========================================*/
 .home1-service-section {
-  background-image: url(../img/home1/home1-service-bg.png),
+  background-image:
+    url(../img/home1/home1-service-bg.png),
     linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -14989,7 +15030,7 @@ header.style-7 {
       }
 
       p {
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
       }
     }
 
@@ -15393,7 +15434,8 @@ header.style-7 {
   12. Home1 Contact Section CSS
 ========================================*/
 .home1-contact-section {
-  background-image: url(../img/home1/home1-contact-bg.png),
+  background-image:
+    url(../img/home1/home1-contact-bg.png),
     linear-gradient(180deg, #f0f0ff 0%, #f0f0ff 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -15704,7 +15746,7 @@ header.style-7 {
 
     .form-inner {
       label {
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
       }
 
       input,
@@ -15717,7 +15759,7 @@ header.style-7 {
 
     .form-inner2 {
       > label {
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
       }
 
       .form-check {
@@ -15928,7 +15970,8 @@ header.style-7 {
   14. Home1 Footer Section CSS
 ========================================*/
 .footer-section {
-  background-image: url(../img/home1/footer-bg.png),
+  background-image:
+    url(../img/home1/footer-bg.png),
     linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -16186,7 +16229,7 @@ header.style-7 {
 
       h5 {
         color: var(--white-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 22px;
         font-weight: 600;
         line-height: 1;
@@ -16400,7 +16443,7 @@ header.style-7 {
 
       span {
         color: var(--white-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 28px;
         font-weight: 600;
         line-height: 1;
@@ -16430,7 +16473,8 @@ header.style-7 {
   }
 
   &.style-2 {
-    background-image: url(../img/home2/footer-bg.png),
+    background-image:
+      url(../img/home2/footer-bg.png),
       linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 
     .footer-menu-wrap {
@@ -16696,7 +16740,7 @@ header.style-7 {
         }
 
         h2 {
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-weight: 700;
           max-width: 472px;
           width: 100%;
@@ -16708,7 +16752,7 @@ header.style-7 {
           .single-contact {
             .content {
               a {
-                font-family: var(--font-suse);
+                font-family: var(--font-dmsans);
               }
             }
           }
@@ -16717,7 +16761,7 @@ header.style-7 {
         .footer-widget {
           .widget-title {
             h3 {
-              font-family: var(--font-suse);
+              font-family: var(--font-dmsans);
             }
           }
         }
@@ -16725,7 +16769,7 @@ header.style-7 {
 
       .newsletter-area {
         h3 {
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
         }
       }
 
@@ -16753,7 +16797,7 @@ header.style-7 {
     }
 
     .file-download-btn {
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       margin-top: 40px;
       margin-bottom: 0;
       padding: 11px 20px;
@@ -16791,7 +16835,7 @@ header.style-7 {
         max-width: 470px;
 
         h2 {
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-weight: 700;
         }
 
@@ -16801,7 +16845,7 @@ header.style-7 {
           .single-contact {
             .content {
               a {
-                font-family: var(--font-suse);
+                font-family: var(--font-dmsans);
               }
             }
           }
@@ -16811,14 +16855,14 @@ header.style-7 {
       .footer-widget {
         .widget-title {
           h3 {
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
           }
         }
       }
 
       .newsletter-area {
         h3 {
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
         }
       }
 
@@ -16841,7 +16885,7 @@ header.style-7 {
     .file-download-btn {
       margin-top: 40px;
       margin-bottom: 0;
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       padding: 11px 15px;
       border: 1px solid rgba(#fff, 0.1);
       background-color: #18161a;
@@ -16993,7 +17037,7 @@ header.style-7 {
         }
 
         h2 {
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-weight: 700;
         }
 
@@ -17010,7 +17054,7 @@ header.style-7 {
           .single-contact {
             .content {
               a {
-                font-family: var(--font-suse);
+                font-family: var(--font-dmsans);
 
                 &:hover {
                   color: var(--primary-color4);
@@ -17069,7 +17113,7 @@ header.style-7 {
       .footer-widget {
         .widget-title {
           h3 {
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
           }
         }
 
@@ -17087,7 +17131,7 @@ header.style-7 {
 
       .newsletter-area {
         h3 {
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
         }
       }
     }
@@ -17388,7 +17432,7 @@ header.style-7 {
 
       h2 {
         color: var(--white-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 70px;
         font-weight: 600;
         line-height: 1.1;
@@ -17421,7 +17465,7 @@ header.style-7 {
 
       .mail-area {
         color: var(--primary-color4);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 28px;
         font-weight: 600;
         line-height: 1;
@@ -17464,7 +17508,7 @@ header.style-7 {
       .company-logo-area {
         h4 {
           color: var(--white-color);
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-size: 28px;
           font-weight: 600;
           line-height: 1.3;
@@ -17480,14 +17524,14 @@ header.style-7 {
       .footer-widget {
         .widget-title {
           h3 {
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
           }
         }
       }
 
       .newsletter-area {
         h3 {
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
         }
       }
     }
@@ -17502,7 +17546,8 @@ header.style-7 {
   15. Home2 Banner Section CSS
 ========================================*/
 .home2-banner-section {
-  background-image: url(../img/home2/home2-banner-bg.png),
+  background-image:
+    url(../img/home2/home2-banner-bg.png),
     linear-gradient(180deg, #003c30 0%, #003c30 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -17828,11 +17873,8 @@ header.style-7 {
 
 .home2-feature-section {
   .feature-contact-banner {
-    background-image: linear-gradient(
-        180deg,
-        rgba(#000000, 0.25) 0%,
-        rgba(#000000, 0.25) 100%
-      ),
+    background-image:
+      linear-gradient(180deg, rgba(#000000, 0.25) 0%, rgba(#000000, 0.25) 100%),
       url(../img/home2/feature-contact-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -18158,7 +18200,8 @@ header.style-7 {
   }
 
   &.two {
-    background-image: url(../img/home2/home2-service-card-bg2.png),
+    background-image:
+      url(../img/home2/home2-service-card-bg2.png),
       linear-gradient(180deg, #f8f8f8 0%, #f8f8f8 100%);
     background-size: cover;
     background-repeat: no-repeat;
@@ -18173,7 +18216,8 @@ header.style-7 {
   18. Home2 Global Map Section CSS
 ========================================*/
 .home2-global-map-section {
-  background-image: url(../img/home2/home2-global-map-bg.png),
+  background-image:
+    url(../img/home2/home2-global-map-bg.png),
     linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -18628,7 +18672,8 @@ header.style-7 {
   }
 
   .process-wrapper {
-    background-image: url(../img/home2/home2-process-bg.png),
+    background-image:
+      url(../img/home2/home2-process-bg.png),
       linear-gradient(180deg, rgba(255, 255, 255, 0) 58.31%, #78eb54 100%);
     background-color: var(--white-color);
     background-size: cover;
@@ -18776,7 +18821,8 @@ header.style-7 {
   }
 
   .testimonial-content-wrap {
-    background-image: url(../img/home2/home2-testimonial-bg.png),
+    background-image:
+      url(../img/home2/home2-testimonial-bg.png),
       linear-gradient(180deg, #f0f0f0 0%, #f0f0f0 100%);
     background-size: cover;
     background-repeat: no-repeat;
@@ -19180,7 +19226,8 @@ header.style-7 {
   21. Home2 Feature Slider Section CSS
 ========================================*/
 .home2-feature-slider-section {
-  background-image: url(../img/home2/home2-feature-slider-bg.png),
+  background-image:
+    url(../img/home2/home2-feature-slider-bg.png),
     linear-gradient(180deg, #fff2e5 0%, #fff2e5 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -19591,7 +19638,8 @@ header.style-7 {
   }
 
   .banner-wrapper {
-    background-image: url(../img/home2/home2-app-banner-bg.png),
+    background-image:
+      url(../img/home2/home2-app-banner-bg.png),
       linear-gradient(180deg, #003c30 0%, #003c30 100%);
     background-size: cover;
     background-repeat: no-repeat;
@@ -19716,7 +19764,8 @@ header.style-7 {
   24. Home2 Contact Section CSS
 ========================================*/
 .home2-contact-section {
-  background-image: url(../img/home2/home2-contact-bg.png),
+  background-image:
+    url(../img/home2/home2-contact-bg.png),
     linear-gradient(180deg, #fff2e5 0%, #fff2e5 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -19859,7 +19908,7 @@ header.style-7 {
 
       h1 {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 70px;
         font-weight: 700;
         line-height: 1.1;
@@ -19870,12 +19919,13 @@ header.style-7 {
 
         span {
           color: var(--dark-title-color);
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-size: 22px;
           font-weight: 700;
           line-height: 1;
           padding: 12px 12px;
-          background-image: url(../img/home3/banner-text-bg.png),
+          background-image:
+            url(../img/home3/banner-text-bg.png),
             linear-gradient(180deg, #8adf99 0%, #8adf99 100%);
           background-size: cover;
           background-repeat: no-repeat;
@@ -20001,7 +20051,7 @@ header.style-7 {
               h3,
               span {
                 color: var(--title-color);
-                font-family: var(--font-suse);
+                font-family: var(--font-dmsans);
                 font-size: 28px;
                 font-weight: 700;
                 line-height: 1;
@@ -20011,7 +20061,7 @@ header.style-7 {
 
             p {
               color: var(--title-color);
-              font-family: var(--font-suse);
+              font-family: var(--font-dmsans);
               font-size: 18px;
               font-weight: 600;
               line-height: 1;
@@ -20085,7 +20135,7 @@ header.style-7 {
 
       span {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 18px;
         font-weight: 500;
         line-height: 22.68px;
@@ -20160,7 +20210,9 @@ header.style-7 {
     height: 328px;
     margin-left: auto;
     z-index: 1;
-    transition: width 0.3s ease-out, position 0.3s ease;
+    transition:
+      width 0.3s ease-out,
+      position 0.3s ease;
     direction: rtl;
     z-index: 9;
     margin-top: -60px;
@@ -20244,7 +20296,7 @@ header.style-7 {
 
       h6 {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 18px;
         font-weight: 700;
         line-height: 1.2;
@@ -20327,7 +20379,7 @@ header.style-7 {
     .content {
       h6 {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 28px;
         font-weight: 700;
         line-height: 1;
@@ -20358,7 +20410,8 @@ header.style-7 {
   }
 
   .about-feature-card {
-    background-image: url(../img/home3/about-feature-card-bg1.png),
+    background-image:
+      url(../img/home3/about-feature-card-bg1.png),
       linear-gradient(180deg, #f8f8f8 0%, #f8f8f8 100%);
     background-size: cover;
     background-repeat: no-repeat;
@@ -20393,7 +20446,7 @@ header.style-7 {
       h2,
       span {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 55px;
         font-weight: 700;
         line-height: 1;
@@ -20445,11 +20498,8 @@ header.style-7 {
     }
 
     &.three {
-      background-image: linear-gradient(
-          180deg,
-          rgba(0, 0, 0, 0.2) 0%,
-          rgba(0, 0, 0, 0.2) 100%
-        ),
+      background-image:
+        linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
         url(../img/home3/about-feature-card-bg3.png);
       background-position: left;
 
@@ -20463,7 +20513,7 @@ header.style-7 {
 
         h3 {
           color: var(--white-color);
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-size: 28px;
           font-weight: 700;
           line-height: 35.28px;
@@ -20733,7 +20783,7 @@ header.style-7 {
 
       a {
         color: var(--white-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 28px;
         font-weight: 700;
         line-height: 1.3;
@@ -20773,7 +20823,7 @@ header.style-7 {
 
     .tag {
       color: var(--white-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 14px;
       font-weight: 700;
       line-height: 1;
@@ -20907,7 +20957,7 @@ header.style-7 {
 
           a {
             color: var(--title-color);
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
             font-size: 28px;
             font-weight: 700;
             line-height: 1.4;
@@ -20940,7 +20990,9 @@ header.style-7 {
         left: 0;
         opacity: 0;
         z-index: -1;
-        transition: opacity 0.3s, transform 0.7s cubic-bezier(0.23, 1, 0.32, 1);
+        transition:
+          opacity 0.3s,
+          transform 0.7s cubic-bezier(0.23, 1, 0.32, 1);
         border-radius: 5px;
         overflow: hidden;
         pointer-events: none;
@@ -20977,7 +21029,7 @@ header.style-7 {
 
           li {
             color: var(--title-color);
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
             font-size: 16px;
             font-weight: 600;
             line-height: 1;
@@ -21061,7 +21113,8 @@ header.style-7 {
   29. Home3 Service Section CSS
 ========================================*/
 .home3-process-section {
-  background-image: url(../img/home3/home3-process-bg.png),
+  background-image:
+    url(../img/home3/home3-process-bg.png),
     linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -21162,7 +21215,7 @@ header.style-7 {
 
         strong {
           color: var(--white-color);
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-size: 18px;
           font-weight: 700;
           line-height: 1;
@@ -21171,7 +21224,7 @@ header.style-7 {
 
       h4 {
         color: var(--white-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 28px;
         font-weight: 700;
         line-height: 36px;
@@ -21321,7 +21374,7 @@ header.style-7 {
 
       p {
         color: var(--white-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 35px;
         font-weight: 600;
         line-height: 1.3;
@@ -21358,7 +21411,7 @@ header.style-7 {
       .founder-name-and-desig {
         h5 {
           color: var(--white-color);
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-size: 22px;
           font-weight: 700;
           line-height: 1.2;
@@ -21381,11 +21434,8 @@ header.style-7 {
   30. Home3 Testimonial Section CSS
 ========================================*/
 .home3-testimonial-section {
-  background-image: linear-gradient(
-      180deg,
-      rgba(#f0f0f0, 0.6) 0%,
-      rgba(#f0f0f0, 0.6) 100%
-    ),
+  background-image:
+    linear-gradient(180deg, rgba(#f0f0f0, 0.6) 0%, rgba(#f0f0f0, 0.6) 100%),
     url(../img/home3/home3-testimonial-section-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -21575,7 +21625,7 @@ header.style-7 {
 
         h5 {
           color: var(--title-color);
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-size: 22px;
           font-weight: 700;
           line-height: 1.3;
@@ -21616,7 +21666,7 @@ header.style-7 {
 
     p {
       color: var(--text-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 28px;
       font-weight: 500;
       line-height: 36px;
@@ -21826,7 +21876,7 @@ header.style-7 {
 
       a {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 28px;
         font-weight: 700;
         line-height: 1.4;
@@ -22056,7 +22106,8 @@ header.style-7 {
   32. Home3 Scroll Text CSS
 ========================================*/
 .home3-scroll-text-area {
-  background-image: url(../img/home3/home3-scroll-text-bg.png),
+  background-image:
+    url(../img/home3/home3-scroll-text-bg.png),
     linear-gradient(180deg, #5956e9 0%, #5956e9 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -22095,7 +22146,7 @@ header.style-7 {
 
     a {
       color: var(--white-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 55px;
       font-weight: 700;
       line-height: 1;
@@ -22132,7 +22183,8 @@ header.style-7 {
   33. Home4 Banner Section CSS
 ========================================*/
 .home4-banner-section {
-  background-image: url(../img/home4/home4-banner-bg.png),
+  background-image:
+    url(../img/home4/home4-banner-bg.png),
     linear-gradient(180deg, #f0f0f0 0%, #f0f0f0 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -22188,7 +22240,7 @@ header.style-7 {
 
     h5 {
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 22px;
       font-weight: 600;
       line-height: 1.2;
@@ -22303,7 +22355,7 @@ header.style-7 {
 
     h1 {
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 70px;
       font-weight: 600;
       line-height: 1.1;
@@ -22459,7 +22511,7 @@ header.style-7 {
             h3,
             span {
               color: var(--title-color);
-              font-family: var(--font-suse);
+              font-family: var(--font-dmsans);
               font-size: 28px;
               font-weight: 700;
               line-height: 1;
@@ -22469,7 +22521,7 @@ header.style-7 {
 
           p {
             color: var(--title-color);
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
             font-size: 18px;
             font-weight: 600;
             line-height: 1;
@@ -22518,7 +22570,7 @@ header.style-7 {
           h4,
           span {
             color: var(--white-color);
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
             font-size: 28px;
             font-weight: 700;
             line-height: 1;
@@ -22651,7 +22703,7 @@ header.style-7 {
   .feature-content {
     h4 {
       color: var(--dark-title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 28px;
       font-weight: 600;
       line-height: 1.3;
@@ -22737,7 +22789,8 @@ header.style-7 {
 
   .process-wrapper {
     padding: 40px 35px;
-    background-image: url(../img/home4/home4-process-bg.png),
+    background-image:
+      url(../img/home4/home4-process-bg.png),
       linear-gradient(180deg, #f0f0f0 0%, #f0f0f0 100%);
     background-size: cover;
     background-repeat: no-repeat;
@@ -22841,7 +22894,7 @@ header.style-7 {
 
             strong {
               color: var(--white-color);
-              font-family: var(--font-suse);
+              font-family: var(--font-dmsans);
               font-size: 18px;
               font-weight: 700;
               line-height: 1;
@@ -22851,7 +22904,7 @@ header.style-7 {
           .process-content {
             h5 {
               color: var(--title-color);
-              font-family: var(--font-suse);
+              font-family: var(--font-dmsans);
               font-size: 22px;
               font-weight: 700;
               line-height: 1.3;
@@ -22930,7 +22983,7 @@ header.style-7 {
 
     span {
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 22px;
       font-weight: 700;
       line-height: 1;
@@ -22940,7 +22993,7 @@ header.style-7 {
 
     p {
       color: var(--text-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 18px;
       font-weight: 600;
       line-height: 22.68px;
@@ -22998,7 +23051,7 @@ header.style-7 {
 
     a {
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 28px;
       font-weight: 700;
       line-height: 1.3;
@@ -23030,7 +23083,7 @@ header.style-7 {
 
     li {
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 16px;
       font-weight: 600;
       line-height: 1.5;
@@ -23195,7 +23248,7 @@ header.style-7 {
         h2,
         span {
           color: var(--white-color);
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-size: 45px;
           font-weight: 700;
           line-height: 1;
@@ -23214,7 +23267,7 @@ header.style-7 {
 
       p {
         color: var(--white-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 22px;
         font-weight: 600;
         line-height: 27.72px;
@@ -23280,7 +23333,7 @@ header.style-7 {
 
     span {
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 22px;
       font-weight: 700;
       line-height: 1;
@@ -23290,7 +23343,7 @@ header.style-7 {
 
     p {
       color: var(--text-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 18px;
       font-weight: 600;
       line-height: 22.68px;
@@ -23428,7 +23481,7 @@ header.style-7 {
                 h4,
                 span {
                   color: var(--white-color);
-                  font-family: var(--font-suse);
+                  font-family: var(--font-dmsans);
                   font-size: 28px;
                   font-weight: 700;
                   line-height: 1;
@@ -23499,7 +23552,7 @@ header.style-7 {
 
           a {
             color: var(--text-color);
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
             font-size: 35px;
             font-weight: 600;
             line-height: 1.2;
@@ -23794,7 +23847,7 @@ header.style-7 {
 
       span {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 22px;
         font-weight: 700;
         line-height: 1;
@@ -23804,7 +23857,7 @@ header.style-7 {
 
       p {
         color: var(--text-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 18px;
         font-weight: 600;
         line-height: 22.68px;
@@ -23827,7 +23880,7 @@ header.style-7 {
 
       .award-title {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 28px;
         font-weight: 700;
         line-height: 1.2;
@@ -23978,7 +24031,7 @@ header.style-7 {
 
     p {
       color: var(--text-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 28px;
       font-weight: 500;
       line-height: 1.3;
@@ -24005,7 +24058,7 @@ header.style-7 {
 
       h5 {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 22px;
         font-weight: 700;
         line-height: 1.3;
@@ -24103,7 +24156,7 @@ header.style-7 {
 
     span {
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 22px;
       font-weight: 700;
       line-height: 1;
@@ -24113,7 +24166,7 @@ header.style-7 {
 
     p {
       color: var(--text-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 18px;
       font-weight: 600;
       line-height: 22.68px;
@@ -24234,7 +24287,7 @@ header.style-7 {
 
         a {
           color: var(--title-color);
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-size: 28px;
           font-weight: 600;
           line-height: 1.3;
@@ -24285,7 +24338,7 @@ header.style-7 {
             }
 
             color: var(--title-color);
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
             font-size: 18px;
             font-weight: 500;
             line-height: 1.4;
@@ -24510,7 +24563,8 @@ header.style-7 {
   42. Home4 Team Section CSS
 ========================================*/
 .home4-team-section {
-  background-image: url(../img/home4/home4-team-bg.png),
+  background-image:
+    url(../img/home4/home4-team-bg.png),
     linear-gradient(180deg, #e7e6c7 0%, #e7e6c7 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -24539,7 +24593,7 @@ header.style-7 {
 
     h5 {
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 22px;
       font-weight: 600;
       line-height: 1.3;
@@ -24623,7 +24677,7 @@ header.style-7 {
 
       a {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 22px;
         font-weight: 700;
         line-height: 1.2;
@@ -24697,7 +24751,7 @@ header.style-7 {
           .content {
             span {
               color: var(--title-color);
-              font-family: var(--font-suse);
+              font-family: var(--font-dmsans);
               font-size: 14px;
               font-weight: 600;
               line-height: 1;
@@ -24840,7 +24894,9 @@ header.style-7 {
             transform: translateX(-50%);
             opacity: 0; // Hide initially
             visibility: hidden; // Prevent interaction when hidden
-            transition: all 0.6s ease, opacity 0.3s ease;
+            transition:
+              all 0.6s ease,
+              opacity 0.3s ease;
 
             @include lg-down-device() {
               max-width: 150px;
@@ -24992,7 +25048,8 @@ header.style-7 {
   44. Home5 Banner Section CSS
 ========================================*/
 .home5-banner-section {
-  background-image: url(../img/home5/home5-banner-bg.png),
+  background-image:
+    url(../img/home5/home5-banner-bg.png),
     linear-gradient(180deg, #ffffff 0%, #ffffff 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -25075,7 +25132,7 @@ header.style-7 {
 
     h1 {
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 70px;
       font-weight: 700;
       line-height: 1.1;
@@ -25232,7 +25289,7 @@ header.style-7 {
           }
 
           color: var(--white-color);
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-size: 16px;
           font-weight: 600;
           line-height: 1;
@@ -25331,7 +25388,7 @@ header.style-7 {
             h4,
             span {
               color: var(--secondary-color);
-              font-family: var(--font-suse);
+              font-family: var(--font-dmsans);
               font-size: 28px;
               font-weight: 700;
               line-height: 1;
@@ -25471,7 +25528,7 @@ header.style-7 {
 
       h4 {
         color: var(--white-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 28px;
         font-weight: 600;
         line-height: 1.2;
@@ -25562,7 +25619,7 @@ header.style-7 {
           h2,
           span {
             color: var(--title-color);
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
             font-size: 35px;
             font-weight: 600;
             line-height: 1;
@@ -25656,7 +25713,7 @@ header.style-7 {
       .service-content {
         h2 {
           color: var(--title-color);
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-size: 35px;
           font-weight: 700;
           line-height: 1.2;
@@ -25883,7 +25940,7 @@ header.style-7 {
     .benefit-area {
       h5 {
         color: var(--white-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 22px;
         font-weight: 700;
         line-height: 1.2;
@@ -25940,7 +25997,7 @@ header.style-7 {
           h2,
           span {
             color: var(--white-color);
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
             font-size: 55px;
             font-weight: 700;
             line-height: 1;
@@ -25976,7 +26033,8 @@ header.style-7 {
   48. Home5 Process Section CSS
 ========================================*/
 .home5-process-section {
-  background-image: url(../img/home5/home5-process-bg.png),
+  background-image:
+    url(../img/home5/home5-process-bg.png),
     linear-gradient(180deg, #f0f0ff 0%, #f0f0ff 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -25996,7 +26054,7 @@ header.style-7 {
 
     span {
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 22px;
       font-weight: 700;
       line-height: 1;
@@ -26006,7 +26064,7 @@ header.style-7 {
 
     p {
       color: var(--text-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 18px;
       font-weight: 600;
       line-height: 22.68px;
@@ -26142,7 +26200,7 @@ header.style-7 {
 
       strong {
         color: var(--white-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 18px;
         font-weight: 700;
         line-height: 1;
@@ -26151,7 +26209,7 @@ header.style-7 {
 
     h5 {
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 22px;
       font-weight: 600;
       line-height: 27.72px;
@@ -26208,7 +26266,7 @@ header.style-7 {
 
     p {
       color: var(--text-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 16px;
       font-weight: 500;
       line-height: 24px;
@@ -26281,7 +26339,7 @@ header.style-7 {
 
     h4 {
       color: var(--white-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 28px;
       font-weight: 700;
       line-height: 35.28px;
@@ -26301,7 +26359,7 @@ header.style-7 {
 
       h6 {
         color: var(--white-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 16px;
         font-weight: 500;
         line-height: 1;
@@ -26517,7 +26575,7 @@ header.style-7 {
 
     h2 {
       color: var(--white-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 35px;
       font-weight: 600;
       line-height: 1.2;
@@ -26565,7 +26623,7 @@ header.style-7 {
 
           h6 {
             color: var(--white-color);
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
             font-size: 16px;
             font-weight: 600;
             line-height: 20.16px;
@@ -26742,7 +26800,7 @@ header.style-7 {
 
         a {
           color: var(--title-color);
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-size: 28px;
           font-weight: 600;
           line-height: 1.2;
@@ -27233,11 +27291,8 @@ header.style-7 {
 ========================================*/
 .home6-review-section {
   .review-wrapper {
-    background-image: linear-gradient(
-        180deg,
-        rgba(#f0f0f0, 0.5) 0%,
-        rgba(#f0f0f0, 0.5) 100%
-      ),
+    background-image:
+      linear-gradient(180deg, rgba(#f0f0f0, 0.5) 0%, rgba(#f0f0f0, 0.5) 100%),
       url(../img/home6/home6-review-section-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -27459,11 +27514,8 @@ header.style-7 {
 ========================================*/
 .home6-feature-section {
   .feature-card4 {
-    background-image: linear-gradient(
-        180deg,
-        rgba(#f0f0f0, 0.5) 0%,
-        rgba(#f0f0f0, 0.5) 100%
-      ),
+    background-image:
+      linear-gradient(180deg, rgba(#f0f0f0, 0.5) 0%, rgba(#f0f0f0, 0.5) 100%),
       url(../img/home6/home6-feature-card-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -28525,7 +28577,8 @@ header.style-7 {
   60. Home6 Process Section CSS
 ========================================*/
 .home6-process-section {
-  background-image: url(../img/home6/home6-process-bg.png),
+  background-image:
+    url(../img/home6/home6-process-bg.png),
     linear-gradient(180deg, #ffefb4 0%, #ffefb4 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -28972,7 +29025,7 @@ header.style-7 {
         .accordion-header {
           .accordion-button {
             background-color: var(--dark-white-color);
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
             font-weight: 500;
             padding: 15px 25px;
 
@@ -29095,7 +29148,8 @@ header.style-7 {
   63. Home7 Banner Section CSS
 ========================================*/
 .home7-banner-section {
-  background-image: url(../img/home7/home7-banner-bg.png),
+  background-image:
+    url(../img/home7/home7-banner-bg.png),
     linear-gradient(180deg, #0d0d0e 0%, #0d0d0e 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -29113,7 +29167,7 @@ header.style-7 {
     .title-area {
       h1 {
         color: var(--white-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 70px;
         font-weight: 700;
         line-height: 1.1;
@@ -29360,7 +29414,7 @@ header.style-7 {
 
     p {
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 45px;
       font-weight: 500;
       line-height: 1.2;
@@ -29445,7 +29499,8 @@ header.style-7 {
         border: 1px solid rgba(#eee, 0.8);
         border-radius: 100px;
         position: relative; // Allows better stacking
-        transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1),
+        transition:
+          transform 0.8s cubic-bezier(0.25, 1, 0.5, 1),
           z-index 0.8s ease;
 
         @include xl-down-device() {
@@ -29486,7 +29541,7 @@ header.style-7 {
 
           h4 {
             color: var(--title-color);
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
             font-size: 28px;
             font-weight: 700;
             line-height: 1;
@@ -29586,7 +29641,7 @@ header.style-7 {
 
     h6 {
       color: var(--text-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 16px;
       font-weight: 600;
       line-height: 1.5;
@@ -29663,7 +29718,7 @@ header.style-7 {
 
       h6 {
         color: var(--text-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 16px;
         font-weight: 500;
         line-height: 24px;
@@ -29840,7 +29895,7 @@ header.style-7 {
 
       a {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 28px;
         font-weight: 600;
         line-height: 1.2;
@@ -29974,7 +30029,7 @@ header.style-7 {
 
         h2 {
           color: var(--title-color);
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-size: 55px;
           font-weight: 600;
           line-height: 1.1;
@@ -30018,7 +30073,9 @@ header.style-7 {
           span {
             opacity: 0;
             visibility: hidden;
-            transition: opacity 0.5s ease, visibility 0.5s ease;
+            transition:
+              opacity 0.5s ease,
+              visibility 0.5s ease;
           }
 
           &:hover {
@@ -30091,7 +30148,7 @@ header.style-7 {
 
       h6 {
         color: var(--text-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         max-width: unset;
         width: unset;
       }
@@ -30202,7 +30259,7 @@ header.style-7 {
 
       td {
         color: var(--dark-text-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 22px;
         font-weight: 500;
         padding: 30px;
@@ -30442,7 +30499,7 @@ header.style-7 {
 
     h1 {
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-weight: 700;
       font-size: 70px;
       line-height: 1.1;
@@ -30601,7 +30658,7 @@ header.style-7 {
     .page-item {
       a {
         color: var(--text-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 16px;
         font-weight: 600;
         line-height: 1;
@@ -30702,7 +30759,7 @@ header.style-7 {
     .nav-item {
       .nav-link {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-weight: 600;
         font-size: 16px;
         line-height: 1;
@@ -30767,7 +30824,9 @@ header.style-7 {
     left: 0;
     opacity: 0;
     z-index: 1;
-    transition: opacity 0.3s, transform 0.7s cubic-bezier(0.23, 1, 0.32, 1);
+    transition:
+      opacity 0.3s,
+      transform 0.7s cubic-bezier(0.23, 1, 0.32, 1);
 
     h6 {
       margin-bottom: 0;
@@ -30775,7 +30834,7 @@ header.style-7 {
 
       a {
         color: var(--white-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 22px;
         font-weight: 600;
         line-height: 24px;
@@ -30861,7 +30920,7 @@ header.style-7 {
     .banner-title {
       h2 {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-weight: 700;
         font-size: 45px;
         line-height: 1.2;
@@ -30965,7 +31024,7 @@ header.style-7 {
       .nav-item {
         .nav-link {
           color: var(--title-color);
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-weight: 600;
           font-size: 18px;
           line-height: 1;
@@ -31033,7 +31092,7 @@ header.style-7 {
 
         h4 {
           color: var(--title-color);
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-weight: 600;
           font-size: 28px;
           line-height: 1.4;
@@ -31046,7 +31105,7 @@ header.style-7 {
 
         span {
           color: var(--primary-color3);
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-weight: 600;
           font-size: 14px;
           line-height: 1;
@@ -31059,7 +31118,7 @@ header.style-7 {
 
       h2 {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-weight: 600;
         font-size: 45px;
         line-height: 1.1;
@@ -31139,7 +31198,7 @@ header.style-7 {
 
       h6 {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-weight: 600;
         font-size: 18px;
         line-height: 1.5;
@@ -31223,7 +31282,7 @@ header.style-7 {
 
     h4 {
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-weight: 600;
       font-size: 28px;
       line-height: 1.3;
@@ -31315,7 +31374,7 @@ header.style-7 {
 
             a {
               color: var(--title-color);
-              font-family: var(--font-suse);
+              font-family: var(--font-dmsans);
               font-weight: 500;
               font-size: 22px;
               line-height: 1;
@@ -31478,7 +31537,7 @@ header.style-7 {
             h2,
             span {
               color: var(--white-color);
-              font-family: var(--font-suse);
+              font-family: var(--font-dmsans);
               font-weight: 600;
               font-size: 45px;
               line-height: 1;
@@ -31546,7 +31605,7 @@ header.style-7 {
     .banner-title {
       h2 {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-weight: 700;
         font-size: 45px;
         line-height: 1.2;
@@ -31571,7 +31630,7 @@ header.style-7 {
 
       p {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-weight: 500;
         font-size: 22px;
         line-height: 1.5;
@@ -31721,7 +31780,7 @@ header.style-7 {
 
       a {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-weight: 700;
         font-size: 28px;
         line-height: 1.3;
@@ -31847,7 +31906,7 @@ header.style-7 {
       h2,
       span {
         color: var(--white-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-weight: 600;
         font-size: 45px;
         line-height: 1;
@@ -31972,7 +32031,7 @@ header.style-7 {
 
     h2 {
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-weight: 700;
       font-size: 55px;
       line-height: 1.2;
@@ -32062,7 +32121,8 @@ header.style-7 {
 
 .social-responsibility-contact-section {
   .social-responsibility-contact-wrap {
-    background-image: url(../img/innerpages/social-responsibility-contact-bg.png),
+    background-image:
+      url(../img/innerpages/social-responsibility-contact-bg.png),
       linear-gradient(180deg, #f0f0f0 0%, #f0f0f0 100%);
     background-size: cover;
     background-repeat: no-repeat;
@@ -32087,7 +32147,7 @@ header.style-7 {
 
       h2 {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-weight: 700;
         font-size: 55px;
         line-height: 1.2;
@@ -32167,7 +32227,7 @@ header.style-7 {
             .content {
               span {
                 color: var(--dark-title-color);
-                font-family: var(--font-suse);
+                font-family: var(--font-dmsans);
                 font-size: 14px;
                 font-weight: 600;
                 line-height: 1;
@@ -32323,7 +32383,7 @@ header.style-7 {
 
         span {
           color: var(--title-color);
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-weight: 500;
           font-size: 18px;
           line-height: 28px;
@@ -32331,7 +32391,7 @@ header.style-7 {
 
         a {
           color: var(--primary-color3);
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-weight: 600;
           font-size: 18px;
           line-height: 28px;
@@ -32390,7 +32450,7 @@ header.style-7 {
 
     h5 {
       color: var(--dark-title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-weight: 600;
       font-size: 22px;
       line-height: 1.4;
@@ -32519,7 +32579,7 @@ header.style-7 {
 
     h5 {
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-weight: 500;
       font-size: 22px;
       line-height: 1.4;
@@ -32656,7 +32716,7 @@ header.style-7 {
 
       h4 {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-weight: 600;
         font-size: 28px;
         line-height: 1.3;
@@ -32731,7 +32791,7 @@ header.style-7 {
 
           strong {
             color: var(--title-color);
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
             font-weight: 600;
             font-size: 18px;
             line-height: 1;
@@ -32840,7 +32900,7 @@ header.style-7 {
 
     h4 {
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-weight: 600;
       font-size: 35px;
       line-height: 1.3;
@@ -32988,7 +33048,7 @@ header.style-7 {
 
           a {
             color: var(--dark-title-color);
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
             font-size: 22px;
             font-weight: 600;
             line-height: 27px;
@@ -33032,7 +33092,7 @@ header.style-7 {
 
     h4 {
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-weight: 500;
       font-size: 28px;
       line-height: 1.3;
@@ -33093,7 +33153,7 @@ header.style-7 {
 
     .form-inner2 {
       > label {
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
       }
 
       .form-check {
@@ -33150,7 +33210,8 @@ header.style-7 {
       .modal-header {
         padding: 35px 20px;
         border-bottom: 1px solid var(--borders-color);
-        background-image: url(../img/innerpages/job-form-modal-header-bg.png),
+        background-image:
+          url(../img/innerpages/job-form-modal-header-bg.png),
           linear-gradient(180deg, #5956e9 0%, #5956e9 100%);
         background-size: cover;
         background-repeat: no-repeat;
@@ -33163,7 +33224,7 @@ header.style-7 {
 
         .modal-title {
           color: var(--white-color);
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-size: 45px;
           font-weight: 600;
           line-height: 1.2;
@@ -33262,7 +33323,7 @@ header.style-7 {
         .single-info {
           .info-title {
             color: var(--title-color);
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
             font-size: 28px;
             font-weight: 600;
             line-height: 1.2;
@@ -33281,7 +33342,7 @@ header.style-7 {
 
           .form-inner {
             label {
-              font-family: var(--font-suse);
+              font-family: var(--font-dmsans);
             }
 
             textarea {
@@ -33465,7 +33526,7 @@ header.style-7 {
 
     h2 {
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-weight: 700;
       font-size: 55px;
       line-height: 1.1;
@@ -33530,7 +33591,7 @@ header.style-7 {
 
   h2 {
     color: var(--title-color);
-    font-family: var(--font-suse);
+    font-family: var(--font-dmsans);
     font-weight: 600;
     font-size: 35px;
     line-height: 1.2;
@@ -33570,7 +33631,7 @@ header.style-7 {
 
   h5 {
     color: var(--title-color);
-    font-family: var(--font-suse);
+    font-family: var(--font-dmsans);
     font-weight: 600;
     font-size: 22px;
     line-height: 1.5;
@@ -33621,7 +33682,7 @@ header.style-7 {
     .content {
       h4 {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-weight: 500;
         font-size: 28px;
         line-height: 36px;
@@ -33643,7 +33704,7 @@ header.style-7 {
 
         h6 {
           color: var(--title-color);
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-weight: 500;
           font-size: 18px;
           line-height: 1.4;
@@ -33717,7 +33778,7 @@ header.style-7 {
       }
 
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-weight: 500;
       font-size: 18px;
       line-height: 1.5;
@@ -33787,7 +33848,7 @@ header.style-7 {
 
     h6 {
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-weight: 600;
       font-size: 18px;
       line-height: 1;
@@ -33904,7 +33965,7 @@ header.style-7 {
 
     h5 {
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-weight: 500;
       font-size: 18px;
       line-height: 1.4;
@@ -34003,7 +34064,7 @@ header.style-7 {
 
       h5 {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-weight: 600;
         font-size: 22px;
         line-height: 32px;
@@ -34026,7 +34087,8 @@ header.style-7 {
   }
 
   .testimonial-area {
-    background-image: url(../img/innerpages/portfolio-details-testimonial-bg.png),
+    background-image:
+      url(../img/innerpages/portfolio-details-testimonial-bg.png),
       linear-gradient(180deg, #f0f0f0 0%, #f0f0f0 100%);
     background-size: cover;
     background-repeat: no-repeat;
@@ -34050,7 +34112,7 @@ header.style-7 {
 
     p {
       color: var(--text-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-weight: 500;
       font-size: 22px;
       line-height: 32px;
@@ -34064,7 +34126,7 @@ header.style-7 {
 
     span {
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-weight: 500;
       font-size: 18px;
       line-height: 32px;
@@ -34107,7 +34169,8 @@ header.style-7 {
       .portfolio-details-info-area {
         display: flex;
         align-items: end;
-        background-image: url(../img/innerpages/portfolio-details-info-area-bg.png),
+        background-image:
+          url(../img/innerpages/portfolio-details-info-area-bg.png),
           linear-gradient(180deg, #f0f0f0 0%, #f0f0f0 100%);
         background-size: cover;
         background-repeat: no-repeat;
@@ -34162,7 +34225,7 @@ header.style-7 {
 
             strong {
               color: var(--title-color);
-              font-family: var(--font-suse);
+              font-family: var(--font-dmsans);
               font-weight: 600;
               max-width: 130px;
               width: 100%;
@@ -34233,7 +34296,7 @@ header.style-7 {
         line-height: 1;
         margin-bottom: 0;
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 18px;
         font-weight: 600;
       }
@@ -34284,7 +34347,7 @@ header.style-7 {
 .comment-and-form-area {
   .comment-title {
     color: var(--title-color);
-    font-family: var(--font-suse);
+    font-family: var(--font-dmsans);
     font-weight: 600;
     font-size: 35px;
     line-height: 1.2;
@@ -34353,7 +34416,7 @@ header.style-7 {
               line-height: 1;
               margin-bottom: 0;
               color: var(--title-color);
-              font-family: var(--font-suse);
+              font-family: var(--font-dmsans);
               font-size: 18px;
               font-weight: 600;
 
@@ -34390,7 +34453,7 @@ header.style-7 {
 
           .replay-btn {
             color: var(--title-color);
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
             font-size: 16px;
             font-weight: 600;
             display: inline-flex;
@@ -34484,7 +34547,8 @@ header.style-7 {
 }
 
 .details-pagination {
-  background-image: url(../img/innerpages/details-pagination-bg.png),
+  background-image:
+    url(../img/innerpages/details-pagination-bg.png),
     linear-gradient(180deg, #f0f0f0 0%, #f0f0f0 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -34624,7 +34688,7 @@ header.style-7 {
 
         a {
           color: var(--title-color);
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-size: 22px;
           font-weight: 600;
           line-height: 32px;
@@ -34696,7 +34760,7 @@ header.style-7 {
 
           a {
             color: var(--title-color);
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
             font-weight: 600;
             font-size: 35px;
             line-height: 1.2;
@@ -34747,7 +34811,7 @@ header.style-7 {
 
         h5 {
           color: var(--title-color);
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-size: 22px;
           font-weight: 600;
           line-height: 1.3;
@@ -34823,7 +34887,7 @@ header.style-7 {
 
                 a {
                   color: var(--title-color);
-                  font-family: var(--font-suse);
+                  font-family: var(--font-dmsans);
                   font-size: 18px;
                   font-weight: 500;
                   line-height: 22px;
@@ -34866,7 +34930,7 @@ header.style-7 {
 
           span {
             color: var(--text-color);
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
             font-size: 18px;
             font-weight: 600;
             line-height: 1;
@@ -34874,7 +34938,7 @@ header.style-7 {
 
           strong {
             color: var(--title-color);
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
             font-size: 18px;
             font-weight: 600;
             line-height: 1;
@@ -34918,7 +34982,7 @@ header.style-7 {
 
               span {
                 color: var(--text-color);
-                font-family: var(--font-suse);
+                font-family: var(--font-dmsans);
                 font-size: 16px;
                 font-weight: 500;
                 line-height: 1;
@@ -34974,7 +35038,7 @@ header.style-7 {
         li {
           a {
             color: var(--title-color);
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
             font-size: 16px;
             font-weight: 500;
             transition: 0.35s;
@@ -35121,7 +35185,7 @@ header.style-7 {
 
       a {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-weight: 600;
         font-size: 18px;
         line-height: 1.4;
@@ -35298,7 +35362,7 @@ header.style-7 {
   .product-details-content {
     h2 {
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 45px;
       font-weight: 600;
       line-height: 1.2;
@@ -35359,7 +35423,7 @@ header.style-7 {
         }
 
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-weight: 500;
         font-size: 18px;
         line-height: 22.68px;
@@ -35470,7 +35534,7 @@ header.style-7 {
           background-color: transparent;
           color: var(--title-color);
           text-align: center;
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-size: 18px;
           font-weight: 700;
         }
@@ -35510,7 +35574,7 @@ header.style-7 {
 
         span {
           color: var(--title-color);
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-weight: 600;
           display: inline-block;
           margin-right: 5px;
@@ -35550,7 +35614,7 @@ header.style-7 {
 
       .nav-link {
         color: var(--text-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 18px;
         font-weight: 600;
         padding: 6px 15px;
@@ -35631,7 +35695,7 @@ header.style-7 {
             line-height: 1;
             margin-bottom: 0;
             color: var(--title-color);
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
             font-size: 28px;
             font-weight: 600;
           }
@@ -35717,7 +35781,7 @@ header.style-7 {
   .section-title {
     h4 {
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-weight: 600;
       font-size: 28px;
       line-height: 1.3;
@@ -35785,7 +35849,7 @@ header.style-7 {
 
     h4 {
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 28px;
       font-weight: 600;
       line-height: 1.4;
@@ -35812,7 +35876,7 @@ header.style-7 {
 
           th {
             color: var(--text-color);
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
             font-size: 18px;
             font-weight: 600;
             line-height: 1;
@@ -35838,7 +35902,7 @@ header.style-7 {
           td {
             padding: 30px 15px;
             color: var(--title-color);
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
             font-size: 16px;
             font-weight: 600;
             line-height: 1;
@@ -35875,7 +35939,7 @@ header.style-7 {
               .product-info-content {
                 h6 {
                   color: var(--title-color);
-                  font-family: var(--font-suse);
+                  font-family: var(--font-dmsans);
                   font-size: 18px;
                   font-weight: 600;
                   line-height: 1.4;
@@ -35957,7 +36021,7 @@ header.style-7 {
                           align-items: center;
                           justify-content: center;
                           color: var(--title-color);
-                          font-family: var(--font-suse);
+                          font-family: var(--font-dmsans);
                           font-size: 18px;
                           font-weight: 700;
                           cursor: pointer;
@@ -35988,7 +36052,7 @@ header.style-7 {
                           align-items: center;
                           justify-content: center;
                           color: var(--title-color);
-                          font-family: var(--font-suse);
+                          font-family: var(--font-dmsans);
                           font-size: 16px;
                           font-weight: 600;
                           text-align: center;
@@ -36026,7 +36090,7 @@ header.style-7 {
                 position: absolute;
                 left: 15px;
                 color: var(--text-color);
-                font-family: var(--font-suse);
+                font-family: var(--font-dmsans);
                 font-size: 18px;
                 font-weight: 600;
 
@@ -36249,7 +36313,7 @@ header.style-7 {
 
       h4 {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 28px;
         font-weight: 600;
         line-height: 1.4;
@@ -36406,7 +36470,7 @@ header.style-7 {
 
                   a {
                     color: var(--title-color);
-                    font-family: var(--font-suse);
+                    font-family: var(--font-dmsans);
                     font-weight: 600;
                     font-size: 18px;
                     line-height: 1.3;
@@ -36469,7 +36533,7 @@ header.style-7 {
                 align-items: center;
                 justify-content: center;
                 color: var(--title-color);
-                font-family: var(--font-suse);
+                font-family: var(--font-dmsans);
                 font-size: 14px;
                 font-weight: 600;
                 text-align: center;
@@ -36559,7 +36623,7 @@ header.style-7 {
     h6 {
       margin-bottom: 10px;
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 16px;
       font-weight: 500;
     }
@@ -36686,7 +36750,7 @@ header.style-7 {
 
             span {
               color: var(--title-color);
-              font-family: var(--font-suse);
+              font-family: var(--font-dmsans);
               font-weight: 600;
               line-height: 1.2;
             }
@@ -36743,7 +36807,7 @@ header.style-7 {
 
       h6 {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-weight: 700;
         font-size: 18px;
         line-height: 1;
@@ -36821,7 +36885,7 @@ header.style-7 {
             }
 
             color: var(--title-color);
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
             font-size: 18px;
             font-weight: 600;
             line-height: 1.4;
@@ -36877,7 +36941,7 @@ header.style-7 {
       line-height: 1;
       margin-bottom: 0;
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 18px;
       font-weight: 600;
     }
@@ -36982,7 +37046,7 @@ header.style-7 {
       h2,
       span {
         color: var(--dark-title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-weight: 600;
         font-size: 45px;
         line-height: 1;
@@ -37045,7 +37109,7 @@ header.style-7 {
 
   h2 {
     color: var(--title-color);
-    font-family: var(--font-suse);
+    font-family: var(--font-dmsans);
     font-weight: 700;
     font-size: 55px;
     line-height: 1.2;
@@ -37072,7 +37136,7 @@ header.style-7 {
   .banner-content {
     > span {
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-weight: 500;
       font-size: 22px;
       line-height: 32px;
@@ -37127,7 +37191,7 @@ header.style-7 {
         .accordion-header {
           .accordion-button {
             color: var(--title-color);
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
             font-weight: 500;
             font-size: 22px;
             line-height: 1.4;
@@ -37333,7 +37397,8 @@ header.style-7 {
 }
 
 .team-card-section {
-  background-image: url(../img/innerpages/team-card-section-bg.png),
+  background-image:
+    url(../img/innerpages/team-card-section-bg.png),
     linear-gradient(180deg, #f0f0f0 0%, #f0f0f0 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -37393,7 +37458,7 @@ header.style-7 {
     &.three {
       p {
         color: var(--white-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 22px;
         line-height: 32px;
         margin-left: 0;
@@ -37445,7 +37510,7 @@ header.style-7 {
 
     h6 {
       color: var(--white-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-weight: 500;
       font-size: 18px;
       line-height: 28px;
@@ -37475,7 +37540,7 @@ header.style-7 {
       &.three {
         p {
           color: var(--title-color);
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-size: 22px;
           line-height: 32px;
           margin-left: 0;
@@ -37598,7 +37663,7 @@ header.style-7 {
 
       a {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 22px;
         font-weight: 700;
         line-height: 1.2;
@@ -37738,7 +37803,7 @@ header.style-7 {
       // margin-bottom: 60px;
       h2 {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-weight: 600;
         font-size: 55px;
         line-height: 1.1;
@@ -37777,7 +37842,7 @@ header.style-7 {
 
     > span {
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-weight: 500;
       font-size: 22px;
       line-height: 32px;
@@ -37807,7 +37872,7 @@ header.style-7 {
 
     h5 {
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-weight: 600;
       font-size: 22px;
       line-height: 32px;
@@ -37835,7 +37900,7 @@ header.style-7 {
         }
 
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-weight: 600;
         font-size: 18px;
         line-height: 1.5;
@@ -37880,7 +37945,7 @@ header.style-7 {
 
         a {
           color: var(--text-color);
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-weight: 600;
           font-size: 16px;
           line-height: 1;
@@ -37937,7 +38002,7 @@ header.style-7 {
 
       h2 {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-weight: 700;
         font-size: 44px;
         line-height: 1.3;
@@ -37958,7 +38023,7 @@ header.style-7 {
 
       span {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-weight: 500;
         font-size: 22px;
         line-height: 32px;
@@ -38023,7 +38088,8 @@ header.style-7 {
   position: relative;
 
   .counter-wrapper {
-    background-image: url(../img/innerpages/about-page-counter-bg.png),
+    background-image:
+      url(../img/innerpages/about-page-counter-bg.png),
       linear-gradient(180deg, #5956e9 0%, #5956e9 100%);
     background-size: cover;
     background-repeat: no-repeat;
@@ -38053,7 +38119,7 @@ header.style-7 {
 
       h2 {
         color: var(--white-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-weight: 600;
         font-size: 55px;
         line-height: 1;
@@ -38193,7 +38259,7 @@ header.style-7 {
 
     h4 {
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 28px;
       font-weight: 700;
       line-height: 1.3;
@@ -38231,7 +38297,7 @@ header.style-7 {
 
       li {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-size: 16px;
         font-weight: 600;
         line-height: 1.5;
@@ -38315,7 +38381,7 @@ header.style-7 {
 
     span {
       color: var(--title-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 22px;
       font-weight: 700;
       line-height: 1;
@@ -38325,7 +38391,7 @@ header.style-7 {
 
     p {
       color: var(--text-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-size: 18px;
       font-weight: 600;
       line-height: 22.68px;
@@ -38474,7 +38540,8 @@ header.style-7 {
 }
 
 .about-page-testimonial-section {
-  background-image: url(../img/innerpages/about-page-testimonial-bg.png),
+  background-image:
+    url(../img/innerpages/about-page-testimonial-bg.png),
     linear-gradient(180deg, #f0f0f0 0%, #f0f0f0 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -38891,7 +38958,7 @@ header.style-7 {
 
           a {
             color: var(--white-color);
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
             font-weight: 700;
             font-size: 70px;
             line-height: 1.1;
@@ -38928,7 +38995,7 @@ header.style-7 {
       .social-area {
         > a {
           color: var(--white-color);
-          font-family: var(--font-suse);
+          font-family: var(--font-dmsans);
           font-weight: 500;
           font-size: 22px;
           line-height: 1;
@@ -39137,7 +39204,7 @@ header.style-7 {
 
             a {
               color: var(--white-color);
-              font-family: var(--font-suse);
+              font-family: var(--font-dmsans);
               font-weight: 700;
               font-size: 70px;
               line-height: 1.1;
@@ -39173,7 +39240,7 @@ header.style-7 {
 
           > a {
             color: var(--white-color);
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
             font-weight: 500;
             font-size: 22px;
             line-height: 1;
@@ -39213,7 +39280,8 @@ header.style-7 {
   93. Portfolio Carousal Page CSS
 ========================================*/
 .portfolio-carousel-slider-page {
-  background-image: url(../img/innerpages/portfolio-carousel-slider-bg.png),
+  background-image:
+    url(../img/innerpages/portfolio-carousel-slider-bg.png),
     linear-gradient(180deg, #f0f0f0 0%, #f0f0f0 100%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -39342,7 +39410,7 @@ header.style-7 {
     .social-area {
       > a {
         color: var(--title-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-weight: 500;
         font-size: 22px;
         line-height: 1;
@@ -39411,7 +39479,7 @@ header.style-7 {
 
           a {
             color: var(--title-color);
-            font-family: var(--font-suse);
+            font-family: var(--font-dmsans);
             font-weight: 700;
             font-size: 70px;
             line-height: 1.1;
@@ -39529,7 +39597,7 @@ header.style-7 {
 
       strong {
         color: #f8f8f8;
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-weight: 600;
         font-size: 200px;
         line-height: 1;
@@ -39772,7 +39840,7 @@ header.style-7 {
     .nav-item {
       .nav-link {
         color: var(--white-color);
-        font-family: var(--font-suse);
+        font-family: var(--font-dmsans);
         font-weight: 600;
         font-size: 16px;
         line-height: 1;
@@ -39822,7 +39890,7 @@ header.style-7 {
     }
 
     .interactive-item {
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-weight: 600;
       font-size: 55px;
       line-height: 1.1;
@@ -39938,7 +40006,7 @@ header.style-7 {
 
     > a {
       color: var(--white-color);
-      font-family: var(--font-suse);
+      font-family: var(--font-dmsans);
       font-weight: 500;
       font-size: 22px;
       line-height: 1;
@@ -40102,12 +40170,14 @@ body.dark {
       > ul {
         > li {
           .mega-menu {
-            background-image: url(../img/home1/home1-megamenu-bg-dark.png),
+            background-image:
+              url(../img/home1/home1-megamenu-bg-dark.png),
               linear-gradient(#222222, #222222);
           }
 
           .mega-menu2 {
-            background-image: url(../img/home1/home1-megamenu-bg-dark.png),
+            background-image:
+              url(../img/home1/home1-megamenu-bg-dark.png),
               linear-gradient(#222222, #222222);
 
             @include lg-down-device() {
@@ -40162,12 +40232,14 @@ body.dark {
       > ul {
         > li {
           .mega-menu {
-            background-image: url(../img/home1/home1-megamenu-bg-dark.png),
+            background-image:
+              url(../img/home1/home1-megamenu-bg-dark.png),
               linear-gradient(#222222, #222222);
           }
 
           .mega-menu2 {
-            background-image: url(../img/home1/home1-megamenu-bg-dark.png),
+            background-image:
+              url(../img/home1/home1-megamenu-bg-dark.png),
               linear-gradient(#222222, #222222);
 
             @include lg-down-device() {
@@ -40222,12 +40294,14 @@ body.dark {
       > ul {
         > li {
           .mega-menu {
-            background-image: url(../img/home1/home1-megamenu-bg-dark.png),
+            background-image:
+              url(../img/home1/home1-megamenu-bg-dark.png),
               linear-gradient(#222222, #222222);
           }
 
           .mega-menu2 {
-            background-image: url(../img/home1/home1-megamenu-bg-dark.png),
+            background-image:
+              url(../img/home1/home1-megamenu-bg-dark.png),
               linear-gradient(#222222, #222222);
 
             @include lg-down-device() {
@@ -40282,12 +40356,14 @@ body.dark {
       > ul {
         > li {
           .mega-menu {
-            background-image: url(../img/home1/home1-megamenu-bg-dark.png),
+            background-image:
+              url(../img/home1/home1-megamenu-bg-dark.png),
               linear-gradient(#222222, #222222);
           }
 
           .mega-menu2 {
-            background-image: url(../img/home1/home1-megamenu-bg-dark.png),
+            background-image:
+              url(../img/home1/home1-megamenu-bg-dark.png),
               linear-gradient(#222222, #222222);
 
             @include lg-down-device() {
@@ -40350,12 +40426,14 @@ body.dark {
           }
 
           .mega-menu {
-            background-image: url(../img/home1/home1-megamenu-bg-dark.png),
+            background-image:
+              url(../img/home1/home1-megamenu-bg-dark.png),
               linear-gradient(#222222, #222222);
           }
 
           .mega-menu2 {
-            background-image: url(../img/home1/home1-megamenu-bg-dark.png),
+            background-image:
+              url(../img/home1/home1-megamenu-bg-dark.png),
               linear-gradient(#222222, #222222);
 
             @include lg-down-device() {
@@ -40368,7 +40446,8 @@ body.dark {
   }
 
   .right-sidebar-menu {
-    background-image: url(../img/home3/right-sidebar-menu-bg-dark.png),
+    background-image:
+      url(../img/home3/right-sidebar-menu-bg-dark.png),
       linear-gradient(180deg, #222222 0%, #222222 100%);
     background-size: cover;
     background-repeat: no-repeat;
@@ -40498,7 +40577,8 @@ body.dark {
 
   .home1-process-section {
     .process-wrapper {
-      background-image: url(../img/home1/home1-process-bg-dark.png),
+      background-image:
+        url(../img/home1/home1-process-bg-dark.png),
         linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 
       .section-title {
@@ -40568,7 +40648,8 @@ body.dark {
   }
 
   .home1-contact-section {
-    background-image: url(../img/home1/home1-contact-bg-dark.png),
+    background-image:
+      url(../img/home1/home1-contact-bg-dark.png),
       linear-gradient(180deg, #1c1c1c 0%, #1c1c1c 100%);
   }
 
@@ -40583,10 +40664,8 @@ body.dark {
   }
 
   .contact-form-wrap {
-    background-image: linear-gradient(
-        rgba(28, 26, 30, 0.9),
-        rgba(28, 26, 30, 0.9)
-      ),
+    background-image:
+      linear-gradient(rgba(28, 26, 30, 0.9), rgba(28, 26, 30, 0.9)),
       url(../img/home1/contact-form-dark-bg.png);
 
     .form-inner {
@@ -40635,7 +40714,8 @@ body.dark {
     }
 
     .process-wrapper {
-      background-image: url(../img/home2/home2-process-bg-dark.png),
+      background-image:
+        url(../img/home2/home2-process-bg-dark.png),
         linear-gradient(
           180deg,
           rgba(120, 235, 84, 0) 55.48%,
@@ -40651,7 +40731,8 @@ body.dark {
     }
 
     .testimonial-content-wrap {
-      background-image: url(../img/home2/home2-testimonial-bg-dark.png),
+      background-image:
+        url(../img/home2/home2-testimonial-bg-dark.png),
         linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 
       .company-logo {
@@ -40695,7 +40776,8 @@ body.dark {
   }
 
   .home2-feature-slider-section {
-    background-image: url(../img/home2/home2-feature-slider-bg-dark.png),
+    background-image:
+      url(../img/home2/home2-feature-slider-bg-dark.png),
       linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 
     .swiper-pagination1 {
@@ -40731,7 +40813,8 @@ body.dark {
   }
 
   .home2-contact-section {
-    background-image: url(../img/home2/home2-contact-bg-dark.png),
+    background-image:
+      url(../img/home2/home2-contact-bg-dark.png),
       linear-gradient(180deg, #1c1c1c 0%, #1c1c1c 100%);
 
     .contact-video-wrap {
@@ -40772,7 +40855,8 @@ body.dark {
 
   .home3-about-section {
     .about-feature-card {
-      background-image: url(../img/home3/about-feature-card-bg1-dark.png),
+      background-image:
+        url(../img/home3/about-feature-card-bg1-dark.png),
         linear-gradient(180deg, #1c1c1c 0%, #1c1c1c 100%);
 
       &.two {
@@ -40782,7 +40866,8 @@ body.dark {
       }
 
       &.three {
-        background-image: linear-gradient(
+        background-image:
+          linear-gradient(
             180deg,
             rgba(0, 0, 0, 0.2) 0%,
             rgba(0, 0, 0, 0.2) 100%
@@ -40817,11 +40902,8 @@ body.dark {
   }
 
   .home3-testimonial-section {
-    background-image: linear-gradient(
-        180deg,
-        rgba(#1c1a1e, 0.9) 0%,
-        rgba(#1c1a1e, 0.9) 100%
-      ),
+    background-image:
+      linear-gradient(180deg, rgba(#1c1a1e, 0.9) 0%, rgba(#1c1a1e, 0.9) 100%),
       url(../img/home3/home3-testimonial-section-bg.png);
   }
 
@@ -40849,7 +40931,8 @@ body.dark {
   }
 
   .home4-banner-section {
-    background-image: url(../img/home4/home4-banner-bg-dark.png),
+    background-image:
+      url(../img/home4/home4-banner-bg-dark.png),
       linear-gradient(180deg, #1c1c1c 0%, #1c1c1c 100%);
   }
 
@@ -40878,7 +40961,8 @@ body.dark {
 
   .home4-process-section {
     .process-wrapper {
-      background-image: url(../img/home4/home4-process-bg-dark.png),
+      background-image:
+        url(../img/home4/home4-process-bg-dark.png),
         linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 
       ul {
@@ -40998,7 +41082,8 @@ body.dark {
   }
 
   .home4-team-section {
-    background-image: url(../img/home4/home4-team-bg-dark.png),
+    background-image:
+      url(../img/home4/home4-team-bg-dark.png),
       linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 
     .button-area {
@@ -41034,7 +41119,8 @@ body.dark {
   }
 
   .home5-banner-section {
-    background-image: url(../img/home5/home5-banner-bg-light.png),
+    background-image:
+      url(../img/home5/home5-banner-bg-light.png),
       linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 
     .banner-img-wrap {
@@ -41082,7 +41168,8 @@ body.dark {
   }
 
   .home5-process-section {
-    background-image: url(../img/home5/home5-process-bg-light.png),
+    background-image:
+      url(../img/home5/home5-process-bg-light.png),
       linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 
     .process-wrapper {
@@ -41153,7 +41240,8 @@ body.dark {
 
   .home6-review-section {
     .review-wrapper {
-      background-image: url(../img/home6/home6-review-section-bg-dark.png),
+      background-image:
+        url(../img/home6/home6-review-section-bg-dark.png),
         linear-gradient(180deg, #1c1c1c 0%, #1c1c1c 100%);
 
       .title-area {
@@ -41180,7 +41268,8 @@ body.dark {
 
   .home6-feature-section {
     .feature-card4 {
-      background-image: url(../img/home6/home6-feature-card-bg-dark.png),
+      background-image:
+        url(../img/home6/home6-feature-card-bg-dark.png),
         linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 
       .feature-icon {
@@ -41322,7 +41411,8 @@ body.dark {
   }
 
   .home6-process-section {
-    background-image: url(../img/home6/home6-process-bg-dark.png),
+    background-image:
+      url(../img/home6/home6-process-bg-dark.png),
       linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 
     .process-wrapper {
@@ -41454,7 +41544,8 @@ body.dark {
 
   .social-responsibility-contact-section {
     .social-responsibility-contact-wrap {
-      background-image: url(../img/innerpages/social-responsibility-contact-bg-dark.png),
+      background-image:
+        url(../img/innerpages/social-responsibility-contact-bg-dark.png),
         linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
     }
   }
@@ -41526,7 +41617,8 @@ body.dark {
     }
 
     .testimonial-area {
-      background-image: url(../img/innerpages/portfolio-details-testimonial-bg-dark.png),
+      background-image:
+        url(../img/innerpages/portfolio-details-testimonial-bg-dark.png),
         linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 
       .quote {
@@ -41537,7 +41629,8 @@ body.dark {
     &.portfolio-details {
       .post-thumb {
         .portfolio-details-info-area {
-          background-image: url(../img/innerpages/portfolio-details-info-area-bg-dark.png),
+          background-image:
+            url(../img/innerpages/portfolio-details-info-area-bg-dark.png),
             linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
         }
       }
@@ -41564,7 +41657,8 @@ body.dark {
   }
 
   .details-pagination {
-    background-image: url(../img/innerpages/details-pagination-bg-dark.png),
+    background-image:
+      url(../img/innerpages/details-pagination-bg-dark.png),
       linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 
     .single-pagination {
@@ -41687,7 +41781,8 @@ body.dark {
   }
 
   .team-card-section {
-    background-image: url(../img/innerpages/team-card-section-bg-dark.png),
+    background-image:
+      url(../img/innerpages/team-card-section-bg-dark.png),
       linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 
     .team-card {
@@ -41747,7 +41842,8 @@ body.dark {
   }
 
   .about-page-testimonial-section {
-    background-image: url(../img/innerpages/about-page-testimonial-bg-dark.png),
+    background-image:
+      url(../img/innerpages/about-page-testimonial-bg-dark.png),
       linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 
     .testimonial-card {
@@ -41794,7 +41890,8 @@ body.dark {
   }
 
   .portfolio-carousel-slider-page {
-    background-image: url(../img/innerpages/portfolio-carousel-slider-bg-dark.png),
+    background-image:
+      url(../img/innerpages/portfolio-carousel-slider-bg-dark.png),
       linear-gradient(180deg, #1c1a1e 0%, #1c1a1e 100%);
 
     .portfolio-carousel-slider-item {
