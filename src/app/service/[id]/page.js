@@ -8,12 +8,13 @@ import Header5 from "@/components/header/Header5";
 import Home5Footer from "@/components/Footer/Home5Footer";
 
 import { services } from "@/data/js-objects/services";
+import ContactMarquee from "@/components/services/ContactMarquee";
 
 SwiperCore.use([Autoplay, EffectFade, Navigation]);
 
 const ServiceDetailsPage = ({ openModal, params }) => {
   const currentIndex = services.findIndex(
-    (service) => service?.id === params?.id
+    (service) => service?.id === params?.id,
   );
 
   if (currentIndex === -1) {
@@ -474,6 +475,7 @@ const ServiceDetailsPage = ({ openModal, params }) => {
           </div>
         </div>
       </div>
+      <ContactMarquee />
       <Home5Footer openModal={openModal} />
     </div>
   );
