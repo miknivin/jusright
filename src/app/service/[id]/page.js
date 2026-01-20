@@ -9,6 +9,7 @@ import Home5Footer from "@/components/Footer/Home5Footer";
 
 import { services } from "@/data/js-objects/services";
 import ContactMarquee from "@/components/services/ContactMarquee";
+import Home5TestimonialSection from "@/components/testimonial-section/Home5TestimonialSection";
 
 SwiperCore.use([Autoplay, EffectFade, Navigation]);
 
@@ -475,6 +476,7 @@ const ServiceDetailsPage = ({ openModal, params }) => {
           </div>
         </div>
       </div>
+      <Home5TestimonialSection />
       <ContactMarquee />
       <Home5Footer openModal={openModal} />
     </div>
