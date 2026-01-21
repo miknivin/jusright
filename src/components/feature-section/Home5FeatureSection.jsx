@@ -29,7 +29,7 @@ const Home5FeatureSection = () => {
               <div className="content">
                 <h4>Built for Real Business Needs</h4>
                 <Link className="theme-link" href="/about">
-                  About Mortar
+                  About Us
                   <svg
                     width={10}
                     height={10}
