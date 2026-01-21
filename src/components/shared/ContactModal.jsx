@@ -19,7 +19,7 @@ const ContactModal = ({ isOpen, onClose, pointOfSource }) => {
     const formData = new FormData(e.target);
     const interests = [];
     const checkboxes = e.target.querySelectorAll(
-      'input[type="checkbox"]:checked'
+      'input[type="checkbox"]:checked',
     );
     checkboxes.forEach((checkbox) => {
       if (checkbox.name === "interests") interests.push(checkbox.value);
@@ -77,14 +77,15 @@ const ContactModal = ({ isOpen, onClose, pointOfSource }) => {
           maxWidth: "900px",
           width: "90%",
           maxHeight: "90vh",
+          borderRadius: "10px",
           overflowY: "auto",
         }}
         onClick={(e) => e.stopPropagation()} // Prevent close on content click
       >
         <div className="modal-header border-0 pb-0 px-4 pt-4">
-          <h5 className="modal-title fw-bold font-suse">
+          <h4 className="modal-title fw-bold text-black font-suse">
             Get Your Free Needs Audit
-          </h5>
+          </h4>
           <button
             type="button"
             className="btn-close"
@@ -94,7 +95,7 @@ const ContactModal = ({ isOpen, onClose, pointOfSource }) => {
         </div>
 
         <div
-          style={{ maxHeight: "700px", overflowY: "auto" }}
+          style={{ maxHeight: "700px", overflowY: "auto", borderRadius: "0px" }}
           className="modal-body p-3 contact-form-wrap style-2 px-4 pb-4"
         >
           <form className="pt-0" onSubmit={handleSubmit}>
@@ -102,7 +103,7 @@ const ContactModal = ({ isOpen, onClose, pointOfSource }) => {
               <div className="col-md-6">
                 <div className="form-inner">
                   <label className="fw-semibold">
-                    Your <span className="text-danger">*</span>
+                    Your name <span className="text-danger">*</span>
                   </label>
                   <input
                     type="text"
