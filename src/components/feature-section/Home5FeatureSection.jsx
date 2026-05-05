@@ -175,7 +175,7 @@ const Home5FeatureSection = () => {
       <ContactModal
         isOpen={isModalOpen}
         onClose={closeModal}
-        pointOfSource="FeatureSection" // Optional: track source
+        pointOfSource="FeatureSection"
       />
     </div>
   );

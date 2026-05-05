@@ -160,6 +160,7 @@ const ContactModal = ({ isOpen, onClose, pointOfSource }) => {
                   <ul className="list-unstyled">
                     {[
                       "Custom ERP System",
+                      "Custom AI Agent Chatbot",
                       "E-Commerce Solution",
                       "AI-Powered Automation",
                       "Custom Website",

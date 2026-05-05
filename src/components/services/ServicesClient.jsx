@@ -80,7 +80,7 @@ export default function ServicesClient({ openModal }) {
                   <p>
                     We create custom software solutions that solve real business
                     problems — from complex ERPs to fast e-commerce stores,
-                    smart automations, professional websites, and complete
+                    AI agent chatbots, smart automations, professional websites, and complete
                     startup packages.
                   </p>
                   <p>
@@ -218,7 +218,7 @@ export default function ServicesClient({ openModal }) {
                   <p>
                     We specialize in creating custom software that fits your
                     business exactly — from streamlined ERPs to fast e-commerce
-                    platforms, smart automations, modern websites, and complete
+                    platforms, AI agent chatbots, smart automations, modern websites, and complete
                     startup packages.
                   </p>
                   <p>

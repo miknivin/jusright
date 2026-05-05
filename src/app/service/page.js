@@ -8,13 +8,13 @@ export const metadata = {
   title:
     "Our Services | Custom Software, Workflows & Websites – JustRight Tech",
   description:
-    "Tailored solutions built just right: custom ERP, e-commerce platforms, AI-powered automations, professional websites, workflow solutions, and startup packages — efficient, focused, and designed for your real business needs.",
+    "Tailored solutions built just right: custom ERP, AI agent chatbots, e-commerce platforms, AI-powered automations, professional websites, workflow solutions, and startup packages — efficient, focused, and designed for your real business needs.",
   keywords:
-    "custom software services, ERP development, e-commerce solutions, AI automation, custom websites, business startup packages, workflow solutions, Kerala IT services",
+    "custom software services, ERP development, AI agent chatbot, LLM chatbot development, e-commerce solutions, AI automation, custom websites, business startup packages, workflow solutions, Kerala IT services",
   openGraph: {
     title: "Our Services – JustRight Tech",
     description:
-      "From custom ERP to AI automations and professional websites — we build exactly what your business needs, nothing more, nothing less.",
+      "From custom ERP and AI agent chatbots to AI automations and professional websites — we build exactly what your business needs, nothing more, nothing less.",
     url: "https://justrighttech.co/services",
     type: "website",
   },

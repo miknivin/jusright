@@ -1,6 +1,6 @@
 // data/services.js
 
-export const services = [
+const serviceItems = [
   {
     id: "custom-erp",
     title: "Custom ERP Systems",
@@ -552,4 +552,193 @@ export const services = [
       },
     ],
   },
+];
+
+const customErpService = {
+  ...serviceItems.find((service) => service.id === "custom-erp"),
+  headline: "ERP Customized Around the Way Your Business Works",
+  veryShortDesc:
+    "Inventory, accounting, and CRM foundations customized to your exact workflow, with room to add modules as you grow.",
+  tags: [
+    { label: "Inventory", href: "/service/custom-erp" },
+    { label: "Accounting", href: "/service/custom-erp" },
+    { label: "CRM", href: "/service/custom-erp" },
+    { label: "Custom Modules", href: "/service/custom-erp" },
+  ],
+  highlights: [
+    "Start from proven inventory, accounting, and CRM foundations",
+    "Customize existing workflows or build new capabilities on top",
+    "Add modules like HRM, production, approvals, or reporting",
+    "Built around your real process instead of forcing a fixed system",
+  ],
+  overview: [
+    "Our ERP service starts with strong base products for inventory management, accounting, and CRM. From there, we customize the system around each client's exact operational requirements.",
+    "Customization can move in both directions: we can adapt existing modules to match your workflow, build new features on top of the base product, or extend the system with additional modules like HRM, production, approvals, field operations, or advanced reporting.",
+  ],
+  keyFeatures: [
+    "Inventory management customized for your stock, warehouse, and order flow",
+    "Accounting workflows aligned with your finance process",
+    "CRM customization for leads, customers, follow-ups, and sales teams",
+    "Build-on-top modules such as HRM, production, service, approvals, or reports",
+    "Integrations with existing business tools and third-party applications",
+    "User roles, dashboards, and reports tailored for each team",
+    "Ongoing support and updates",
+  ],
+  whyChooseUsIntro:
+    "We deliver ERP systems that begin with practical foundations and evolve into the exact operating system your business needs.",
+  whyChooseUs: [
+    {
+      title: "Proven Base Product",
+      className: "col-lg-3 col-md-4 col-sm-6",
+      divClass: "single-service two",
+    },
+    {
+      title: "Custom Workflow Fit",
+      className: "col-lg-3 col-md-4 col-sm-6",
+      divClass: "single-service",
+    },
+    {
+      title: "Inventory + Accounts",
+      className: "col-lg-3 col-md-4 col-sm-6",
+      divClass: "single-service three",
+    },
+    {
+      title: "CRM Ready",
+      className: "col-lg-3 col-md-4 col-sm-6",
+      divClass: "single-service",
+    },
+    {
+      title: "Add-On Modules",
+      className: "col-lg-3 col-md-4 col-sm-6",
+      divClass: "single-service",
+    },
+    {
+      title: "Tool Integrations",
+      className: "col-lg-3 col-md-4 col-sm-6",
+      divClass: "single-service four",
+    },
+    {
+      title: "Dedicated Support",
+      className: "col-lg-3 col-md-4 col-sm-6",
+      divClass: "single-service",
+    },
+  ],
+};
+
+const customAiAgentChatbotService = {
+  id: "custom-ai-agent-chatbot",
+  title: "Custom AI Agent Chatbot",
+  path: "/service/custom-ai-agent-chatbot",
+  headline: "Chatbots That Do Real Business Work",
+  veryShortDesc:
+    "Custom AI chat interfaces connected to LLMs, CRMs, accounting tools, and business apps so teams can ask, act, and automate.",
+  serviceImage: "/assets/img/services/ai-automation.jpg",
+  tags: [
+    { label: "LLM Chat Interface", href: "/service/custom-ai-agent-chatbot" },
+    { label: "CRM Integration", href: "/service/custom-ai-agent-chatbot" },
+    { label: "Business Apps", href: "/service/custom-ai-agent-chatbot" },
+    { label: "Business Tools", href: "/service/custom-ai-agent-chatbot" },
+  ],
+  sliderImages: [
+    {
+      src: "/assets/img/innerpages/ai/1.webp",
+      alt: "AI agent chatbot workflow",
+    },
+    {
+      src: "/assets/img/innerpages/ai/2.webp",
+      alt: "AI chatbot connected to business tools",
+    },
+    {
+      src: "/assets/img/innerpages/ai/3.webp",
+      alt: "Business automation with AI assistant",
+    },
+  ],
+  highlights: [
+    "Chat interface powered by an LLM and your business context",
+    "Connect with the CRM, email, calendar, accounting, ERP, or internal apps your team already uses",
+    "Let users ask questions, create records, update data, and trigger workflows",
+    "Built with permissions, guardrails, and audit-friendly workflows",
+  ],
+  overview: [
+    "We build custom AI agent chatbot web apps that connect a conversational interface with an LLM and the tools your business already uses.",
+    "Instead of only answering questions, the chatbot can perform controlled actions: fetch customer details from your CRM, draft or send emails, check calendars, schedule meetings, create business records, summarize activity, update data, route requests, or trigger internal workflows based on your approval rules.",
+  ],
+  keyFeaturesIntro: "Key features of our custom AI agent chatbots include:",
+  keyFeatures: [
+    "Modern chat interface for staff, customers, or internal teams",
+    "LLM integration with business-specific instructions and knowledge",
+    "Tool connections for CRM platforms, email services, calendars, meeting tools, ERPs, helpdesks, accounting apps, and custom APIs",
+    "Action workflows such as updating leads, checking inventory, scheduling meetings, sending emails, creating records, or generating reports",
+    "Role-based access, approval steps, and safety guardrails",
+    "Conversation history, monitoring, and continuous improvement",
+  ],
+  imageGroup1: [
+    {
+      src: "/assets/img/innerpages/news-insight-details-img1.jpg",
+      alt: "",
+      className: "col-lg-4 col-md-5",
+    },
+    {
+      src: "/assets/img/innerpages/news-insight-details-img2.jpg",
+      alt: "",
+      className: "col-lg-8 col-md-7",
+    },
+  ],
+  whyChooseUsIntro:
+    "We design AI agents around real business operations, so the chatbot is useful, controlled, and connected to the systems that matter.",
+  whyChooseUs: [
+    {
+      title: "Business-First Design",
+      className: "col-lg-3 col-md-4 col-sm-6",
+      divClass: "single-service two",
+    },
+    {
+      title: "LLM Integration",
+      className: "col-lg-3 col-md-4 col-sm-6",
+      divClass: "single-service",
+    },
+    {
+      title: "CRM + Accounts",
+      className: "col-lg-3 col-md-4 col-sm-6",
+      divClass: "single-service three",
+    },
+    {
+      title: "Tool Actions",
+      className: "col-lg-3 col-md-4 col-sm-6",
+      divClass: "single-service",
+    },
+    {
+      title: "Secure Guardrails",
+      className: "col-lg-3 col-md-4 col-sm-6",
+      divClass: "single-service",
+    },
+    {
+      title: "Custom APIs",
+      className: "col-lg-3 col-md-4 col-sm-6",
+      divClass: "single-service four",
+    },
+    {
+      title: "Ongoing Tuning",
+      className: "col-lg-3 col-md-4 col-sm-6",
+      divClass: "single-service",
+    },
+  ],
+  imageGroup2: [
+    {
+      src: "/assets/img/innerpages/service-details-img1.jpg",
+      alt: "",
+      className: "col-lg-8 col-md-7",
+    },
+    {
+      src: "/assets/img/innerpages/service-details-img2.jpg",
+      alt: "",
+      className: "col-lg-4 col-md-5",
+    },
+  ],
+};
+
+export const services = [
+  customErpService,
+  customAiAgentChatbotService,
+  ...serviceItems.filter((service) => service.id !== "custom-erp"),
 ];
