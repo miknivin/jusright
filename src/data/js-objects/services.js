@@ -737,8 +737,147 @@ const customAiAgentChatbotService = {
   ],
 };
 
+const socialCrmAgencyService = {
+  id: "social-crm-agencies",
+  title: "Digital Agency CRM",
+  path: "/service/social-crm-agencies",
+  headline: "One Simple Board for Every Lead — From Ad Click to Closed Deal",
+  veryShortDesc:
+    "A CRM built for digital agencies — every lead from Meta, Google, and other channels lands on one easy-to-follow board your sales team will actually use.",
+  serviceImage: "/assets/img/innerpages/digital-agency-crm/1.webp",
+  tags: [
+    { label: "Meta & Google Ads Sync", href: "/service/social-crm-agencies" },
+    { label: "Visual Lead Tracking", href: "/service/social-crm-agencies" },
+    { label: "Proposals & Invoicing", href: "/service/social-crm-agencies" },
+    { label: "Team Accountability", href: "/service/social-crm-agencies" },
+  ],
+  sliderImages: [
+    {
+      src: "/assets/img/innerpages/digital-agency-crm/1.webp",
+      alt: "Digital Agency CRM lead board",
+    },
+    {
+      src: "/assets/img/innerpages/digital-agency-crm/2.webp",
+      alt: "Digital Agency CRM dashboard",
+    },
+  ],
+  highlights: [
+    "Capture leads from Meta, Google, and other channels automatically",
+    "A simple visual board so you can see where every lead stands at a glance",
+    "Custom proposals and invoices generated from reusable templates",
+    "Built on our proven CRM, customized to your process",
+  ],
+  overview: [
+    "Built specifically for digital agencies running paid campaigns across Meta, Google, and other platforms, our CRM pulls every lead onto one simple board — no more spreadsheets, and no more leads lost between an ad click and a sales follow-up.",
+    "We start from a proven CRM and customize the stages, automations, proposals, and invoicing around how your sales team actually sells, so it's easy to adopt and results show up from month one.",
+  ],
+  keyFeaturesIntro: "Key features of our Digital Agency CRM include:",
+  keyFeatures: [
+    "Leads from Meta Ads, Google Ads, forms, and other channels are captured automatically in one place",
+    "A simple visual board with stages built around how your team actually sells",
+    "Know exactly which ad, audience, or campaign each lead came from",
+    "Custom, branded proposals generated from reusable templates instead of edited by hand each time",
+    "Turn a won deal straight into an invoice, without retyping client or deal details",
+    "Automatic follow-up reminders so no lead goes cold or gets missed",
+    "A manager view showing team activity, response times, and how many leads are converting",
+    "Different access levels for sales reps, team leads, and management",
+  ],
+  imageGroup1: [
+    {
+      src: "/assets/img/innerpages/news-insight-details-img1.jpg",
+      alt: "",
+      className: "col-lg-4 col-md-5",
+    },
+    {
+      src: "/assets/img/innerpages/news-insight-details-img2.jpg",
+      alt: "",
+      className: "col-lg-8 col-md-7",
+    },
+  ],
+  whyChooseUsIntro:
+    "We build CRMs that agencies actually adopt — shaped around how your sales team already works, not the other way around.",
+  whyChooseUs: [
+    {
+      title: "Built for Ad-Driven Sales",
+      className: "col-lg-3 col-md-4 col-sm-6",
+      divClass: "single-service two",
+    },
+    {
+      title: "Fast Team Adoption",
+      className: "col-lg-3 col-md-4 col-sm-6",
+      divClass: "single-service",
+    },
+    {
+      title: "Full Lead Visibility",
+      className: "col-lg-3 col-md-4 col-sm-6",
+      divClass: "single-service three",
+    },
+    {
+      title: "Custom Proposals & Invoicing",
+      className: "col-lg-3 col-md-4 col-sm-6",
+      divClass: "single-service",
+    },
+    {
+      title: "Stages Built Around You",
+      className: "col-lg-3 col-md-4 col-sm-6",
+      divClass: "single-service",
+    },
+    {
+      title: "Manager-Level Reporting",
+      className: "col-lg-3 col-md-4 col-sm-6",
+      divClass: "single-service four",
+    },
+    {
+      title: "Proven ROI",
+      className: "col-lg-3 col-md-4 col-sm-6",
+      divClass: "single-service",
+    },
+  ],
+  imageGroup2: [
+    {
+      src: "/assets/img/innerpages/service-details-img1.jpg",
+      alt: "",
+      className: "col-lg-8 col-md-7",
+    },
+    {
+      src: "/assets/img/innerpages/service-details-img2.jpg",
+      alt: "",
+      className: "col-lg-4 col-md-5",
+    },
+  ],
+  caseStudy: {
+    tag: "Case Study",
+    title: "Lead Tracking for a Growing Digital Marketing Agency",
+    intro:
+      "The agency was running paid Meta ad campaigns for multiple clients at once, but had no single system for tracking where those leads went after the ad click.",
+    challengesTitle: "The Problem",
+    challenges: [
+      "Leads from Meta Ads were tracked manually, in a separate spreadsheet per campaign",
+      "Leads were occasionally missed between the ad platform and the sales team",
+      "Sales managers had to ask each rep individually for status updates, with no shared view of where things stood",
+      "Proposals were rebuilt or manually edited from an old template for every new prospect",
+      "Earlier attempts at off-the-shelf CRM tools were not adopted by the sales team",
+    ],
+    solutionTitle: "What We Built",
+    solution: [
+      "Connected Meta Ads lead forms so every new lead lands automatically on one simple board",
+      "Set up stages on that board to match the agency's existing sales process",
+      "Added one-click proposal generation from reusable templates",
+      "Built a manager view showing every lead, its status, and who's handling it",
+      "Worked directly with the sales team during setup so it matched how they already sold",
+    ],
+    results: [
+      { value: 25, label: "New Clients Closed in the First Month" },
+      { value: 4, label: "Person Sales Team" },
+    ],
+    outcome:
+      "With every lead, status, and proposal in one place, the team spent less time on manual tracking. In the first month using the new system, they closed 25 new clients with a four-person sales team.",
+  },
+};
+
 export const services = [
   customErpService,
   customAiAgentChatbotService,
+  socialCrmAgencyService,
   ...serviceItems.filter((service) => service.id !== "custom-erp"),
 ];

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useMemo } from "react";
+import React, { useMemo, useRef } from "react";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay, EffectFade, Navigation } from "swiper";
@@ -10,6 +10,7 @@ import Home5Footer from "@/components/Footer/Home5Footer";
 import { services } from "@/data/js-objects/services";
 import ContactMarquee from "@/components/services/ContactMarquee";
 import Home5TestimonialSection from "@/components/testimonial-section/Home5TestimonialSection";
+import Counter from "@/components/common/Counter";
 
 SwiperCore.use([Autoplay, EffectFade, Navigation]);
 
@@ -31,6 +32,8 @@ const ServiceDetailsPage = ({ openModal, params }) => {
 
   const nextService =
     currentIndex < totalServices - 1 ? services[currentIndex + 1] : services[0];
+
+  const caseStudyCounterRefs = [useRef(null), useRef(null), useRef(null), useRef(null)];
 
   const settings = useMemo(() => {
     return {
@@ -404,6 +407,140 @@ const ServiceDetailsPage = ({ openModal, params }) => {
                 )}
               </div>
             </div> */}
+
+            {/* Case Study — only rendered when the service defines one */}
+            {currentService.caseStudy && (
+              <>
+                <span className="line-break" />
+                <span className="line-break" />
+                <div className="row justify-content-center">
+                  <div className="col-xl-8 col-lg-10">
+                    <div className="post-title-and-tag">
+                      {currentService.caseStudy.tag && (
+                        <ul className="tag-list">
+                          <li>
+                            <button>{currentService.caseStudy.tag}</button>
+                          </li>
+                        </ul>
+                      )}
+                      <h2>{currentService.caseStudy.title}</h2>
+                      <svg
+                        className="divider-line"
+                        width={873}
+                        height={6}
+                        viewBox="0 0 873 6"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M5 2.5L0 0.113249V5.88675L5 3.5V2.5ZM867.5 3.5L872.5 5.88675V0.113249L867.5 2.5V3.5ZM4.5 3.5H868V2.5H4.5V3.5Z" />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+
+                {currentService.caseStudy.intro && (
+                  <p className="fixed-width">{currentService.caseStudy.intro}</p>
+                )}
+
+                <span className="line-break" />
+                <span className="line-break" />
+
+                <div className="row gy-4 justify-content-between mb-50">
+                  {currentService.caseStudy.challenges?.length > 0 && (
+                    <div className="col-xl-5 col-lg-6">
+                      <h5>{currentService.caseStudy.challengesTitle || "The Challenge"}</h5>
+                      <span className="line-break" />
+                      <ul className="listing two">
+                        {currentService.caseStudy.challenges.map((item, i) => (
+                          <li key={i}>
+                            <svg
+                              width={16}
+                              height={16}
+                              viewBox="0 0 16 16"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                fillRule="evenodd"
+                                clipRule="evenodd"
+                                d="M4.5236 9.35783L6.0516 11.5708C6.99992 10.2009 11.2151 3.50919 13.6388 0.400391C11.1287 5.14183 8.94664 10.0882 6.98408 15.0588C6.70248 15.7717 5.69832 15.7839 5.40264 15.0767C4.46776 12.8415 3.46264 10.6202 2.36328 8.46199C3.15368 8.30391 3.99656 8.56743 4.52344 9.35783H4.5236Z"
+                              />
+                            </svg>
+                            {item}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                  {currentService.caseStudy.solution?.length > 0 && (
+                    <div className="col-xl-5 col-lg-6">
+                      <h5>{currentService.caseStudy.solutionTitle || "The Solution"}</h5>
+                      <span className="line-break" />
+                      <ul className="listing two">
+                        {currentService.caseStudy.solution.map((item, i) => (
+                          <li key={i}>
+                            <svg
+                              width={16}
+                              height={16}
+                              viewBox="0 0 16 16"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                fillRule="evenodd"
+                                clipRule="evenodd"
+                                d="M4.5236 9.35783L6.0516 11.5708C6.99992 10.2009 11.2151 3.50919 13.6388 0.400391C11.1287 5.14183 8.94664 10.0882 6.98408 15.0588C6.70248 15.7717 5.69832 15.7839 5.40264 15.0767C4.46776 12.8415 3.46264 10.6202 2.36328 8.46199C3.15368 8.30391 3.99656 8.56743 4.52344 9.35783H4.5236Z"
+                              />
+                            </svg>
+                            {item}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </div>
+
+                {currentService.caseStudy.results?.length > 0 && (
+                  <div className="row g-4 mb-50 justify-content-center">
+                    {currentService.caseStudy.results.map((result, i) => (
+                      <div
+                        key={i}
+                        className={
+                          currentService.caseStudy.results.length <= 2
+                            ? "col-lg-5 col-md-6"
+                            : "col-lg-4 col-md-6"
+                        }
+                      >
+                        <div
+                          className={`single-service ${
+                            ["two", "three", "four"][i % 3]
+                          }`}
+                        >
+                          <h5>
+                            <span>
+                              {typeof result.value === "number" ? (
+                                <Counter
+                                  start={0}
+                                  end={result.value}
+                                  speed={60}
+                                  forwardedRef={caseStudyCounterRefs[i]}
+                                  as="span"
+                                />
+                              ) : (
+                                result.value
+                              )}
+                              {result.suffix || ""}
+                            </span>{" "}
+                            {result.label}
+                          </h5>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                )}
+
+                {currentService.caseStudy.outcome && (
+                  <p className="fixed-width">{currentService.caseStudy.outcome}</p>
+                )}
+              </>
+            )}
           </div>
 
           {/* Pagination */}
