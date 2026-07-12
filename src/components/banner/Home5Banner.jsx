@@ -54,7 +54,11 @@ const Home5Banner = () => {
                   </svg>
                   <span>Value-Driven</span>
                 </div>
-                <h1>Custom Software Built Exactly for Your Business</h1>
+                <h1>
+                  Custom Software & Systems
+                  <br />
+                  Built Just Right
+                </h1>
                 <div className="btn-and-rating-area">
                   <button className="primary-btn5" onClick={openModal}>
                     Get Free Needs Audit
@@ -89,7 +93,7 @@ const Home5Banner = () => {
                     </a>
                   </li>
                   <li className="single-contact">
-                    <a href="tel:+919876543210">
+                    <a href="tel:+916238002737">
                       <svg
                         width={16}
                         height={16}

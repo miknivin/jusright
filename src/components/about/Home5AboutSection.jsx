@@ -42,9 +42,9 @@ const Home5AboutSection = () => {
                     That Fits Your Business
                   </h2>
                   <p>
-                    We create custom ERPs, AI automations, e-commerce solutions,
-                    and websites — built just right with only the features you
-                    need, eliminating unnecessary complexity and costs.
+                    We create custom ERPs, AI agents and automations, and CRM
+                    systems, tailored with only the features you need,
+                    eliminating unnecessary complexity and costs.
                   </p>
                 </div>
               </div>
@@ -119,28 +119,7 @@ const Home5AboutSection = () => {
                       <span>Designed to grow with your business</span>
                     </li>
                   </ul>
-                </div>
-              </div>
-
-              {/* Right: CTA */}
-              <div
-                className="col-xxl-3 col-lg-4 wow animate fadeInRight"
-                data-wow-delay="200ms"
-                data-wow-duration="1500ms"
-              >
-                <div className="counter-and-btn-area">
-                  <div className="counter-area">
-                    <div className="number">
-                      <span className="counter">8</span>
-                      <span>+</span>
-                    </div>
-                    <span>
-                      Modern Tools
-                      <br />
-                      We Master
-                    </span>
-                  </div>
-                  <button onClick={openModal} className="primary-btn5">
+                  <button onClick={openModal} className="primary-btn5 mt-40">
                     Get Free Needs Audit
                     <svg
                       width={10}
@@ -155,6 +134,26 @@ const Home5AboutSection = () => {
                       />
                     </svg>
                   </button>
+                </div>
+              </div>
+
+              {/* Right: Visual */}
+              <div
+                className="col-xxl-3 col-lg-4 wow animate fadeInRight"
+                data-wow-delay="200ms"
+                data-wow-duration="1500ms"
+              >
+                <div style={{ height: "100%", minHeight: 280 }}>
+                  <img
+                    src="/assets/img/home4/about.webp"
+                    alt="Team collaborating on a tailored software solution"
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "cover",
+                      borderRadius: "16px",
+                    }}
+                  />
                 </div>
               </div>
             </div>

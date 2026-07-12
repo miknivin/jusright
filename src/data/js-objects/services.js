@@ -366,7 +366,7 @@ const serviceItems = [
       "Professional design that reflects your brand",
       "Fast, mobile-friendly, and easy to navigate",
       "Built to convert visitors into customers",
-      "Just right — no unnecessary complexity",
+      "Just right, no unnecessary complexity",
     ],
     overview: [
       "Beautiful, fast, and functional websites built with modern UI/UX principles and performance in mind.",
@@ -473,7 +473,7 @@ const serviceItems = [
       "Professional logo and basic branding that reflects your business",
       "Company email setup for credibility and trust",
       "Clean, mobile-friendly website to establish your presence",
-      "Everything just right — no complexity, no extras",
+      "Everything just right, no complexity, no extras",
     ],
     overview: [
       "We help businesses get online with a strong, professional digital foundation — simple, clear, and built to fit exactly how you work.",

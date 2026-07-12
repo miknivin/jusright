@@ -101,8 +101,8 @@ const Home5FeatureSection = () => {
                   Solutions
                 </h4>
                 <p>
-                  We build software exactly for your business — only the
-                  features you need, eliminating unnecessary complexity.
+                  Faster rollout and lower ongoing costs, because we focus on
+                  what matters and deliver results quickly.
                 </p>
               </div>
             </div>

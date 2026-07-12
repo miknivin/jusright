@@ -225,8 +225,6 @@ const PrivacyPolicyPage = ({ openModal }) => {
                   practices, please contact us at:
                   <br />
                   <strong>Email:</strong> hello@justrighttech.co
-                  <br />
-                  <strong>Phone:</strong> +91 __________
                 </p>
 
                 <p className="mt-50">

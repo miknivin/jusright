@@ -41,7 +41,7 @@ const Home2ServiceSection = () => {
                     smoothly… that’s the feeling I want every client to have.
                   </p>
                   <p>
-                    So I build solutions that fit — nothing extra, nothing
+                    So I build solutions that fit: nothing extra, nothing
                     missing, just what actually helps.
                   </p>
                   <p>
