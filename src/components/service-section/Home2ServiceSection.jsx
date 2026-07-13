@@ -11,7 +11,7 @@ const Home2ServiceSection = () => {
     <>
       <div className="home2-global-map-section mb-130">
         <div className="container">
-          <div className="row align-items-center gy-5">
+          <div className="row align-items-start gy-5">
             {/* Photo Left */}
             <div className="col-lg-4 offset-lg-1">
               <div className="text-center">
@@ -30,23 +30,30 @@ const Home2ServiceSection = () => {
                   <h2>The Reason Behind All This</h2>
                   <p>
                     I’ve always believed that good technology should feel
-                    natural — like it was made exactly for the way you work.
+                    natural, like it was built for the way you work.
                   </p>
                   <p>
-                    Every business has its own rhythm, its own challenges, and
-                    its own way of getting things done.
+                    Every business has its own way of working, and no two are
+                    the same.
                   </p>
                   <p>
-                    That quiet moment when everything just clicks and runs
-                    smoothly… that’s the feeling I want every client to have.
+                    A good system fits your business instead of forcing your
+                    business to fit the system. It makes work simpler, reduces
+                    mistakes, and makes problems easier to understand when
+                    they happen.
                   </p>
                   <p>
-                    So I build solutions that fit: nothing extra, nothing
-                    missing, just what actually helps.
+                    Building software like that takes more than coding. It
+                    takes understanding how people work and designing around
+                    their needs.
                   </p>
                   <p>
-                    When the tool is actually right for you, the everyday stuff
-                    stops being a battle.
+                    That’s why every solution I build is designed from the
+                    ground up to fit your business.
+                  </p>
+                  <p>
+                    When the system is right, work becomes smoother, clearer,
+                    and easier every day.
                   </p>
                   <p
                     className="mt-30"

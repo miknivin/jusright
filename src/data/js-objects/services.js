@@ -149,8 +149,8 @@ const serviceItems = [
       "Automatic manifest creation, shipping label generation and tracking",
     ],
     overview: [
-      "We build e-commerce stores that feel truly yours — unique designs and experiences that reflect your brand and business.",
-      "Whether fully custom or strategically powered by Shopify, every solution is crafted to deliver seamless shopping, drive real conversions, and scale smoothly as you grow — including full shipping & logistics integration (Delhivery, Shiprocket, ClickPost, etc.), automatic manifest creation, shipping label generation and tracking — without unnecessary complexity.",
+      "We build e-commerce stores that feel truly yours: unique designs and experiences that reflect your brand and business.",
+      "Whether fully custom or strategically powered by Shopify, every solution is crafted to deliver seamless shopping, drive real conversions, and scale smoothly as you grow. This includes full shipping and logistics integration (Delhivery, Shiprocket, ClickPost, etc.), automatic manifest creation, shipping label generation and tracking, all without unnecessary complexity.",
     ],
     keyFeaturesIntro: "Key features of our e-commerce solutions include:",
     keyFeatures: [
@@ -578,7 +578,6 @@ const customErpService = {
   keyFeatures: [
     "Inventory management customized for your stock, warehouse, and order flow",
     "Accounting workflows aligned with your finance process",
-    "CRM customization for leads, customers, follow-ups, and sales teams",
     "Build-on-top modules such as HRM, production, service, approvals, or reports",
     "Integrations with existing business tools and third-party applications",
     "User roles, dashboards, and reports tailored for each team",
@@ -631,13 +630,16 @@ const customAiAgentChatbotService = {
   path: "/service/custom-ai-agent-chatbot",
   headline: "Chatbots That Do Real Business Work",
   veryShortDesc:
-    "Custom AI chat interfaces connected to LLMs, CRMs, accounting tools, and business apps so teams can ask, act, and automate.",
+    "A custom AI chatbot connected to your business tools, so your team can ask questions, get things done, and automate everyday tasks.",
   serviceImage: "/assets/img/services/ai-automation.jpg",
   tags: [
-    { label: "LLM Chat Interface", href: "/service/custom-ai-agent-chatbot" },
-    { label: "CRM Integration", href: "/service/custom-ai-agent-chatbot" },
-    { label: "Business Apps", href: "/service/custom-ai-agent-chatbot" },
-    { label: "Business Tools", href: "/service/custom-ai-agent-chatbot" },
+    { label: "AI Chat Assistant", href: "/service/custom-ai-agent-chatbot" },
+    {
+      label: "Connects to Your Tools",
+      href: "/service/custom-ai-agent-chatbot",
+    },
+    { label: "Gets Things Done", href: "/service/custom-ai-agent-chatbot" },
+    { label: "Keeps Improving", href: "/service/custom-ai-agent-chatbot" },
   ],
   sliderImages: [
     {
@@ -654,23 +656,23 @@ const customAiAgentChatbotService = {
     },
   ],
   highlights: [
-    "Chat interface powered by an LLM and your business context",
-    "Connect with the CRM, email, calendar, accounting, ERP, or internal apps your team already uses",
-    "Let users ask questions, create records, update data, and trigger workflows",
-    "Built with permissions, guardrails, and audit-friendly workflows",
+    "A chat assistant that understands your business",
+    "Connects to the tools your team already uses — email, calendar, accounting, and more",
+    "Can answer questions, update records, and get tasks done, not just chat",
+    "Built with safety checks so it only does what it's allowed to do",
   ],
   overview: [
-    "We build custom AI agent chatbot web apps that connect a conversational interface with an LLM and the tools your business already uses.",
-    "Instead of only answering questions, the chatbot can perform controlled actions: fetch customer details from your CRM, draft or send emails, check calendars, schedule meetings, create business records, summarize activity, update data, route requests, or trigger internal workflows based on your approval rules.",
+    "We build custom AI chatbots that connect to the tools your business already uses, so your team can just ask for what they need instead of digging through different apps.",
+    "Instead of only answering questions, it can take action: look up customer details, draft or send emails, check calendars, schedule meetings, create records, summarize activity, or pass requests to the right person, all within limits you set.",
   ],
-  keyFeaturesIntro: "Key features of our custom AI agent chatbots include:",
+  keyFeaturesIntro: "Key features of our custom AI chatbots include:",
   keyFeatures: [
-    "Modern chat interface for staff, customers, or internal teams",
-    "LLM integration with business-specific instructions and knowledge",
-    "Tool connections for CRM platforms, email services, calendars, meeting tools, ERPs, helpdesks, accounting apps, and custom APIs",
-    "Action workflows such as updating leads, checking inventory, scheduling meetings, sending emails, creating records, or generating reports",
-    "Role-based access, approval steps, and safety guardrails",
-    "Conversation history, monitoring, and continuous improvement",
+    "A modern chat assistant for staff, customers, or internal teams",
+    "Trained on your business, so answers are relevant instead of generic",
+    "Connects to the tools you already use — email, calendars, accounting, helpdesk, and more",
+    "Can update leads, check inventory, schedule meetings, send emails, create records, or generate reports",
+    "Different access levels and approval steps, so nothing happens without permission",
+    "Keeps a history of conversations and gets better over time",
   ],
   imageGroup1: [
     {
@@ -685,7 +687,7 @@ const customAiAgentChatbotService = {
     },
   ],
   whyChooseUsIntro:
-    "We design AI agents around real business operations, so the chatbot is useful, controlled, and connected to the systems that matter.",
+    "We design the chatbot around how your business actually works, so it's genuinely useful and safe to rely on.",
   whyChooseUs: [
     {
       title: "Business-First Design",
@@ -693,32 +695,27 @@ const customAiAgentChatbotService = {
       divClass: "single-service two",
     },
     {
-      title: "LLM Integration",
+      title: "Understands Your Business",
       className: "col-lg-3 col-md-4 col-sm-6",
       divClass: "single-service",
     },
     {
-      title: "CRM + Accounts",
+      title: "Gets Things Done",
       className: "col-lg-3 col-md-4 col-sm-6",
       divClass: "single-service three",
     },
     {
-      title: "Tool Actions",
+      title: "Safe By Design",
       className: "col-lg-3 col-md-4 col-sm-6",
       divClass: "single-service",
     },
     {
-      title: "Secure Guardrails",
-      className: "col-lg-3 col-md-4 col-sm-6",
-      divClass: "single-service",
-    },
-    {
-      title: "Custom APIs",
+      title: "Connects to Your Tools",
       className: "col-lg-3 col-md-4 col-sm-6",
       divClass: "single-service four",
     },
     {
-      title: "Ongoing Tuning",
+      title: "Keeps Improving",
       className: "col-lg-3 col-md-4 col-sm-6",
       divClass: "single-service",
     },

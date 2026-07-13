@@ -72,7 +72,7 @@ const ContactModal = ({ isOpen, onClose, pointOfSource }) => {
       onClick={onClose} // Close on overlay click
     >
       <div
-        className="modal-content bg-white rounded-3 shadow-lg overflow-hidden"
+        className="modal-content contact-modal-surface rounded-3 shadow-lg overflow-hidden"
         style={{
           maxWidth: "900px",
           width: "90%",
@@ -82,8 +82,8 @@ const ContactModal = ({ isOpen, onClose, pointOfSource }) => {
         }}
         onClick={(e) => e.stopPropagation()} // Prevent close on content click
       >
-        <div className="modal-header border-0 pb-0 px-4 pt-4">
-          <h4 className="modal-title fw-bold text-black font-suse">
+        <div className="modal-header border-0 pb-3 px-4 pt-4">
+          <h4 className="modal-title fw-bold font-suse">
             Get Your Free Needs Audit
           </h4>
           <button
@@ -161,8 +161,9 @@ const ContactModal = ({ isOpen, onClose, pointOfSource }) => {
                     {[
                       "Custom ERP System",
                       "Custom AI Agent Chatbot",
-                      "E-Commerce Solution",
+                      "Digital Agency CRM",
                       "AI-Powered Automation",
+                      "E-Commerce Solution",
                       "Custom Website",
                       "Business Startup Package",
                       "General Inquiry / Consultation",

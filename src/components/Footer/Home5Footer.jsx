@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import React from "react";
+import { Mail, Phone } from "lucide-react";
 
 const Home5Footer = ({ openModal }) => {
   return (
@@ -49,33 +50,14 @@ const Home5Footer = ({ openModal }) => {
               <div className="footer-contact-wrap">
                 <div className="title-and-contact">
                   <div className="title-area">
-                    <h2>Custom Solutions Built Just Right</h2>
+                    <h2>
+                      Custom Solutions <br /> Built Just Right
+                    </h2>
                   </div>
                   <ul className="contact-list">
                     <li className="single-contact">
                       <div className="icon">
-                        <svg
-                          width={20}
-                          height={20}
-                          viewBox="0 0 20 20"
-                          fill="white"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M17.5 17.5H2.5C2.15833 17.5 1.875 17.2167 1.875 16.875V3.125C1.875 2.78333 2.15833 2.5 2.5 2.5H17.5C17.8417 2.5 18.125 2.78333 18.125 3.125V16.875C18.125 17.2167 17.8417 17.5 17.5 17.5Z"
-                            stroke="currentColor"
-                            strokeWidth="1.5"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                          <path
-                            d="M18.125 4.375L10.9375 10.625C10.625 10.8333 10.3125 10.9375 10 10.9375C9.6875 10.9375 9.375 10.8333 9.0625 10.625L1.875 4.375"
-                            stroke="currentColor"
-                            strokeWidth="1.5"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                        </svg>
+                        <Mail size={20} strokeWidth={1.5} />
                       </div>
                       <div className="content">
                         <span>Send Us Mail</span>
@@ -86,22 +68,7 @@ const Home5Footer = ({ openModal }) => {
                     </li>
                     <li className="single-contact">
                       <div className="icon">
-                        <svg
-                          width={20}
-                          height={20}
-                          style={{ color: "white" }}
-                          viewBox="0 0 20 20"
-                          fill="white"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M17.5 14.375V16.875C17.5011 17.0874 17.4564 17.2969 17.3697 17.4889C17.283 17.681 17.157 17.8503 17.0017 17.9856C16.8463 18.1209 16.665 18.2185 16.4704 18.2708C16.2757 18.3231 16.0722 18.3285 15.875 18.2865C13.3241 17.8487 10.9263 16.8374 8.875 15.3575C6.90276 13.956 5.31549 12.0976 4.01875 10.0013C2.53125 7.939 1.51785 5.5303 1.0875 2.96375C1.04563 2.76771 1.05102 2.56504 1.10311 2.37117C1.15521 2.1773 1.2526 2.00001 1.3869 1.8548C1.5212 1.70959 1.68919 1.60131 1.87996 1.54035C2.07073 1.47939 2.27884 1.46757 2.48125 1.50625H4.98125C5.31603 1.51216 5.63993 1.64386 5.89218 1.87864C6.14444 2.11342 6.30826 2.43701 6.35 2.78125C6.42953 3.46975 6.55156 4.14959 6.715 4.81375C6.83875 5.3 6.78938 5.8125 6.58125 6.2625C6.37312 6.7125 6.025 7.075 5.5875 7.2875L4.55625 8.31875C5.78792 10.5129 7.61208 12.3371 9.80625 13.5688L10.8375 12.5375C11.05 12.1 11.4125 11.7519 11.8625 11.5438C12.3125 11.3356 12.825 11.2863 13.3113 11.41C13.9754 11.5734 14.6553 11.6955 15.3438 11.775C15.6918 11.8173 15.9987 11.9856 16.2313 12.2435C16.4639 12.5014 16.6087 12.832 16.6313 13.1813L16.6313 13.1813L16.6313 15.6813C16.6313 15.8837 16.5813 16.0813 16.4875 16.255C16.3938 16.4288 16.26 16.5725 16.1 16.6725C15.94 16.7725 15.76 16.825 15.575 16.825C15.39 16.825 15.21 16.7725 15.05 16.6725"
-                            stroke="currentColor"
-                            strokeWidth="1.5"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                        </svg>
+                        <Phone size={20} strokeWidth={1.5} />
                       </div>
                       <div className="content">
                         <span>WhatsApp / Call</span>

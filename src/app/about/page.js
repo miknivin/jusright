@@ -149,17 +149,17 @@ const AboutPage = () => {
                 <div className="title-area">
                   <h2>We Build Software That Fits Your Business Perfectly</h2>
                   <span>
-                    “Custom solutions crafted just right — no unnecessary
-                    features, no wasted costs.”
+                    “Custom solutions crafted just right, with only the features
+                    you need and no wasted costs.”
                   </span>
                 </div>
               </div>
               <div className="col-xl-5 col-lg-6">
                 <div className="banner-content">
                   <p>
-                    We specialize in creating custom ERPs, AI-powered
-                    automations, e-commerce solutions, and websites — all built
-                    from the ground up to match your exact needs.
+                    We specialize in building custom ERPs, AI agents, AI-powered
+                    automations, e-commerce solutions, and websites, all built
+                    from the ground up to match your exact business needs.
                   </p>
                   <p>
                     From startups to growing businesses, we focus on delivering

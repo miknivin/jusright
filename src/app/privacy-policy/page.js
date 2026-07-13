@@ -54,9 +54,10 @@ const PrivacyPolicyPage = ({ openModal }) => {
                   This Privacy Policy describes how we collect, use, and handle
                   your personal information when you visit our website, submit
                   inquiries, or engage our services for custom software
-                  development (including Custom ERP Systems, E-Commerce
-                  Solutions, AI-Powered Automations, Custom Websites, and
-                  Business Launch Packages).
+                  development (including Custom ERP Systems, Custom AI Agent
+                  Chatbots, Digital Agency CRM, E-Commerce Solutions,
+                  AI-Powered Automations, Custom Websites, and Business
+                  Digital Setup).
                 </p>
 
                 <h4>1. Information We Collect</h4>

@@ -10398,6 +10398,17 @@ header.style-5 .nav-right {
     gap: 20px;
   }
 }
+@media (min-width: 992px) {
+  header.style-5 .logo-and-menu-area {
+    flex: 1 1 auto;
+    justify-content: space-between;
+  }
+  header.style-5 .main-menu {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+  }
+}
 header.style-5 .nav-right .search-bar {
   position: relative;
 }
@@ -18793,6 +18804,32 @@ header.style-7 .primary-btn3.four svg {
   .contact-form-wrap.style-2 .primary-btn3 {
     margin-top: 45px;
   }
+}
+
+.contact-modal-surface {
+  background-color: #f0f0ff;
+}
+.contact-modal-surface .modal-title {
+  color: var(--title-color);
+}
+.contact-modal-surface .modal-header {
+  border-bottom: 1px solid rgba(28, 26, 30, 0.08);
+}
+.contact-modal-surface .btn-close {
+  opacity: 0.6;
+  transition: opacity 0.2s ease;
+}
+.contact-modal-surface .btn-close:hover {
+  opacity: 1;
+}
+body.dark .contact-modal-surface {
+  background-color: #252525;
+}
+body.dark .contact-modal-surface .modal-header {
+  border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+body.dark .contact-modal-surface .btn-close {
+  filter: invert(1) grayscale(100%) brightness(200%);
 }
 
 /*=====================================
