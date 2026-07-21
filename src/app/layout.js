@@ -3,6 +3,7 @@
 import ClientLayout from "@/components/layout/ClientLayout";
 import { dmsans, suseSans, lora, poppins } from "@/fonts/font";
 import { Analytics } from "@vercel/analytics/next";
+import Script from "next/script";
 import "../../public/assets/css/bootstrap.min.css";
 import "../../public/assets/css/all.min.css";
 import "../../public/assets/css/bootstrap-icons.css";
@@ -73,6 +74,15 @@ export default function RootLayout({ children }) {
         className={`tt-magic-cursor ${lora.variable} ${dmsans.variable} ${suseSans.variable}  ${poppins.variable}`}
         suppressHydrationWarning
       >
+        <Script id="microsoft-clarity" strategy="afterInteractive">
+          {`
+            (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "xpqfbk51nt");
+          `}
+        </Script>
         <ClientLayout>
           <Analytics />
           {children}
